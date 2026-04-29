@@ -1,4 +1,5 @@
 ---
+id: 694e74f3-d5f4-4d8a-8c16-ddc72d8d9633
 # id: auto-generert – kopierte verdier overskrives automatisk ved push
 title: Pilot 4
 linkTitle: Pilot 4
