@@ -5,7 +5,7 @@ title: Pilot 4 - Vitnemål
 weight: 40
 status: Ny
 draft: false
-lastmod: 2026-04-29T13:43:09+02:00
+lastmod: 2026-04-29T13:34:00+02:00
 last_editor: Erik Hagen
 
 ---
