@@ -6,6 +6,9 @@ linkTitle: "Pilot 4"
 weight: 40
 status: "New"
 draft: false
+lastmod: 2026-04-29T13:34:00+02:00
+last_editor: Erik Hagen
+
 ---
 
 *English translation TBD.*
