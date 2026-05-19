@@ -8,4 +8,4 @@ lastmod: 2026-05-07T23:44:08+02:00
 last_editor: Erik Hagen
 
 ---
-TBD.
+Arbeidet med denne piloten er under oppstart. Mer informasjon kommer snart.
