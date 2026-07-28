@@ -1,8 +1,8 @@
 ---
 id: 694e74f3-d5f4-4d8a-8c16-ddc72d8d9633
 # id: auto-generated – copied values are overwritten automatically on push
-title: "Pilot 4"
-linkTitle: "Pilot 4"
+title: "Pilot 4 - Diplomas"
+linkTitle: "Pilot 4 - Diplomas"
 weight: 40
 status: "New"
 draft: false
@@ -11,4 +11,6 @@ last_editor: Erik Hagen
 
 ---
 
-*English translation TBD.*
+Pilot 4 concerns the documentation and sharing of diplomas and certificates of competence – how they can be made available digitally to those who need them, without each individual having to pass them on themselves.
+
+Work on this pilot is just starting. More information will follow shortly.

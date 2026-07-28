@@ -8,4 +8,4 @@ last_editor: Erik Hagen
 
 ---
 
-Pilot 4 tar utgangspunkt i [case 14 – Vitnemål og kompetansebevis](https://docs.samt-bu.no/behov/use-cases/14-vitnemaal-kompetansebevis/).
+Pilot 4 tar utgangspunkt i [case 1 – Tilgjengeliggjøring av resultater fra opplæring](https://docs.samt-bu.no/behov/use-cases/01-resultater-vgo/).

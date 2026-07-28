@@ -8,4 +8,4 @@ last_editor: Erik Hagen
 
 ---
 
-Pilot 4 takes as its starting point [case 14 – Diplomas and certificates of competence](https://docs.samt-bu.no/en/behov/use-cases/14-vitnemaal-kompetansebevis/).
+Pilot 4 takes as its starting point [case 1 – Making results from education available](https://docs.samt-bu.no/en/behov/use-cases/01-resultater-vgo/).
