@@ -8,4 +8,4 @@ last_editor: Erik Hagen
 
 ---
 
-TBD.
+Pilot 4 tar utgangspunkt i [case 14 – Vitnemål og kompetansebevis](https://docs.samt-bu.no/behov/use-cases/14-vitnemaal-kompetansebevis/).
