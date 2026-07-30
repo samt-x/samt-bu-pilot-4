@@ -9,5 +9,3 @@ last_editor: Erik Hagen
 
 ---
 Pilot 4 handler om dokumentasjon og deling av vitnemål og kompetansebevis – hvordan de kan gjøres tilgjengelige digitalt for dem som trenger dem, uten at den enkelte må formidle dem selv.
-
-Arbeidet med denne piloten er under oppstart. Mer informasjon kommer snart.
