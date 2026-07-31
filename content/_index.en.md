@@ -6,11 +6,9 @@ linkTitle: "Pilot 4 - Diplomas"
 weight: 40
 status: "New"
 draft: false
-lastmod: 2026-07-28T22:11:25+02:00
+lastmod: 2026-07-31T10:00:00+02:00
 last_editor: Erik Hagen
 
 ---
 
 Pilot 4 concerns the documentation and sharing of diplomas and certificates of competence – how they can be made available digitally to those who need them, without each individual having to pass them on themselves.
-
-Work on this pilot is just starting. More information will follow shortly.
