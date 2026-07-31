@@ -6,7 +6,7 @@ linkTitle: "Pilot 4 - Diplomas"
 weight: 40
 status: "New"
 draft: false
-lastmod: 2026-07-31T10:00:00+02:00
+lastmod: 2026-07-31T09:59:53+02:00
 last_editor: Erik Hagen
 
 ---
