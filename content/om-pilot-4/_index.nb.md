@@ -9,13 +9,14 @@ last_editor: Erik Hagen
 ---
 ## INNLEDNING
 
-Formålet med SAMT-BU er å etablere et felles fundament for samarbeid og kunnskap om datadrevet tjenesteutvikling og sømløse brukerreiser på tvers av forvaltningsnivåer og sektorer, med pilotering ut fra området barn og unge – fra barnehage til høyere utdanning.  Gjennom praktisk utprøving og kompetansebygging skal prosjektet legge grunnlag for at felles fundamentet er modent og kjent, slik at det blir brukt og bygget videre på, også på andre områder.
+Formålet med SAMT-BU er å etablere et felles fundament for samarbeid og kunnskap om datadrevet tjenesteutvikling og sømløse brukerreiser på tvers av forvaltningsnivåer og sektorer, med pilotering ut fra området barn og unge – fra barnehage til høyere utdanning. Gjennom praktisk utprøving og kompetansebygging skal prosjektet legge grunnlag for at felles fundamentet er modent og kjent, slik at det blir brukt og bygget videre på, også på andre områder.
 
 Et av prosjektets mest sentrale produkter er å levere MVP-er og pilotering av informasjonsmodeller og tjenester. Prosjektet ønsker også å ha en smidig tilnærming til oppgavene basert på nysgjerrighet og læring gjennom utprøving i korte iterasjoner, slik at vi raskt kan vise reell verdi og også raskt finner ut hva som ikke fungerer (fail fast). Vi vil gjøre dette gjennom pilotprosjekter som dekker prioriterte use cases
 
-Dette dokumentet inneholder en beskrivelse av plan for gjennomføring av pilot .  Selv om vi i dette dokumentet har beskrevet gjennomføring av pilot som en fasedreven prosess, forutsettes det at vi kommer til å arbeide iterativt der enkelte faser gjentas ved behov.
+Dette dokumentet inneholder en beskrivelse av plan for gjennomføring av pilot . Selv om vi i dette dokumentet har beskrevet gjennomføring av pilot som en fasedreven prosess, forutsettes det at vi kommer til å arbeide iterativt der enkelte faser gjentas ved behov.
 
-## \
+## \\
+
 OMFANG OG AVGRENSNING
 
 ### Bakgrunn
@@ -90,6 +91,6 @@ Det settes opp en egen GitHub-løsning for prosjektet som skal benyttes i Pilote
 
 ## Overordnet plan
 
-![](bilde-1785396781497.png)## Mål (KPI/OKR)
+![](bilde-1785396781497.png)![](bilde-1785739890507.png)Mål (KPI/OKR)
 
-![](bilde-1785396847637.png)##
+![](bilde-1785396847637.png)![](bilde-1785739861703.png)
