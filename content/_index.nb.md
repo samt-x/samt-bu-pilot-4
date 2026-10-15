@@ -1,7 +1,7 @@
 ---
 id: 694e74f3-d5f4-4d8a-8c16-ddc72d8d9633
 # id: auto-generert – kopierte verdier overskrives automatisk ved push
-title: Pilot 4 - Vitnemål
+title: Pilot 4 - Tilgjengeliggjøring av vitnemål
 weight: 40
 status: Ny
 lastmod: 2026-07-30T09:51:38+02:00
