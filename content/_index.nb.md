@@ -4,7 +4,7 @@ id: 694e74f3-d5f4-4d8a-8c16-ddc72d8d9633
 title: Pilot 4 - Tilgjengeliggjøring av vitnemål
 weight: 40
 status: Ny
-lastmod: 2026-07-30T09:51:38+02:00
+lastmod: 2026-10-15T16:16:47+02:00
 last_editor: Erik Hagen
 
 ---
