@@ -89,8 +89,6 @@ A dedicated GitHub solution is set up for the project and shall be used in the p
 
 ## Overall plan
 
-![](bilde-1785396781497.png)
+![](bilde-1785396781497.png)![](bilde-1785739890507.png)Goals (KPI/OKR)
 
-## Goals (KPI/OKR)
-
-![](bilde-1785396847637.png)
+![](bilde-1785396847637.png)![](bilde-1785739861703.png)
