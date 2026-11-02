@@ -3,7 +3,7 @@ id: eefc1491-0009-4f94-bede-fb970997c68c
 # id: auto-generated – copied values are overwritten automatically on push
 title: "About pilot 4"
 weight: 10
-lastmod: 2026-07-31T09:59:53+02:00
+lastmod: 2026-11-02T21:37:52+01:00
 last_editor: Erik Hagen
 
 ---

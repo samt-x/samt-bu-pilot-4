@@ -6,7 +6,7 @@ linkTitle: "Pilot 4 - Making diplomas available"
 weight: 40
 status: "New"
 draft: false
-lastmod: 2026-07-31T09:59:53+02:00
+lastmod: 2026-11-02T21:37:52+01:00
 last_editor: Erik Hagen
 
 ---
