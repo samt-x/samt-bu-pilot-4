@@ -9,7 +9,7 @@ last_editor: Erik Hagen
 ---
 *Siden gjengir pilotens «Oversikt over skoleadministrative systemer» per september 2026, leveranse fra arbeidspakke 4. Oversikten skal gi kontaktpunkter til alle aktører som skal avgi data til Kompetanseregisteret.*
 
-Skoleadministrative systemer er primærkilden for resultater og vitnemål fra grunnskole og videregående opplæring. Kravene og forventningene til systemene står i [Informasjonspakke](../informasjonspakke/).
+Skoleadministrative systemer er primærkilden for resultater og vitnemål fra grunnskole og videregående opplæring.
 
 ## Oversikt over skoleadministrative systemer
 
@@ -21,3 +21,12 @@ Skoleadministrative systemer er primærkilden for resultater og vitnemål fra gr
 | Vigo | IST på vegne av Novari IKS | [ist.com/no/vigo](https://www.ist.com/no/vigo) | Videregående | Fagopplæringer, og opptak til videregående skole |
 | Vigilo | EG Vigilo | [vigilo.no](https://vigilo.no/) | Grunnskole | 895 skoler, de største kommunene i Norge |
 | Flyt skole | Visma Flyt | [minflyt.no](https://minflyt.no/administrative-system/skoleadministrasjon/grunnskole) | Grunnskole | Små og mellomstore kommuner, blant annet Bærum og Kristiansand |
+
+## Krav og forventninger til systemene
+
+- Systemene er primærkilden for resultater og vitnemål. Datakvalitet og fullstendighet er avgjørende.
+- Utstedere av vitnemål kan annullere vitnemål.
+- Vitnemål og enkeltresultater skal kunne eksporteres maskinlesbart i et standardformat.
+- Vitnemål fra systemene må støtte digital signering og juridisk bevisverdi.
+- Integrasjonen mot Kompetanseregisteret (KREG) skjer via definerte API-er. Den anbefalte arkitekturen er beskrevet i [Arkitektur og informasjonsmodell](../arkitektur-og-informasjonsmodell/).
+- Sikt vil samarbeide tett med leverandørene om informasjonsmodell, standarder og teknisk integrasjon.

@@ -18,6 +18,12 @@ Oppgavene i pilot 4 ligger som issues i [samt-bu-pilot-4](https://github.com/sam
 | [My tasks](https://github.com/orgs/samt-x/projects/3/views/5) | Dine oppgaver (krever innlogging) |
 | [Timeline](https://github.com/orgs/samt-x/projects/3/views/4) | GitHubs egen tidslinje, uten avhengigheter |
 
+## Opprinnelig plan
+
+Piloten varte fra 2. mai til 30. august 2026. Planen fordelte de fire arbeidspakkene på seks sprinter, med ferie i juli:
+
+![Sprintplan for pilot 4: Informasjonspakke i sprint 1–2 og 6, Arkitektur og informasjonsmodell i sprint 2–6, Oversikt over juridiske behov i sprint 3–6 og Oversikt over systemleverandører i sprint 5–6 (uke 19–35)](sprintplan.png)
+
 ## Tidslinje
 
 Alle oppgavene på brettet, med pilene for hvilke oppgaver som venter på hverandre. Det som har skjedd, er mørkt. Datoer som mangler, er beregnet og stiplet. Figuren lages fra brettet hver time. Slik leser du den, og slik får en oppgave med: se [Tidslinje](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/) i oppgavestyringen.
