@@ -19,7 +19,7 @@ NVB forvaltes av Sikt og er i dag kilden til sannhet for vitnemål og kompetanse
 Dataflyten inn til NVB går slik (figur 1):
 
 1. **Skolen registrerer sluttvurderinger i det skoleadministrative systemet.** For offentlige videregående skoler er dette InSchool; private skoler bruker blant annet iSkole og IST Everyday [17]. Læreren setter standpunktkarakter, og eksamenskarakterer kommer til etter sensur.
-2. **Det skoleadministrative systemet genererer vitnemåls- og kompetansebevisdata** som en tegnseparert tekstfil («soltegnfil», se 4.2) etter NVB-spesifikasjonen [5].
+2. **Det skoleadministrative systemet genererer vitnemåls- og kompetansebevisdata** som en tegnseparert tekstfil («soltegnfil», se 5.2) etter NVB-spesifikasjonen [5].
 3. **Fagopplæringen går via VIGO.** Fagprøver registreres i VIGO, som produserer endelig vitnemål for lærlinger og kandidater i fagopplæringen. VIGO eksporterer en fil i .nvb-format som senere lastes inn i NVB igjen [12: arbeidsmøte 3 og 7].
 4. **Filen valideres før innsending** (se 5.3 om hvordan valideringen skjer i dag).
 5. **NVB tar imot dokumenter som validerer uten feil.** Dokumenter med feilmeldinger avvises og returneres for korreksjon [5]. NVB tar ikke imot vitnemål som ikke validerer [12: arbeidsmøte 8].

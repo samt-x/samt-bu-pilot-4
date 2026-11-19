@@ -19,7 +19,7 @@ NVB is managed by Sikt and is today the source of truth for diplomas (vitnemål)
 The data flow into NVB is as follows (figure 1):
 
 1. **The school registers final assessments in the school administration system.** For public upper secondary schools this is InSchool; private schools use, among others, iSkole and IST Everyday [17]. The teacher sets the overall achievement grade, and examination grades are added after marking.
-2. **The school administration system generates diploma and certificate of competence data** as a character-separated text file («soltegnfil», see 4.2) according to the NVB specification [5].
+2. **The school administration system generates diploma and certificate of competence data** as a character-separated text file («soltegnfil», see 5.2) according to the NVB specification [5].
 3. **Vocational training (fagopplæringen) goes via VIGO.** Trade examinations are registered in VIGO, which produces the final diploma for apprentices and candidates in vocational training. VIGO exports a file in .nvb format which is later loaded into NVB again [12: working meetings 3 and 7].
 4. **The file is validated before submission** (see 5.3 on how validation is done today).
 5. **NVB accepts documents that validate without errors.** Documents with error messages are rejected and returned for correction [5]. NVB does not accept diplomas that do not validate [12: working meeting 8].

@@ -171,7 +171,7 @@ The recommended terms are kept in Norwegian, as they will be registered, with an
 | ELMO | XML format for exchanging results in the EMREX network. | – | [12: working meetings 1 and 7]. |
 | EMREX | European network for electronic exchange of study results. | – | [12: working meeting 1]. |
 | OneRoster (Norwegian profile) | 1EdTech standard for exchanging administrative school data; supported by the primary school systems. | – | [11]. |
-| SHACL | W3C language for expressing and validating structural constraints on data; candidate for machine-readable validation rules. | – | Chapter 8. |
+| SHACL | W3C language for expressing and validating structural constraints on data; candidate for machine-readable validation rules. | – | Chapter 9. |
 | Grunnskolevitnemål (primary and lower secondary school diploma) | Diploma for completed primary and lower secondary school; simpler structure than diplomas from upper secondary education. Only the diploma, not individual subjects, is relevant for collection; all subjects are counted as year 10. | – | [12: working meeting 3]. |
 
 ## 15. Appendices

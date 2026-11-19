@@ -77,7 +77,7 @@ The following is taken as given for the architecture work and is not treated as 
 10. Utdanningsdirektoratet: Føring av vitnemål og kompetansebevis for videregående opplæring i Kunnskapsløftet – 2026 (Completing diplomas and certificates of competence for upper secondary education under the Knowledge Promotion reform – 2026). <https://www.udir.no/eksamen-og-prover/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-26/>
 11. 1EdTech: OneRoster 1.2 Norwegian Profile. <https://www.imsglobal.org/spec/or-nor/v1p0>
 12. SAMT-BU Pilot 4: Minutes of the working meetings on architecture 1–8 (22 May, 2 June, 12 June, 19 June, 26 June, 14 August, 21 August and 28 August 2026). Project documents.
-13. SAMT-BU: Plan for gjennomføring av pilot 4 (Plan for carrying out pilot 4), v0.1, 15.04.2026. Project document. Case description: <https://samt-bu-docs.pages.dev/behov/use-cases/01-resultater-vgo/>
+13. SAMT-BU: Plan for gjennomføring av pilot 4 (Plan for carrying out pilot 4), v0.1, 15.04.2026. Project document. Case description: <https://docs.samt-bu.no/en/behov/use-cases/01-resultater-vgo/>
 14. Sikt: Informasjonsmodell KREG (KREG information model, ER diagram). [Appendix A](semantisk-arkitektur-og-begrepskatalog/).
 15. Sikt: Informasjonsmodell NVB2 (NVB2 information model, ER diagram). [Appendix B](semantisk-arkitektur-og-begrepskatalog/).
 16. Sikt: Informasjonsmodell Utdanningsregisteret (Utdanningsregisteret information model, ER diagram). Shared in the series of working meetings.

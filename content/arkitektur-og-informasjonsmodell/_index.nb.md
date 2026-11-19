@@ -77,7 +77,7 @@ Følgende legges til grunn for arkitekturarbeidet og behandles ikke som åpne sp
 10. Utdanningsdirektoratet: Føring av vitnemål og kompetansebevis for videregående opplæring i Kunnskapsløftet – 2026. <https://www.udir.no/eksamen-og-prover/vitnemal-og-kompetansebevis/foring-vitnemal-kompetansebevis-vgs-26/>
 11. 1EdTech: OneRoster 1.2 Norwegian Profile. <https://www.imsglobal.org/spec/or-nor/v1p0>
 12. SAMT-BU Pilot 4: Referater fra arbeidsmøter om arkitektur 1–8 (22. mai, 2. juni, 12. juni, 19. juni, 26. juni, 14. august, 21. august og 28. august 2026). Prosjektdokumenter.
-13. SAMT-BU: Plan for gjennomføring av pilot 4, v0.1, 15.04.2026. Prosjektdokument. Casebeskrivelse: <https://samt-bu-docs.pages.dev/behov/use-cases/01-resultater-vgo/>
+13. SAMT-BU: Plan for gjennomføring av pilot 4, v0.1, 15.04.2026. Prosjektdokument. Casebeskrivelse: <https://docs.samt-bu.no/behov/use-cases/01-resultater-vgo/>
 14. Sikt: Informasjonsmodell KREG (ER-diagram). [Vedlegg A](semantisk-arkitektur-og-begrepskatalog/).
 15. Sikt: Informasjonsmodell NVB2 (ER-diagram). [Vedlegg B](semantisk-arkitektur-og-begrepskatalog/).
 16. Sikt: Informasjonsmodell Utdanningsregisteret (ER-diagram). Delt i arbeidsmøteserien.

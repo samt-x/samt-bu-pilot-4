@@ -75,7 +75,7 @@ Key points:
 
 - InSchool sends final assessments directly to KREG's GraphQL API.
 - For VIGO there are two options: build middleware to transform files from VIGO into GraphQL API calls with final assessments, or funds to modernise this part of VIGO so that it delivers directly.
-- VIGO delivers final assessments and passed trade examinations all in one
+- VIGO delivers final assessments and passed trade examinations all in one.
 
 ### 8.3 Assessment and recommendation
 

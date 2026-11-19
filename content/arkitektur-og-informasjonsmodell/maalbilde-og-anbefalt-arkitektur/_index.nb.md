@@ -75,7 +75,7 @@ Nøkkelpunkt:
 
 - InSchool sender sluttvurderinger direkte til KREGs GraphQL-API.
 - For VIGO er det to muligheter: bygge mellomvare for å transformere filer fra VIGO til GraphQL API-kall med sluttvurderinger, eller midler til å modernisere denne delen av VIGO for å levere direkte.
-- VIGO leverer sluttvurderinger og bestått fagprøve alt-i-ett
+- VIGO leverer sluttvurderinger og bestått fagprøve alt-i-ett.
 
 ### 8.3 Vurdering og anbefaling
 
@@ -84,7 +84,7 @@ Arbeidsmøte 7 og 8 gjennomgikk FINTs informasjonsmodell [7] og vurderte de to a
 - FINT-informasjonsmodellen er laget for statistikk og analyse. FINT informasjonsmodell kan per i dag ikke uttrykke alle konsepter nødvendig for å overføre langtidslevende bevis. VIGO og InSchool er kilden til resultatinformasjonen.
 - VIGO og InSchool benytter i dag tjenester fra Sikt for validering av vitnemål. Ansvaret for validering av korrektheten i vitnemålene ligger hos skolene.
 - Dataflyt gjennom FINT kan potensielt ha noen forsinkelser, noe som kan skape utfordringer i noen tidskritiske situasjoner.
-- Slik FINT og FINT informasjonsmodell er i designet i dag så kan sluttvurderinger potensielt gå via FINT, mens kompetansebevis og vitnemål må komme fra de skoleadministrative systemene.
+- Slik FINT og FINT-informasjonsmodellen er designet i dag, kan sluttvurderinger potensielt gå via FINT, mens kompetansebevis og vitnemål må komme fra de skoleadministrative systemene.
 - Hvis FINT informasjonsmodell skal benyttes som et steg i overføringen til KREG må det antagelig gjøres en jobb for at konseptene i FINT skal matche konseptene i KREG og ELM.
 
 **Vedtak (arbeidsmøte 8, 28. august 2026): Samarbeidsgruppa anbefaler at VIGO og InSchool overfører direkte til KREG, tilsvarende dagens overføringer til NVB.** Den formelle beslutningen ligger hos systemeierne – Novari og fylkeskommunene [12: arbeidsmøte 7].
@@ -116,7 +116,7 @@ Grunnskole skal etter hvert inn i samme modell – forutsetningene er beskrevet 
 
 Utvikling som pågår på KREG gjelder fagskole, grunnstrukturen anses som god, og fagskolens behov antas ikke å legge uheldige føringer for API-ene for videregående opplæring [12: arbeidsmøte 8]. Sikt vurderer at KREG er klar til å ta imot data i et ettårsperspektiv, med forbehold om finansiering og prioritering.
 
-**API-grensesnitt:** KREG eksponerer et GraphQL-API. For parter som ikke støtter GraphQL, kan det vurderes om Sikt tilby en REST-kobling [12: arbeidsmøte 1]; endelig grensesnittvalg avklares i API-dialogen mellom Sikt, Novari og systemleverandørene. KREG er også avhengig av kodeverk fra Grep og VIGO-kodeverket [12: arbeidsmøte 1] – sistnevnte er en løpende leveranse fra Novari som må inngå i avtalene.
+**API-grensesnitt:** KREG eksponerer et GraphQL-API. For parter som ikke støtter GraphQL, kan det vurderes om Sikt skal tilby en REST-kobling [12: arbeidsmøte 1]; endelig grensesnittvalg avklares i API-dialogen mellom Sikt, Novari og systemleverandørene. KREG er også avhengig av kodeverk fra Grep og VIGO-kodeverket [12: arbeidsmøte 1] – sistnevnte er en løpende leveranse fra Novari som må inngå i avtalene.
 
 **Sameksistens og utfasing NVB → KREG:** I parallellperioden innebærer løsningen dobbel leveranse for leverandørene (soltegnfil til NVB og API-leveranse til KREG). Varighet, utfasingskriterier og finansiering av dobbeltdriften må avklares mellom Sikt, Novari og systemleverandørene. Utfasing av filinnsendingen forutsetter at behovene bak dagens løsning er kartlagt av Sikt og Novari, at NVBs konsumenter – primært Samordna opptak – får dekket sine behov av KREG, og en avklaring av om historiske NVB-data skal migreres til KREG eller forvaltes videre som historisk register.
 
