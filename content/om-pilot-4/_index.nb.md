@@ -7,6 +7,8 @@ lastmod: 2026-08-03T08:51:36+02:00
 last_editor: Erik Hagen
 
 ---
+*Siden bygger på «Plan for gjennomføring av pilot 4», versjon 0.1 (15.04.2026). Piloten ble gjennomført mai–august 2026. Leveransene står under [Pilotens leveranser](#pilotens-leveranser) nederst på siden.*
+
 ## INNLEDNING
 
 Formålet med SAMT-BU er å etablere et felles fundament for samarbeid og kunnskap om datadrevet tjenesteutvikling og sømløse brukerreiser på tvers av forvaltningsnivåer og sektorer, med pilotering ut fra området barn og unge – fra barnehage til høyere utdanning. Gjennom praktisk utprøving og kompetansebygging skal prosjektet legge grunnlag for at felles fundamentet er modent og kjent, slik at det blir brukt og bygget videre på, også på andre områder.
@@ -15,13 +17,11 @@ Et av prosjektets mest sentrale produkter er å levere MVP-er og pilotering av i
 
 Dette dokumentet inneholder en beskrivelse av plan for gjennomføring av pilot . Selv om vi i dette dokumentet har beskrevet gjennomføring av pilot som en fasedreven prosess, forutsettes det at vi kommer til å arbeide iterativt der enkelte faser gjentas ved behov.
 
-## \\
-
-OMFANG OG AVGRENSNING
+## OMFANG OG AVGRENSNING
 
 ### Bakgrunn
 
-Arbeidet tar utgangspunkt i casebeskrivelsen 1. Tilgjengeliggjøring av resultater fra opplæring (<https://samt-bu-docs.pages.dev/behov/use-cases/01-resultater-vgo/>)
+Arbeidet tar utgangspunkt i [case 1 – Tilgjengeliggjøring av resultater fra opplæring](/behov/use-cases/01-resultater-vgo/).
 
 Caset tar for seg hvordan resultater fra grunnskole og videregående opplæring kan gjøres tilgjengelige på en bedre og mer sammenhengende måte for aktører som har behov for informasjonen i videre oppfølging av unge. Resultater kan for eksempel være status for gjennomført opplæring, fullføring, kompetanse, vurderinger eller dokumentasjon av oppnådd nivå.
 
@@ -89,8 +89,31 @@ Det bør gjennomføres minst en retrospektiv i løpet av pilotperioden.
 
 Det settes opp en egen GitHub-løsning for prosjektet som skal benyttes i Piloten.
 
-## Overordnet plan
+## OVERORDNET PLAN
 
-![](bilde-1785396781497.png)![](bilde-1785739890507.png)Mål (KPI/OKR)
+Piloten følger prosjektets dreiebok for gjennomføring av piloter:
 
-![](bilde-1785396847637.png)![](bilde-1785739861703.png)
+![Dreieboka i sju faser: 1 Velge pilot, 2 Oppstart, 3 Drømmereise, 4 Velge MVP, 5 Lage MVP, 6 Evaluering, 7 Videreføring](dreiebok-faser.png)
+
+Planen for de fire arbeidspakkene, fordelt på seks sprinter med ferie i juli:
+
+![Sprintplan for pilot 4: Informasjonspakke i sprint 1–2 og 6, Arkitektur og informasjonsmodell i sprint 2–6, Oversikt over juridiske behov i sprint 3–6 og Oversikt over systemleverandører i sprint 5–6 (uke 19–35)](sprintplan.png)
+
+## MÅL (KPI/OKR)
+
+Følgende foreløpige OKR-er, koblet til hovedprosjektets mål, gjelder for piloten:
+
+| Objective | Key results |
+|---|---|
+| **1. Legge et solid faglig grunnlag for digital deling av utdanningsresultater**<br><br>Kobling til prosjektmål: felles informasjonsmodeller, bedre datakvalitet og gjenbruk, redusert risiko for feil og dobbeltarbeid | **KR1:** Arkitektur og informasjonsmodell for dataflyt av vitnemål og resultater er ferdigstilt og faglig gjennomgått av relevante interessenter innen pilotens slutt.<br><br>**KR2:** Oversikt over systemleverandører med kontaktpunkter for alle aktører som skal avgi data, er *(teksten slutter her i planen)*<br><br>**KR3:** Juridiske behov knyttet til deling av vitnemål og resultater fra grunn- og videregående opplæring er kartlagt og dokumentert i sin helhet. |
+| **2. Sikre felles forståelse blant alle involverte aktører om hva digitalisering av vitnemål innebærer**<br><br>Kobling til prosjektmål: økt samhandlingsevne, erfaringsdeling og kompetansespredning | **KR1:** Informasjonspakke om digitalisering av vitnemål er ferdigstilt og distribuert til alle berørte systemleverandører og aktører innen pilotens slutt.<br><br>**KR2:** Ingen vesentlige misforståelser om scope eller ansvar blant involverte aktører er identifisert i pilotens avsluttende evaluering. |
+| **3. Bidra til å modne prosjektets arbeidsmetodikk og rammeverk**<br><br>Kobling til prosjektmål: rammeverk ferdigstilt og testet i piloter, erfaringsdeling, sluttrapport og plan for videreføring | **KR1:** Prosjektets dreiebok er oppdatert med konkrete erfaringer og læringspunkter fra piloten innen 30.08.2026.<br><br>**KR2:** Minst én retrospektiv er gjennomført med dokumenterte funn som deles med SAMT-BU-prosjektet.<br><br>**KR3:** Pilotens erfaringer er presentert på felles SAMT-BU-demo og gjort tilgjengelig for øvrige pilotteam. |
+
+## PILOTENS LEVERANSER
+
+Én leveranse per arbeidspakke:
+
+1. [Informasjonspakke](../informasjonspakke/) – hva digitalisering av vitnemål innebærer, til alle berørte aktører
+2. [Arkitektur og informasjonsmodell](../arkitektur-og-informasjonsmodell/) – rapporten fra arbeidspakke 2, med [referater fra arbeidsmøtene](../arkitektur-og-informasjonsmodell/arbeidsmoter/)
+3. [Juridiske behov](../juridiske-behov/) – juridisk vurdering
+4. [Systemleverandører](../systemleverandorer/) – oversikt over skoleadministrative systemer

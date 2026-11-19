@@ -7,6 +7,8 @@ lastmod: 2026-11-02T21:37:52+01:00
 last_editor: Erik Hagen
 
 ---
+*This page is based on «Plan for gjennomføring av pilot 4» (plan for carrying out pilot 4), version 0.1 (15.04.2026). The pilot was carried out May–August 2026. The deliverables are listed under [What the pilot delivered](#what-the-pilot-delivered) at the bottom of the page.*
+
 ## INTRODUCTION
 
 The purpose of SAMT-BU is to establish a common foundation for collaboration and knowledge about data-driven service development and seamless user journeys across levels of government and sectors, piloted in the domain of children and young people – from kindergarten to higher education. Through practical experimentation and competence building, the project shall lay the groundwork for the common foundation to be mature and well known, so that it is used and built upon, in other domains as well.
@@ -87,8 +89,31 @@ At least one retrospective should be held during the pilot period.
 
 A dedicated GitHub solution is set up for the project and shall be used in the pilot.
 
-## Overall plan
+## OVERALL PLAN
 
-![](bilde-1785396781497.png)![](bilde-1785739890507.png)Goals (KPI/OKR)
+The pilot follows the project's playbook for carrying out pilots:
 
-![](bilde-1785396847637.png)![](bilde-1785739861703.png)
+![The playbook in seven phases: 1 Choose pilot, 2 Start-up, 3 Dream journey, 4 Choose MVP, 5 Build MVP, 6 Evaluation, 7 Continuation (figure in Norwegian)](dreiebok-faser.png)
+
+The plan for the four work packages, spread over six sprints with a holiday break in July:
+
+![Sprint plan for pilot 4: Information package in sprints 1–2 and 6, Architecture and information model in sprints 2–6, Overview of legal needs in sprints 3–6 and Overview of system vendors in sprints 5–6 (weeks 19–35) (figure in Norwegian)](sprintplan.png)
+
+## GOALS (KPI/OKR)
+
+The following preliminary OKRs, linked to the main project's goals, apply to the pilot:
+
+| Objective | Key results |
+|---|---|
+| **1. Lay a solid professional foundation for digital sharing of education results**<br><br>Link to project goals: common information models, better data quality and reuse, reduced risk of errors and duplicated work | **KR1:** The architecture and information model for the data flow of diplomas and results is completed and professionally reviewed by relevant stakeholders by the end of the pilot.<br><br>**KR2:** An overview of system vendors with contact points for all actors that are to supply data is *(the text ends here in the plan)*<br><br>**KR3:** Legal needs relating to the sharing of diplomas and results from primary, lower secondary and upper secondary education are fully mapped and documented. |
+| **2. Ensure a common understanding among all actors involved of what the digitalisation of diplomas entails**<br><br>Link to project goals: increased ability to collaborate, sharing of experience and spreading of competence | **KR1:** An information package on the digitalisation of diplomas is completed and distributed to all affected system vendors and actors by the end of the pilot.<br><br>**KR2:** No significant misunderstandings about scope or responsibility among the actors involved are identified in the pilot's final evaluation. |
+| **3. Help mature the project's working methods and framework**<br><br>Link to project goals: framework completed and tested in pilots, sharing of experience, final report and plan for continuation | **KR1:** The project's playbook is updated with concrete experience and lessons learned from the pilot by 30.08.2026.<br><br>**KR2:** At least one retrospective has been held, with documented findings shared with the SAMT-BU project.<br><br>**KR3:** The pilot's experience has been presented at a joint SAMT-BU demo and made available to the other pilot teams. |
+
+## WHAT THE PILOT DELIVERED
+
+One deliverable per work package:
+
+1. [Information package](../informasjonspakke/) – what the digitalisation of diplomas entails, for all affected actors
+2. [Architecture and information model](../arkitektur-og-informasjonsmodell/) – the report from work package 2, with [minutes of the working meetings](../arkitektur-og-informasjonsmodell/arbeidsmoter/)
+3. [Legal needs](../juridiske-behov/) – legal assessment
+4. [System vendors](../systemleverandorer/) – overview of school administration systems
