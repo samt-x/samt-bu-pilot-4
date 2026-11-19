@@ -3,6 +3,9 @@ id: 7ae01989-429a-4567-93f3-cd001d306fd3
 title: "Working meetings"
 linkTitle: "Working meetings"
 weight: 60
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 The architecture work in pilot 4 was done in a series of working meetings from 22 May to 28 August 2026 (working meetings 1–8). The [report](../) is based on them.
 

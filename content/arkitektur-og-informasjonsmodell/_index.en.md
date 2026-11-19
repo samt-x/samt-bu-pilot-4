@@ -3,6 +3,9 @@ id: 4dc9e99d-9c6b-4913-9f9c-0ea66512f34e
 title: "Architecture and information model"
 linkTitle: "Architecture and information model"
 weight: 30
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 *This page reproduces the pilot's report «Arkitektur og informasjonsmodell – SAMT-BU Pilot 4. Dataflyt av resultater fra videregående opplæring til KREG» (Architecture and information model – SAMT-BU Pilot 4. Data flow of results from upper secondary education to KREG), 30 August 2026 (deliverable from work package 2).*

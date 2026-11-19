@@ -3,6 +3,9 @@ id: e4e17e3b-131f-444a-a42c-196bfeabf4cb
 title: "Konklusjon og veien videre"
 linkTitle: "Konklusjon og veien videre"
 weight: 50
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 ## 13. Konklusjon og veien videre

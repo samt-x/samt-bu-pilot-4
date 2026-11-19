@@ -3,6 +3,9 @@ id: 0b82b987-237b-4fd7-bbac-5d3c7f2f056d
 title: "Juridiske behov"
 linkTitle: "Juridiske behov"
 weight: 40
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 *Siden gjengir pilotens juridiske vurdering «Pilot 4: Tilgjengeliggjøring av resultater fra utdanning – Juridisk vurdering» (Sikt, leveranse fra arbeidspakke 3 «Oversikt over juridiske behov»).*

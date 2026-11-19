@@ -3,6 +3,9 @@ id: 701c24c4-4d85-4db3-a5fa-7eaa855e44d9
 title: "Semantisk arkitektur og begrepskatalog"
 linkTitle: "Semantisk arkitektur og begrepskatalog"
 weight: 40
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 ## 11. Semantisk arkitektur

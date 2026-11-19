@@ -3,6 +3,9 @@ id: 0b82b987-237b-4fd7-bbac-5d3c7f2f056d
 title: "Legal needs"
 linkTitle: "Legal needs"
 weight: 40
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 *This page reproduces the pilot's legal assessment "Pilot 4: Making results from education available – Legal assessment" (Sikt, deliverable from work package 3 "Overview of legal needs"). Translated from Norwegian; quoted statutory provisions are unofficial translations.*

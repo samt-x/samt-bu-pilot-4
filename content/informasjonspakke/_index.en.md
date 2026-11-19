@@ -3,6 +3,9 @@ id: cd96c9f0-334f-423f-93f5-8b7b80495e9c
 title: "Information package"
 linkTitle: "Information package"
 weight: 20
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 *This page reproduces the pilot's information package «Tilgjengeliggjøring av resultater fra opplæring – Pilot 4» (Making results from education available – Pilot 4, Sikt), the deliverable from work package 1. The package is meant for all parties affected by the digitalisation of diplomas and the transfer of data.*
 

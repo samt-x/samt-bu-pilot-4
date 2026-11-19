@@ -3,6 +3,9 @@ id: 1484f9c6-fdd0-43b7-ba6f-432bab78b2ec
 title: "System vendors"
 linkTitle: "System vendors"
 weight: 50
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 *This page reproduces the pilot's «Oversikt over skoleadministrative systemer» (overview of school administration systems) as of September 2026, the deliverable from work package 4. The overview is to provide contact points for all parties that will deliver data to the Competence Register.*
 

@@ -3,6 +3,9 @@ id: e4e17e3b-131f-444a-a42c-196bfeabf4cb
 title: "Conclusion and the way forward"
 linkTitle: "Conclusion and the way forward"
 weight: 50
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 ## 13. Conclusion and the way forward

@@ -3,6 +3,9 @@ id: 65c70080-6fbe-4a0e-8495-9f1eed4fde25
 title: "Målbilde og anbefalt arkitektur"
 linkTitle: "Målbilde og anbefalt arkitektur"
 weight: 20
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 
 ## 6. Målbilde

@@ -3,6 +3,9 @@ id: 7ae01989-429a-4567-93f3-cd001d306fd3
 title: "Arbeidsmøter"
 linkTitle: "Arbeidsmøter"
 weight: 60
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 Arkitekturarbeidet i pilot 4 ble gjort i en serie arbeidsmøter fra 22. mai til 28. august 2026 (arbeidsmøte 1–8). [Rapporten](../) bygger på dem.
 

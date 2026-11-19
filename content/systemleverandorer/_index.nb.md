@@ -3,6 +3,9 @@ id: 1484f9c6-fdd0-43b7-ba6f-432bab78b2ec
 title: "Systemleverandører"
 linkTitle: "Systemleverandører"
 weight: 50
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 *Siden gjengir pilotens «Oversikt over skoleadministrative systemer» per september 2026, leveranse fra arbeidspakke 4. Oversikten skal gi kontaktpunkter til alle aktører som skal avgi data til Kompetanseregisteret.*
 

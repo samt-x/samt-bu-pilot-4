@@ -3,6 +3,9 @@ id: cd96c9f0-334f-423f-93f5-8b7b80495e9c
 title: "Informasjonspakke"
 linkTitle: "Informasjonspakke"
 weight: 20
+lastmod: 2026-11-19T21:36:39+01:00
+last_editor: Erik Hagen
+
 ---
 *Siden gjengir pilotens informasjonspakke «Tilgjengeliggjøring av resultater fra opplæring – Pilot 4» (Sikt), leveranse fra arbeidspakke 1. Pakken skal brukes overfor alle aktører som berøres av digitalisering av vitnemål og overføring av data.*
 
