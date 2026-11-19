@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-## 11. Semantic architecture
+## Semantic architecture
 
 The transition from NVB to KREG is not just a system migration, but a change in how results from education are represented semantically. NVB's information model is built on specialised, distinct entities for upper secondary education. KREG's model, inspired by the international standard European Learning Model (ELM) v3 [8], uses a single generic and recursive entity, kompetansebevis (certificate of competence), which can represent anything from individual results to complete diplomas and degrees from higher education.
 
@@ -16,7 +16,7 @@ This chapter describes this difference and the consequences it has for the syste
 
 The description in this chapter is the normative, system-independent information model for results from education, anchored in the regulations and in ELM. KREG's data model (appendix A) and Sikt's validation service are implementations that must conform to it – not the other way round. This responds to the need, pointed out in the round of comments, for the answer key not to be a vendor's rule engine.
 
-### 11.1 Models
+### Models
 
 Models used in this report:
 
@@ -30,7 +30,7 @@ Models used in this report:
 
 The models in FINT and the old NVB overlap considerably and describe diplomas and subjects for upper secondary education. It is important to carry this model forward semantically even though KREG does not use it as its main model – several of the subtypes in KREG (vg_kb_fag, vg_kb_programomraade, vg_kb_utdanningsprogram, vg_dokument) refer to it. KREG's data model is more generalised and draws inspiration from ELM, a model that is synchronised with the model of Utdanningsregisteret.
 
-### 11.2 New semantics – certificates of competence within certificates of competence
+### New semantics – certificates of competence within certificates of competence
 
 In NVB, the document type is controlled by a code (VGDOKTYPEKODE) on a single flat entity. Diplomas and certificates of competence are rows in the same table, distinguished only by the code value, and the grades are stored as columns directly on the subject row [5][15].
 
@@ -42,14 +42,14 @@ The same structure is used unchanged across sectors: a bachelor's degree is a ko
 
 *Figure 4: From a flat, type-coded structure (NVB) to a recursive structure (KREG/ELM v3). Simplified; complete models in appendices A and B.*
 
-The core of what vendors must deal with – given today's position-based file format ([chapter 5](../dagens-nvb-import/)) – is therefore not individual fields, but a shift in representation: from a position-based text file to structured objects in an API. This follows directly from the difference in paradigm above:
+The core of what vendors must deal with – given today's position-based file format ([The file format – the «soltegn» files](../dagens-nvb-import/#the-file-format--the-soltegn-files)) – is therefore not individual fields, but a shift in representation: from a position-based text file to structured objects in an API. This follows directly from the difference in paradigm above:
 
 - The document type is derived from the structure (position in the hierarchy), not from a type code set by the vendor.
 - Assessment is sent as a separate object, not as a column value on the subject. Among other things, this allows several assessments per result (resit examination, appeal).
 - Fields are identified by name, not by column position in a line.
 - The person is identified in a structured way (the entity person with a national ID), not as a free-text name in the document header.
 
-### 11.3 Placement in ELM v3
+### Placement in ELM v3
 
 ELM v3 makes a strict distinction between two disjoint branches [8]:
 
@@ -78,7 +78,7 @@ The internal data model need not be isomorphic with the exchange format – it i
 
 *Figure 5: Mapping from KREG to ELM v3.*
 
-### 11.4 Mapping NVB → KREG
+### Mapping NVB → KREG
 
 The table shows how today's NVB entities correspond to the KREG model, and what the change means for the vendor. Complete models are in appendix A (KREG) and B (NVB) [14][15].
 
@@ -91,13 +91,13 @@ The table shows how today's NVB entities correspond to the KREG model, and what 
 | VGDOKMERKNAD (VMM codes) | merknad / merknadsspesifikasjon / vg_merknad | KREG separates remark instance from remark definition; the codes are managed as specifications. |
 | Personal name and national identity number as fields in the ¤V line | person (separate entity) | Structured identification of persons. |
 | School number/organisation number in ¤A/¤S lines | enhet (separate entity, with roles such as awarding body, issuer, assessor) | Organisation information is managed centrally, not per file. |
-| Calculated control fields on the document (GSK status etc.) | Unresolved – validation is a separate service | Whether the validation result should have a counterpart in KREG is unresolved; quality state and the school's override must in any case be represented in the register ([chapter 9](../maalbilde-og-anbefalt-arkitektur/)). |
+| Calculated control fields on the document (GSK status etc.) | Unresolved – validation is a separate service | Whether the validation result should have a counterpart in KREG is unresolved; quality state and the school's override must in any case be represented in the register ([Technical target architecture](../maalbilde-og-anbefalt-arkitektur/#technical-target-architecture)). |
 | ¤D cancellation | dokument (status) – handling unresolved | Changes after appeal and cancellation/replacement of issued documentation must be handled explicitly in KREG; unresolved (cf. R12). |
 | ¤-separated file, position-based fields | Structured objects in an API (GraphQL) | The shift in representation described above. |
 
 One choice of terms that is important for the semantics: *kompetansebevis* as a general KREG term collides with *kompetansebevis fra videregående opplæring* (certificate of competence from upper secondary education) as an established document type at the schools [10]. The report handles this by always writing «kompetansebevis fra videregående opplæring» when the document type is meant. When registered in the concept catalogue, they are separated as two concepts with an associative relation.
 
-### 11.5 Further concretisation of the semantics
+### Further concretisation of the semantics
 
 The figures and tables in this chapter are illustrations in a document. For the semantics to be reusable in other SAMT-BU cases, and for the differences between ELM, FINT, VIGO and InSchool to be mapped systematically, the models must be made concrete as actual, machine-readable artefacts:
 
@@ -105,13 +105,13 @@ The figures and tables in this chapter are illustrations in a document. For the 
 - Model sources in a text-based diagram format (e.g. Mermaid/PlantUML) maintained in the project's GitHub, so that the figures can be versioned and reused instead of being redrawn.
 - A structured mapping overview ELM ↔ KREG ↔ NVB with separate columns for FINT, VIGO and InSchool. The columns for ELM, KREG and NVB are filled in from this chapter; the FINT, VIGO and InSchool columns are filled in by Novari as part of clarifying the distribution of sources, turning the gap analysis from working meeting 6 into a concrete task that can be delegated.
 
-## 12. Concept catalogue
+## Concept catalogue
 
 The catalogue collects the concepts used in the report and in the series of working meetings. The structure follows the fields in SKOS-AP-NO-Begrep [9] in simplified table form (recommended term, definition, data structure term, remark/source), as a basis for registration in the National Data Catalogue at data.norge.no. Before registration, the responsible organisation must be determined for each concept (Udir for the regulatory concepts, Sikt for the register and model concepts), and the fields source type and allowed/discouraged term must be completed. The project's concepts should be registered as a separate concept collection for SAMT-BU; the information model is registered according to ModellDCAT-AP-NO and datasets/APIs according to DCAT-AP-NO. Where Udir's guidelines [10] or ELM [8] is the source, this is indicated.
 
 The recommended terms are kept in Norwegian, as they will be registered, with an English equivalent in parentheses.
 
-### 12.1 Assessments and results
+### Assessments and results
 
 | Recommended term | Definition | Data structure term | Remark / source |
 |---|---|---|---|
@@ -124,7 +124,7 @@ The recommended terms are kept in Norwegian, as they will be registered, with an
 | Vurderingsform (form of assessment) | The way an assessment has come about (e.g. overall achievement, examination). | vurderingsform / vurderingsformskjema | KREG [14]. |
 | Vurderingsuttrykk (assessment scale) | The scale in which an assessment is expressed (e.g. numerical grade 1–6, pass/fail). | vurderingsuttrykk / vurderingsuttrykkskjema | KREG [14]. |
 
-### 12.2 Documentation and qualifications
+### Documentation and qualifications
 
 | Recommended term | Definition | Data structure term | Remark / source |
 |---|---|---|---|
@@ -138,7 +138,7 @@ The recommended terms are kept in Norwegian, as they will be registered, with an
 | Vedlegg (attachment) | Documentation without structural value that accompanies a kompetansebevis or a qualification (e.g. results attachment from Vitnemålsportalen / today's VIP attachment in ELMO). | dokument (antall_vedlegg) | [12: working meeting 7]. |
 | Generell studiekompetanse, GSK (general university admissions certification) | Qualification requirement for admission to higher education; normally achieved by passing general studies upper secondary education or a supplementary programme for general university admissions certification, or under exception rules (e.g. the 23/5 rule). | vg_kb_utdanningsprogram (paastand_om_gsk) | [5][10]. |
 
-### 12.3 Education and offerings
+### Education and offerings
 
 | Recommended term | Definition | Data structure term | Remark / source |
 |---|---|---|---|
@@ -152,7 +152,7 @@ The recommended terms are kept in Norwegian, as they will be registered, with an
 | Modulkode (module code) | Code for a module in module-structured education for adults. Not to go into KREG; may appear on certificates of competence, but not on diplomas. | – | Premise 4 [10][12: working meeting 8]. |
 | MVOV | Module-structured education for adults (modulstrukturert opplæring for voksne). Delivered today on paper/unvalidated, in high volumes. | – | [12: working meeting 4]. |
 
-### 12.4 Actors, systems and registers
+### Actors, systems and registers
 
 | Recommended term | Definition | Data structure term | Remark / source |
 |---|---|---|---|
@@ -171,12 +171,12 @@ The recommended terms are kept in Norwegian, as they will be registered, with an
 | ELMO | XML format for exchanging results in the EMREX network. | – | [12: working meetings 1 and 7]. |
 | EMREX | European network for electronic exchange of study results. | – | [12: working meeting 1]. |
 | OneRoster (Norwegian profile) | 1EdTech standard for exchanging administrative school data; supported by the primary school systems. | – | [11]. |
-| SHACL | W3C language for expressing and validating structural constraints on data; candidate for machine-readable validation rules. | – | Chapter 9. |
+| SHACL | W3C language for expressing and validating structural constraints on data; candidate for machine-readable validation rules. | – | [Technical target architecture](../maalbilde-og-anbefalt-arkitektur/#technical-target-architecture). |
 | Grunnskolevitnemål (primary and lower secondary school diploma) | Diploma for completed primary and lower secondary school; simpler structure than diplomas from upper secondary education. Only the diploma, not individual subjects, is relevant for collection; all subjects are counted as year 10. | – | [12: working meeting 3]. |
 
-## 15. Appendices
+## Appendices
 
-### 15.1 Appendix A – Information model, KREG
+### Appendix A – Information model, KREG
 
 Note that this model is currently being adjusted somewhat to include results from tertiary vocational education and higher education. This does not affect the main features of the model.
 
@@ -196,9 +196,9 @@ The model provides for subtyping information under kompetansebevis depending on 
 
 *Appendix A2: Simplified model KREG.*
 
-### 15.2 Appendix B – Information model, NVB2
+### Appendix B – Information model, NVB2
 
-The NVB2 model shows today's database behind the National Diploma Database, organised into the areas regulations, file import, diplomas/certificates of competence, control results, entity register, user register, requirement expressions, subject control, calculation of points and requirement sets, logging and statistics. The core for this report is the area diplomas/certificates of competence (VGDOK with subject, programme area and remark tables) and file import (receipt of the «soltegn» files), which together implement the format described in [chapter 5](../dagens-nvb-import/).
+The NVB2 model shows today's database behind the National Diploma Database, organised into the areas regulations, file import, diplomas/certificates of competence, control results, entity register, user register, requirement expressions, subject control, calculation of points and requirement sets, logging and statistics. The core for this report is the area diplomas/certificates of competence (VGDOK with subject, programme area and remark tables) and file import (receipt of the «soltegn» files), which together implement the format described in [The file format – the «soltegn» files](../dagens-nvb-import/#the-file-format--the-soltegn-files).
 
 ![ER diagram of NVB2, the database behind the National Diploma Database, with the tables grouped into areas. The diagram is detailed and is best viewed at full size (figure in Norwegian)](vedlegg-b1-nvb2-er-diagram.jpeg)
 

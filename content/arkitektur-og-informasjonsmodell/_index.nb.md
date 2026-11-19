@@ -12,39 +12,39 @@ last_editor: Erik Hagen
 
 Rapporten er pilotens leveranse på arbeidspakke 2, datert 30. august 2026. Den er utarbeidet gjennom arbeidsmøteserien om arkitektur (arbeidsmøte 1–8, 22. mai – 28. august 2026), og er fordelt på denne siden og undersidene under.
 
-## 1. Sammendrag
+## Sammendrag
 
 Piloten anbefaler at resultater fra videregående opplæring leveres gjennom direkte integrasjon mot Kompetanseregisteret (KREG), ikke via FINT (samarbeidsgruppas vedtak 28. august 2026; formell beslutning hos systemeierne). Validering og innsending skilles som to separate konsepter: KREG skal ta imot 100 % av dokumentasjonen – også den som ikke validerer – med eksplisitt kvalitetstilstand, mens valideringstjenesten tilbys som egen komponent. Dagens filinnsending til NVB, med det posisjonsbaserte soltegnformatet, ønskes faset ut i sin helhet.
 
-Rapporten dokumenterer dagens NVB-importprosess med tolv identifiserte risikomomenter ([kapittel 5](dagens-nvb-import/)), en anbefalt arkitektur og informasjonsmodell orientert mot European Learning Model v3 ([kapittel 8](maalbilde-og-anbefalt-arkitektur/) og [11](semantisk-arkitektur-og-begrepskatalog/)), avdekkede behov for grunnskolen ([kapittel 10](grunnskole/)), en vurdering mot Digdirs arkitekturprinsipper ([kapittel 9](maalbilde-og-anbefalt-arkitektur/)) og en anbefaling med veien videre for å starte realiseringen med Novari ([kapittel 13](konklusjon-og-veien-videre/)). De tre viktigste forutsetningene for realisering er finansiering og prioritering hos Novari og fylkeskommunene (SAMT-BU-midler kan potensielt benyttes inn i 2028), at KREG gjøres klart for mottak (Sikts vurdering: et ettårsperspektiv), og juridiske avklaringer – hjemmel for grunnskoledata, behandlingsgrunnlag for ikke-beståtte resultater og likestilling av digitale vitnemål med papirvitnemål.
+Rapporten dokumenterer dagens NVB-importprosess med tolv identifiserte risikomomenter ([Risikomomenter i dagens prosess](dagens-nvb-import/#risikomomenter-i-dagens-prosess)), en anbefalt arkitektur og informasjonsmodell orientert mot European Learning Model v3 ([Arkitekturskisser for piloten](maalbilde-og-anbefalt-arkitektur/#arkitekturskisser-for-piloten) og [Semantisk arkitektur](semantisk-arkitektur-og-begrepskatalog/#semantisk-arkitektur)), avdekkede behov for grunnskolen ([Grunnskole](grunnskole/)), en vurdering mot Digdirs arkitekturprinsipper ([Vurdering mot Digdirs overordnede arkitekturprinsipper](maalbilde-og-anbefalt-arkitektur/#vurdering-mot-digdirs-overordnede-arkitekturprinsipper)) og en anbefaling med veien videre for å starte realiseringen med Novari ([Konklusjon og veien videre](konklusjon-og-veien-videre/)). De tre viktigste forutsetningene for realisering er finansiering og prioritering hos Novari og fylkeskommunene (SAMT-BU-midler kan potensielt benyttes inn i 2028), at KREG gjøres klart for mottak (Sikts vurdering: et ettårsperspektiv), og juridiske avklaringer – hjemmel for grunnskoledata, behandlingsgrunnlag for ikke-beståtte resultater og likestilling av digitale vitnemål med papirvitnemål.
 
-## 2. Innledning
+## Innledning
 
 Dette dokumentet er pilotens leveranse på arbeidspakke 2: arkitektur og informasjonsmodell som grunnlag for dataflyt av vitnemål og resultater fra videregående opplæring inn i Kompetanseregisteret (KREG). Navnet på Kompetanseregisteret er ennå ikke bestemt, og i dette dokumentet refererer vi til det som KREG.
 
-Rapporten er utarbeidet gjennom arbeidsmøteserien om arkitektur (arbeidsmøte 1–8, 22. mai – 28. august 2026) [12] og utgjør pilotens milepæl «arkitektur og informasjonsmodell er ferdigstilt» [13]. Arbeidet er forankret i SAMT-BUs case «Tilgjengeliggjøring av resultater fra opplæring» [13], med de konkrete brukersituasjonene skolebytte, opptak, videre oppfølging av unge og voksnes dokumentasjonsbehov som bakteppe. Piloten leverer forarbeid, ikke tekniske produkter [13]; realiseringen av arkitekturen skjer etter pilotperioden, slik veien videre i [kapittel 13](konklusjon-og-veien-videre/) beskriver.
+Rapporten er utarbeidet gjennom arbeidsmøteserien om arkitektur (arbeidsmøte 1–8, 22. mai – 28. august 2026) [12] og utgjør pilotens milepæl «arkitektur og informasjonsmodell er ferdigstilt» [13]. Arbeidet er forankret i SAMT-BUs case «Tilgjengeliggjøring av resultater fra opplæring» [13], med de konkrete brukersituasjonene skolebytte, opptak, videre oppfølging av unge og voksnes dokumentasjonsbehov som bakteppe. Piloten leverer forarbeid, ikke tekniske produkter [13]; realiseringen av arkitekturen skjer etter pilotperioden, slik [Veien videre etter 1. september](konklusjon-og-veien-videre/#veien-videre-etter-1-september) beskriver.
 
-Rapporten dokumenterer dagens prosess for NVB-import med risikomomentene i den ([kapittel 5](dagens-nvb-import/)), målbildet arbeidet styrer mot ([kapittel 6](maalbilde-og-anbefalt-arkitektur/)), vurderingen av arkitekturalternativene med samarbeidsgruppas anbefaling om direkte integrasjon mot KREG ([kapittel 7–9](maalbilde-og-anbefalt-arkitektur/)), avdekkede behov for grunnskolen ([kapittel 10](grunnskole/)), den semantiske arkitekturen med overgangen fra NVBs modell til en ELM-orientert modell ([kapittel 11](semantisk-arkitektur-og-begrepskatalog/)), en begrepskatalog ([kapittel 12](semantisk-arkitektur-og-begrepskatalog/)) og konklusjon med veien videre ([kapittel 13](konklusjon-og-veien-videre/)).
+Rapporten dokumenterer dagens prosess for NVB-import med risikomomentene i den ([Dagens prosess for NVB-import](dagens-nvb-import/)), målbildet arbeidet styrer mot ([Målbilde](maalbilde-og-anbefalt-arkitektur/#målbilde)), vurderingen av arkitekturalternativene med samarbeidsgruppas anbefaling om direkte integrasjon mot KREG ([Hva skal vi løse i SAMT-BU?](maalbilde-og-anbefalt-arkitektur/#hva-skal-vi-løse-i-samt-bu), [Arkitekturskisser for piloten](maalbilde-og-anbefalt-arkitektur/#arkitekturskisser-for-piloten) og [Teknisk målarkitektur](maalbilde-og-anbefalt-arkitektur/#teknisk-målarkitektur)), avdekkede behov for grunnskolen ([Grunnskole](grunnskole/)), den semantiske arkitekturen med overgangen fra NVBs modell til en ELM-orientert modell ([Semantisk arkitektur](semantisk-arkitektur-og-begrepskatalog/#semantisk-arkitektur)), en begrepskatalog ([Begrepskatalog](semantisk-arkitektur-og-begrepskatalog/#begrepskatalog)) og konklusjon med veien videre ([Konklusjon og veien videre](konklusjon-og-veien-videre/)).
 
-Arkitekturvalgene er vurdert opp mot Digitaliseringsdirektoratets overordnede arkitekturprinsipper for digitalisering av offentlig sektor [1] og Rammeverk for digital samhandling [4]; vurderingen er samlet i [kapittel 9](maalbilde-og-anbefalt-arkitektur/), og prinsippene er i tillegg referert der de begrunner konkrete valg.
+Arkitekturvalgene er vurdert opp mot Digitaliseringsdirektoratets overordnede arkitekturprinsipper for digitalisering av offentlig sektor [1] og Rammeverk for digital samhandling [4]; vurderingen er samlet i [Vurdering mot Digdirs overordnede arkitekturprinsipper](maalbilde-og-anbefalt-arkitektur/#vurdering-mot-digdirs-overordnede-arkitekturprinsipper), og prinsippene er i tillegg referert der de begrunner konkrete valg.
 
-## 3. Avgrensning
+## Avgrensning
 
 Piloten dekker videregående opplæring først. Følgende er bevisst holdt utenfor piloten:
 
-**Grunnskole:** Del av SAMT-BUs helhet, men inngår ikke i piloten. Avdekkede behov, ansvarsforhold og forutsetningene for et grunnskolespor er samlet i [kapittel 10](grunnskole/), slik at de kan tas videre selv om de ikke løses i piloten [12: arbeidsmøte 8].
+**Grunnskole:** Del av SAMT-BUs helhet, men inngår ikke i piloten. Avdekkede behov, ansvarsforhold og forutsetningene for et grunnskolespor er samlet under [Grunnskole](grunnskole/), slik at de kan tas videre selv om de ikke løses i piloten [12: arbeidsmøte 8].
 
 **VIGO-modernisering:** Uplanlagt og ikke klar til piloten. Arkitekturen forholder seg til dagens filoverføring som alternativ, og moderniseringen tas inn i målbildet. Dersom SAMT-BU-midler gjøres tilgjengelige, kan en avgrenset modernisering av eksportleddet i VIGO likevel vurderes – dette krever egen prioriteringsbeslutning hos Novari og fylkeskommunene.
 
-**Utdanningsregisteret:** Holder fortsatt på å onboarde fagskole og høyere utdanning. Ikke klart for å ta inn videregående opplæring. Tas inn i målbildet, ikke i piloten; rollen og det egne sporet er beskrevet i [kapittel 9](maalbilde-og-anbefalt-arkitektur/).
+**Utdanningsregisteret:** Holder fortsatt på å onboarde fagskole og høyere utdanning. Ikke klart for å ta inn videregående opplæring. Tas inn i målbildet, ikke i piloten; rollen og det egne sporet er beskrevet i [Teknisk målarkitektur](maalbilde-og-anbefalt-arkitektur/#teknisk-målarkitektur).
 
 **Juridisk gyldighet av digitale vitnemål:** Egen arbeidsstrøm, hører til arbeidspakke 3 (juridiske behov).
 
-**Modulstrukturert opplæring for voksne (MVOV):** Leveres i dag papirbasert/ikke-validert, med høyt volum. Prinsippet om at sluttvurdering er enheten (kapittel 4) gjelder også MVOV, men selve flyten løses ikke i piloten.
+**Modulstrukturert opplæring for voksne (MVOV):** Leveres i dag papirbasert/ikke-validert, med høyt volum. Prinsippet om at sluttvurdering er enheten (se [Premisser for piloten](#premisser-for-piloten)) gjelder også MVOV, men selve flyten løses ikke i piloten.
 
-Sikt har erstattet valideringsmotoren «kontroll.exe» med en ny valideringsmotor basert på IBM Operational Decision Manager (ODM). Felles maskinlesbare valideringsregler basert på eller som input til ODM inngår ikke i piloten, men er dokumentert som anbefaling i [kapittel 9](maalbilde-og-anbefalt-arkitektur/).
+Sikt har erstattet valideringsmotoren «kontroll.exe» med en ny valideringsmotor basert på IBM Operational Decision Manager (ODM). Felles maskinlesbare valideringsregler basert på eller som input til ODM inngår ikke i piloten, men er dokumentert som anbefaling i [Teknisk målarkitektur](maalbilde-og-anbefalt-arkitektur/#teknisk-målarkitektur).
 
-## 4. Premisser for piloten
+## Premisser for piloten
 
 Følgende legges til grunn for arkitekturarbeidet og behandles ikke som åpne spørsmål videre:
 
@@ -56,14 +56,14 @@ Følgende legges til grunn for arkitekturarbeidet og behandles ikke som åpne sp
 
 ## Resten av rapporten
 
-- [Dagens prosess for NVB-import](dagens-nvb-import/) – kapittel 5, med de tolv risikomomentene
-- [Målbilde og anbefalt arkitektur](maalbilde-og-anbefalt-arkitektur/) – kapittel 6–9: målbilde, hva SAMT-BU skal løse, arkitekturskisser og teknisk målarkitektur
-- [Grunnskole](grunnskole/) – kapittel 10
-- [Semantisk arkitektur og begrepskatalog](semantisk-arkitektur-og-begrepskatalog/) – kapittel 11 og 12, og vedleggene med informasjonsmodellene for KREG og NVB2
-- [Konklusjon og veien videre](konklusjon-og-veien-videre/) – kapittel 13
+- [Dagens prosess for NVB-import](dagens-nvb-import/) – med de tolv risikomomentene
+- [Målbilde og anbefalt arkitektur](maalbilde-og-anbefalt-arkitektur/) – målbilde, hva SAMT-BU skal løse, arkitekturskisser og teknisk målarkitektur
+- [Grunnskole](grunnskole/) – avdekkede behov og forutsetninger for et grunnskolespor
+- [Semantisk arkitektur og begrepskatalog](semantisk-arkitektur-og-begrepskatalog/) – semantisk arkitektur, begrepskatalog og vedleggene med informasjonsmodellene for KREG og NVB2
+- [Konklusjon og veien videre](konklusjon-og-veien-videre/) – de viktigste momentene og veien videre
 - [Arbeidsmøter](arbeidsmoter/) – arbeidsmøteserien om arkitektur som rapporten bygger på
 
-## 14. Kilder
+## Kilder
 
 1. Digitaliseringsdirektoratet: Overordnede arkitekturprinsipper for digitalisering av offentlig sektor. <https://www.digdir.no/digital-samhandling/overordnede-arkitekturprinsipper/1065>
 2. Digitaliseringsdirektoratet: Prinsipp 4 – Del og gjenbruk data. <https://www.digdir.no/digital-samhandling/prinsipp-4-del-og-gjenbruk-data/1061>
@@ -78,7 +78,7 @@ Følgende legges til grunn for arkitekturarbeidet og behandles ikke som åpne sp
 11. 1EdTech: OneRoster 1.2 Norwegian Profile. <https://www.imsglobal.org/spec/or-nor/v1p0>
 12. SAMT-BU Pilot 4: Referater fra arbeidsmøter om arkitektur 1–8 (22. mai, 2. juni, 12. juni, 19. juni, 26. juni, 14. august, 21. august og 28. august 2026). Prosjektdokumenter.
 13. SAMT-BU: Plan for gjennomføring av pilot 4, v0.1, 15.04.2026. Prosjektdokument. Casebeskrivelse: <https://docs.samt-bu.no/behov/use-cases/01-resultater-vgo/>
-14. Sikt: Informasjonsmodell KREG (ER-diagram). [Vedlegg A](semantisk-arkitektur-og-begrepskatalog/).
-15. Sikt: Informasjonsmodell NVB2 (ER-diagram). [Vedlegg B](semantisk-arkitektur-og-begrepskatalog/).
+14. Sikt: Informasjonsmodell KREG (ER-diagram). [Vedlegg A](semantisk-arkitektur-og-begrepskatalog/#vedlegg-a--informasjonsmodell-kreg).
+15. Sikt: Informasjonsmodell NVB2 (ER-diagram). [Vedlegg B](semantisk-arkitektur-og-begrepskatalog/#vedlegg-b--informasjonsmodell-nvb2).
 16. Sikt: Informasjonsmodell Utdanningsregisteret (ER-diagram). Delt i arbeidsmøteserien.
 17. SAMT-BU AP4: Oversikt skoleadministrative systemer. Prosjektdokument.

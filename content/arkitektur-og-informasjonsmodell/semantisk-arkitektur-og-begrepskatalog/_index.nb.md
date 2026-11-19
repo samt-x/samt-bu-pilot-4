@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-## 11. Semantisk arkitektur
+## Semantisk arkitektur
 
 Overgangen fra NVB til KREG er ikke bare en systemmigrering, men en endring i hvordan resultater fra opplæring representeres semantisk. NVBs informasjonsmodell bygger på spesialiserte, distinkte entiteter for videregående opplæring. KREGs modell, inspirert av den internasjonale standarden European Learning Model (ELM) v3 [8], bruker én generisk og rekursiv entitet, kompetansebevis, som kan representere alt fra enkeltresultater til fullstendige vitnemål og grader fra høyere utdanning.
 
@@ -16,7 +16,7 @@ Dette kapittelet beskriver denne forskjellen og hvilken konsekvens den har for s
 
 Beskrivelsen i dette kapittelet er den normative, systemuavhengige informasjonsmodellen for resultater fra opplæring, forankret i regelverket og ELM. KREGs datamodell (vedlegg A) og Sikts valideringstjeneste er implementasjoner som skal samsvare med den – ikke omvendt. Dette svarer på behovet, påpekt i kommentarrunden, for at fasit ikke skal være en leverandørs regelmotor.
 
-### 11.1 Modeller
+### Modeller
 
 Modeller som er brukt i denne rapporten:
 
@@ -30,7 +30,7 @@ Modeller som er brukt i denne rapporten:
 
 Modellen i FINT og gamle NVB er nokså overlappende og beskriver vitnemål og fag for videregående opplæring. Denne modellen er viktig å videreføre semantisk selv om KREG ikke har den som hovedmodell – flere av subtypene i KREG (vg_kb_fag, vg_kb_programomraade, vg_kb_utdanningsprogram, vg_dokument) refererer til den. KREGs datamodell er mer generalisert og henter inspirasjon fra ELM, en modell som er synkronisert med Utdanningsregisterets modell.
 
-### 11.2 Ny semantikk – kompetansebevis i kompetansebevis
+### Ny semantikk – kompetansebevis i kompetansebevis
 
 I NVB styres dokumenttype av en kode (VGDOKTYPEKODE) på én flat entitet. Vitnemål og kompetansebevis er rader i samme tabell, skilt kun ved kodeverdi, og karakterene ligger som kolonner direkte på fagraden [5][15].
 
@@ -42,14 +42,14 @@ Samme struktur brukes uendret på tvers av sektor: en bachelorgrad er et kompeta
 
 *Figur 4: Fra flat, typekodet struktur (NVB) til rekursiv struktur (KREG/ELM v3). Forenklet; fullstendige modeller i vedlegg A og B.*
 
-Kjernen i det leverandøren må forholde seg til – gitt dagens posisjonsbaserte filformat ([kapittel 5](../dagens-nvb-import/)) – er derfor ikke enkeltfelt, men et representasjonsskifte: fra posisjonsbasert tekstfil til strukturerte objekter i et API. Det følger direkte av paradigmeforskjellen over:
+Kjernen i det leverandøren må forholde seg til – gitt dagens posisjonsbaserte filformat ([Filformatet – soltegnfilene](../dagens-nvb-import/#filformatet--soltegnfilene)) – er derfor ikke enkeltfelt, men et representasjonsskifte: fra posisjonsbasert tekstfil til strukturerte objekter i et API. Det følger direkte av paradigmeforskjellen over:
 
 - Dokumenttype avledes av struktur (posisjon i hierarkiet), ikke av en typekode leverandøren selv setter.
 - Vurdering sendes som eget objekt, ikke som kolonneverdi på faget. Det åpner blant annet for flere vurderinger per resultat (ny eksamen, klagebehandling).
 - Felt identifiseres ved navn, ikke ved kolonneposisjon i en linje.
 - Person identifiseres strukturert (entiteten person med nasjonal id), ikke som fritekstnavn i dokumenthodet.
 
-### 11.3 Innplassering i ELM v3
+### Innplassering i ELM v3
 
 ELM v3 skiller strengt mellom to disjunkte grener [8]:
 
@@ -78,7 +78,7 @@ Intern datamodell trenger ikke være isomorf med utvekslingsformatet – det er 
 
 *Figur 5: Mapping fra KREG til ELM v3.*
 
-### 11.4 Mapping NVB → KREG
+### Mapping NVB → KREG
 
 Tabellen viser hvordan dagens NVB-entiteter svarer til KREG-modellen, og hva endringen betyr for leverandøren. Fullstendige modeller ligger i vedlegg A (KREG) og B (NVB) [14][15].
 
@@ -91,13 +91,13 @@ Tabellen viser hvordan dagens NVB-entiteter svarer til KREG-modellen, og hva end
 | VGDOKMERKNAD (VMM-koder) | merknad / merknadsspesifikasjon / vg_merknad | KREG skiller merknadsforekomst fra merknadsdefinisjon; kodene forvaltes som spesifikasjoner. |
 | Personnavn og fødselsnummer som felt i ¤V-linjen | person (egen entitet) | Strukturert personidentifikasjon. |
 | Skolenummer/orgnr i ¤A/¤S-linjer | enhet (egen entitet, med roller som tildeler, utsteder, vurderer) | Enhetsinformasjon forvaltes sentralt, ikke per fil. |
-| Beregnede kontrollfelt på dokumentet (GSK-status m.m.) | Uavklart – validering er egen tjeneste | Om valideringsresultat skal ha en motpart i KREG er uavklart; kvalitetstilstand og skolens overstyring må uansett representeres i registeret ([kapittel 9](../maalbilde-og-anbefalt-arkitektur/)). |
+| Beregnede kontrollfelt på dokumentet (GSK-status m.m.) | Uavklart – validering er egen tjeneste | Om valideringsresultat skal ha en motpart i KREG er uavklart; kvalitetstilstand og skolens overstyring må uansett representeres i registeret ([Teknisk målarkitektur](../maalbilde-og-anbefalt-arkitektur/#teknisk-målarkitektur)). |
 | ¤D-annullering | dokument (status) – håndtering uavklart | Endring etter klage og annullering/erstatning av utstedt dokumentasjon må håndteres eksplisitt i KREG; uavklart (jf. R12). |
 | ¤-separert fil, posisjonsbaserte felt | Strukturerte objekter i API (GraphQL) | Representasjonsskiftet beskrevet over. |
 
 Ett begrepsvalg som er viktig for semantikken: *kompetansebevis* som generell KREG-term kolliderer med *kompetansebevis fra videregående opplæring* som etablert dokumenttype hos skolene [10]. Rapporten håndterer dette ved alltid å skrive «kompetansebevis fra videregående opplæring» når dokumenttypen menes. Ved registrering i begrepskatalogen skilles de som to begreper med assosiativ relasjon.
 
-### 11.5 Videre konkretisering av semantikken
+### Videre konkretisering av semantikken
 
 Figurene og tabellene i dette kapittelet er illustrasjoner i et dokument. For at semantikken skal kunne gjenbrukes i andre SAMT-BU-caser, og for at forskjellene mellom ELM, FINT, VIGO og InSchool skal kunne kartlegges systematisk, må modellene konkretiseres som faktiske, maskinlesbare artefakter:
 
@@ -105,11 +105,11 @@ Figurene og tabellene i dette kapittelet er illustrasjoner i et dokument. For at
 - Modellkilder i tekstbasert diagramformat (f.eks. Mermaid/PlantUML) forvaltet i prosjektets GitHub, slik at figurene kan versjoneres og gjenbrukes i stedet for å tegnes på nytt.
 - En strukturert mappingoversikt ELM ↔ KREG ↔ NVB med egne kolonner for FINT, VIGO og InSchool. Kolonnene for ELM, KREG og NVB fylles fra dette kapittelet; FINT-, VIGO- og InSchool-kolonnene fylles av Novari som del av avklaringen av kildefordelingen, og gjør differansekartleggingen fra arbeidsmøte 6 til en konkret, delegerbar oppgave.
 
-## 12. Begrepskatalog
+## Begrepskatalog
 
 Katalogen samler begrepene som er brukt i rapporten og i arbeidsmøteserien. Strukturen følger feltene i SKOS-AP-NO-Begrep [9] i forenklet tabellform (anbefalt term, definisjon, datastrukturterm, merknad/kilde), som grunnlag for registrering i Felles datakatalog på data.norge.no. Før registrering må ansvarlig virksomhet fastsettes per begrep (Udir for regelverksbegrepene, Sikt for register- og modellbegrepene), og feltene kildetype og tillatt/frarådet term kompletteres. Prosjektets begreper bør registreres som en egen begrepssamling for SAMT-BU; informasjonsmodellen registreres etter ModellDCAT-AP-NO og datasett/API-er etter DCAT-AP-NO. Der Udirs føringsskriv [10] eller ELM [8] er kilde, er dette angitt.
 
-### 12.1 Vurderinger og resultater
+### Vurderinger og resultater
 
 | Anbefalt term | Definisjon | Datastrukturterm | Merknad / kilde |
 |---|---|---|---|
@@ -122,7 +122,7 @@ Katalogen samler begrepene som er brukt i rapporten og i arbeidsmøteserien. Str
 | Vurderingsform | Måten en vurdering er fremkommet på (f.eks. standpunkt, eksamen). | vurderingsform / vurderingsformskjema | KREG [14]. |
 | Vurderingsuttrykk | Skalaen en vurdering uttrykkes i (f.eks. tallkarakter 1–6, bestått/ikke bestått). | vurderingsuttrykk / vurderingsuttrykkskjema | KREG [14]. |
 
-### 12.2 Dokumentasjon og kvalifikasjoner
+### Dokumentasjon og kvalifikasjoner
 
 | Anbefalt term | Definisjon | Datastrukturterm | Merknad / kilde |
 |---|---|---|---|
@@ -136,7 +136,7 @@ Katalogen samler begrepene som er brukt i rapporten og i arbeidsmøteserien. Str
 | Vedlegg | Dokumentasjon uten strukturell verdi som følger et kompetansebevis eller en kvalifikasjon (f.eks. resultatvedlegg fra Vitnemålsportalen / dagens VIP-vedlegg i ELMO). | dokument (antall_vedlegg) | [12: arbeidsmøte 7]. |
 | Generell studiekompetanse (GSK) | Kvalifikasjonskrav for opptak til høyere utdanning; oppnås normalt ved bestått studieforberedende videregående opplæring eller påbygging til generell studiekompetanse, eller etter unntaksregler (bl.a. 23/5-regelen). | vg_kb_utdanningsprogram (paastand_om_gsk) | [5][10]. |
 
-### 12.3 Utdanning og tilbud
+### Utdanning og tilbud
 
 | Anbefalt term | Definisjon | Datastrukturterm | Merknad / kilde |
 |---|---|---|---|
@@ -150,7 +150,7 @@ Katalogen samler begrepene som er brukt i rapporten og i arbeidsmøteserien. Str
 | Modulkode | Kode for modul i modulstrukturert opplæring for voksne. Skal ikke inn i KREG; kan stå på kompetansebevis, men ikke på vitnemål. | – | Premiss 4 [10][12: arbeidsmøte 8]. |
 | MVOV | Modulstrukturert opplæring for voksne. Leveres i dag papirbasert/ikke-validert med høyt volum. | – | [12: arbeidsmøte 4]. |
 
-### 12.4 Aktører, systemer og registre
+### Aktører, systemer og registre
 
 | Anbefalt term | Definisjon | Datastrukturterm | Merknad / kilde |
 |---|---|---|---|
@@ -169,12 +169,12 @@ Katalogen samler begrepene som er brukt i rapporten og i arbeidsmøteserien. Str
 | ELMO | XML-format for utveksling av resultater i EMREX-nettverket. | – | [12: arbeidsmøte 1 og 7]. |
 | EMREX | Europeisk nettverk for elektronisk utveksling av studieresultater. | – | [12: arbeidsmøte 1]. |
 | OneRoster (norsk profil) | 1EdTech-standard for utveksling av administrative skoledata; støttes av grunnskolesystemene. | – | [11]. |
-| SHACL | W3C-språk for å uttrykke og validere strukturkrav til data; kandidat for maskinlesbare valideringsregler. | – | Kapittel 9. |
+| SHACL | W3C-språk for å uttrykke og validere strukturkrav til data; kandidat for maskinlesbare valideringsregler. | – | [Teknisk målarkitektur](../maalbilde-og-anbefalt-arkitektur/#teknisk-målarkitektur). |
 | Grunnskolevitnemål | Vitnemål for fullført grunnskole; enklere struktur enn vitnemål fra videregående opplæring. Kun vitnemål, ikke enkeltfag, er aktuelt for innsamling; alle fag regnes som 10. trinn. | – | [12: arbeidsmøte 3]. |
 
-## 15. Vedlegg
+## Vedlegg
 
-### 15.1 Vedlegg A – Informasjonsmodell, KREG
+### Vedlegg A – Informasjonsmodell, KREG
 
 Merk at denne modellen justeres noe nå for å inkludere resultater fra fagskoler og høyere utdanning. Dette berører ikke hovedtrekkene i modellen.
 
@@ -194,9 +194,9 @@ Modellen legger opp til å subtype informasjon under kompetansebevis avhengig av
 
 *Vedlegg A2: Forenklet modell KREG.*
 
-### 15.2 Vedlegg B – Informasjonsmodell, NVB2
+### Vedlegg B – Informasjonsmodell, NVB2
 
-NVB2-modellen viser dagens database bak Nasjonal vitnemålsdatabase, organisert i områdene regelverk, filimport, vitnemål/kompetansebevis, kontrollresultat, enhetsregister, brukerregister, kravuttrykk, fagkontroll, poeng- og kravsmengdeberegning, logging og statistikk. Kjernen for denne rapporten er området vitnemål/kompetansebevis (VGDOK med fag-, programområde- og merknadstabeller) og filimport (mottak av soltegnfilene), som til sammen implementerer formatet beskrevet i [kapittel 5](../dagens-nvb-import/).
+NVB2-modellen viser dagens database bak Nasjonal vitnemålsdatabase, organisert i områdene regelverk, filimport, vitnemål/kompetansebevis, kontrollresultat, enhetsregister, brukerregister, kravuttrykk, fagkontroll, poeng- og kravsmengdeberegning, logging og statistikk. Kjernen for denne rapporten er området vitnemål/kompetansebevis (VGDOK med fag-, programområde- og merknadstabeller) og filimport (mottak av soltegnfilene), som til sammen implementerer formatet beskrevet i [Filformatet – soltegnfilene](../dagens-nvb-import/#filformatet--soltegnfilene).
 
 ![ER-diagram for NVB2, databasen bak Nasjonal vitnemålsdatabase, med tabellene gruppert i områder. Diagrammet er detaljert og leses best i full størrelse.](vedlegg-b1-nvb2-er-diagram.jpeg)
 

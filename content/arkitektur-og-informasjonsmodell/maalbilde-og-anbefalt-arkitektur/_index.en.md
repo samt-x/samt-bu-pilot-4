@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-## 6. Target picture
+## Target picture
 
 All diplomas and individual results from primary and secondary education are collected in KREG, which is available throughout the citizen's whole life course.
 
@@ -30,15 +30,15 @@ Utdanningsregisteret (the education register) is part of the target picture as t
 
 Migration of historical documentation from municipal archives is not part of the target picture as currently defined.
 
-Datasets, APIs, services, models and concepts that are established are to be registered in the National Data Catalogue (Felles datakatalog) at data.norge.no (see [chapter 12](../semantisk-arkitektur-og-begrepskatalog/)).
+Datasets, APIs, services, models and concepts that are established are to be registered in the National Data Catalogue (Felles datakatalog) at data.norge.no (see [Concept catalogue](../semantisk-arkitektur-og-begrepskatalog/#concept-catalogue)).
 
-### 6.1 Unresolved part of the target picture
+### Unresolved part of the target picture
 
 Achieved learning outcomes and competence aims, as well as formative assessment, may be included in certificates of competence from upper secondary education. Today these are attached as appendices.
 
-How the models fit into ELM: the main features are described in [chapter 11](../semantisk-arkitektur-og-begrepskatalog/), but full placement – including the choice of application profile and checking the composition relations (hasPart/isPartOf) against the profile's rules – remains [8].
+How the models fit into ELM: the main features are described in [Placement in ELM v3](../semantisk-arkitektur-og-begrepskatalog/#placement-in-elm-v3), but full placement – including the choice of application profile and checking the composition relations (hasPart/isPartOf) against the profile's rules – remains [8].
 
-## 7. What are we to solve in SAMT-BU?
+## What are we to solve in SAMT-BU?
 
 The core of the pilot is the flow of one final assessment from source to KREG, illustrated in figure 2:
 
@@ -53,15 +53,15 @@ The core of the pilot is the flow of one final assessment from source to KREG, i
 
 *Figure 2: The flow of one final assessment from source to KREG. Dotted lines are validation support.*
 
-## 8. Architecture sketches for the pilot
+## Architecture sketches for the pilot
 
 Common to both solutions:
 
-- Validation is done against Sikt's ODM-based validation service, which has already replaced kontroll.exe in today's flow ([chapter 5](../dagens-nvb-import/)).
+- Validation is done against Sikt's ODM-based validation service, which has already replaced kontroll.exe in today's flow ([Validation and control today](../dagens-nvb-import/#validation-and-control-today)).
 - A flow of the type VIGO/InSchool → FINT → KREG → FINT → VIGO/InSchool may create distance from seamless services and may affect the teacher who sets final assessments in VIGO/InSchool [12: working meeting 7].
 - The choice must be assessed against Digdir's architecture framework for seamless services [4]. The decision rests with those responsible for InSchool and VIGO, in line with Digdir's principle 2 on taking architecture decisions at the right level [1].
 
-### 8.1 Option 1, delivering final assessments via FINT
+### Option 1, delivering final assessments via FINT
 
 Key points:
 
@@ -69,7 +69,7 @@ Key points:
 - FINT will be able to receive data on final assessments continuously. When something has received a final assessment in FINT, it is transferred to KREG [12: working meeting 6].
 - This pattern can probably be reused for primary and lower secondary school.
 
-### 8.2 Option 2, delivering final assessments directly to KREG
+### Option 2, delivering final assessments directly to KREG
 
 Key points:
 
@@ -77,7 +77,7 @@ Key points:
 - For VIGO there are two options: build middleware to transform files from VIGO into GraphQL API calls with final assessments, or funds to modernise this part of VIGO so that it delivers directly.
 - VIGO delivers final assessments and passed trade examinations all in one.
 
-### 8.3 Assessment and recommendation
+### Assessment and recommendation
 
 Working meetings 7 and 8 reviewed FINT's information model [7] and assessed the two options. The working meeting's assessment was as follows [12: working meeting 8]:
 
@@ -95,13 +95,13 @@ Authentication and authorisation in the various steps must be clarified further,
 
 *Figure 3: Recommended architecture for the pilot – direct integration with KREG. Dotted elements are unresolved or target picture.*
 
-## 9. Technical target architecture
+## Technical target architecture
 
 The architecture for this pilot is one step towards the broader target picture for the integration architecture across school administration system – VIGO – FINT – KREG:
 
-Utdanningsregisteret gets a central role in the target picture, but is not part of what is implemented during the pilot period. Its role should nevertheless be described in the architecture now, so that the recommended architecture does not build itself into a dead end. In the target picture, Utdanningsregisteret is to receive data about upper secondary education from GREP, InSchool and VIGO, and a separate track is established for codes that are created in VIGO and then in InSchool, and which must be consistent with Utdanningsregisteret [12: working meetings 6 and 8]. Sikt and Udir should look more closely at what role the register is to have. In KREG, the entities utdanningsspesifikasjon (education specification) and utdanningsmulighet (education opportunity) are prepared for linking to Utdanningsregisteret (see [chapter 11 and appendix A](../semantisk-arkitektur-og-begrepskatalog/)).
+Utdanningsregisteret gets a central role in the target picture, but is not part of what is implemented during the pilot period. Its role should nevertheless be described in the architecture now, so that the recommended architecture does not build itself into a dead end. In the target picture, Utdanningsregisteret is to receive data about upper secondary education from GREP, InSchool and VIGO, and a separate track is established for codes that are created in VIGO and then in InSchool, and which must be consistent with Utdanningsregisteret [12: working meetings 6 and 8]. Sikt and Udir should look more closely at what role the register is to have. In KREG, the entities utdanningsspesifikasjon (education specification) and utdanningsmulighet (education opportunity) are prepared for linking to Utdanningsregisteret (see [Placement in ELM v3](../semantisk-arkitektur-og-begrepskatalog/#placement-in-elm-v3) and [Appendix A – Information model, KREG](../semantisk-arkitektur-og-begrepskatalog/#appendix-a--information-model-kreg)).
 
-Primary and lower secondary school is eventually to be included in the same model – the prerequisites are described in [chapter 10](../grunnskole/).
+Primary and lower secondary school is eventually to be included in the same model – the prerequisites are described under [Primary and lower secondary school](../grunnskole/).
 
 **Validation and submission are split into two separate concepts** [12: working meetings 7 and 8]. The validation service is separated out as its own component in the architecture. There one can check whether the combination of subjects is correct during the course of education, and – when all final assessments are in place – validate whether there is a valid diploma. The consequences of the separation:
 
@@ -124,23 +124,23 @@ Ongoing development on KREG concerns tertiary vocational education (fagskole); t
 
 *The figure has no number or caption in the report.*
 
-### 9.1 Assessment against Digdir's overarching architecture principles
+### Assessment against Digdir's overarching architecture principles
 
 The Norwegian Digitalisation Agency's seven overarching architecture principles are mandatory for central government agencies and recommended for the municipal sector [1]. The table summarises how the architecture in this document responds to each principle.
 
 | Principle | How the architecture responds |
 |---|---|
-| 1. Start from the users' needs | The choice of flow has been assessed on the basis of the consequences for the pupil, the apprentice and the teacher who sets final assessments in InSchool/VIGO – an indirect flow via FINT was rejected partly because it creates distance to the user (chapter 8). The target picture gives citizens all their documentation collected and shareable throughout their life course, also for groups that currently fall outside the register. |
+| 1. Start from the users' needs | The choice of flow has been assessed on the basis of the consequences for the pupil, the apprentice and the teacher who sets final assessments in InSchool/VIGO – an indirect flow via FINT was rejected partly because it creates distance to the user (see [Assessment and recommendation](#assessment-and-recommendation)). The target picture gives citizens all their documentation collected and shareable throughout their life course, also for groups that currently fall outside the register. |
 | 2. Take architecture decisions at the right level | The decision on the integration pattern rests with those responsible for InSchool and VIGO; for primary and lower secondary school, the municipalities as school owners are the decision level; responsibility for the regulations lies with Udir. The collaboration group makes recommendations. |
-| 3. Contribute to digitalisation-friendly regulations | The pilot is to deliver a proposal for what needs a legal basis for collecting primary school data, where a statutory basis is currently lacking (chapter 10), and points to the need for legal bases for delivery/retrieval that follow the data flow. Legal equivalence of digital diplomas is followed up in work package 3. |
+| 3. Contribute to digitalisation-friendly regulations | The pilot is to deliver a proposal for what needs a legal basis for collecting primary school data, where a statutory basis is currently lacking (see [Primary and lower secondary school](../grunnskole/)), and points to the need for legal bases for delivery/retrieval that follow the data flow. Legal equivalence of digital diplomas is followed up in work package 3. |
 | 4. Share and reuse data | KREG is established as a common register with a defined receiving model, instead of lock-in to «soltegn» files and PDF archives (recommendation 4.5 [2]). Datasets, APIs, models and concepts are registered in the National Data Catalogue. |
-| 5. Share and reuse solutions | Phasing out file submission reduces complexity and technical debt (5.9), and the receiving pattern is now being developed first for tertiary vocational education, with the intention of reuse for upper secondary education and eventually primary and lower secondary school [3]. Gap: the dependence on ODM as rule engine remains (5.6, cf. chapter 9), and event-driven architecture (5.7) has been identified as a need, not decided. |
-| 6. Create digital solutions that support interoperability | The information model is oriented towards ELM v3 and thus European interoperability (EMREX, EU Digital Identity Wallet, Once-Only). FINT is following in the same direction [12: working meeting 7]. Semantic interoperability is treated as a separate architecture area (chapter 11), cf. the Framework for Digital Interoperability [4]. |
+| 5. Share and reuse solutions | Phasing out file submission reduces complexity and technical debt (5.9), and the receiving pattern is now being developed first for tertiary vocational education, with the intention of reuse for upper secondary education and eventually primary and lower secondary school [3]. Gap: the dependence on ODM as rule engine remains (5.6, cf. [Technical target architecture](#technical-target-architecture)), and event-driven architecture (5.7) has been identified as a need, not decided. |
+| 6. Create digital solutions that support interoperability | The information model is oriented towards ELM v3 and thus European interoperability (EMREX, EU Digital Identity Wallet, Once-Only). FINT is following in the same direction [12: working meeting 7]. Semantic interoperability is treated as a separate architecture area (see [Semantic architecture](../semantisk-arkitektur-og-begrepskatalog/#semantic-architecture)), cf. the Framework for Digital Interoperability [4]. |
 | 7. Ensure trust in how tasks are carried out | Authentication/authorisation is clarified per step (Maskinporten/Feide), submissions are traced to a user, the school owner's responsibility as issuer and signatory is explicit, and the separation of validation and submission makes the quality state of each document visible instead of keeping deviations outside the register. |
 
 Measured against the four dimensions of the Framework for Digital Interoperability [4], the status is:
 
-- semantic interoperability is covered in [chapter 11](../semantisk-arkitektur-og-begrepskatalog/).
-- technical interoperability is covered by the architecture choices in chapters 8 and 9.
+- semantic interoperability is covered in [Semantic architecture](../semantisk-arkitektur-og-begrepskatalog/#semantic-architecture).
+- technical interoperability is covered by the architecture choices in [Architecture sketches for the pilot](#architecture-sketches-for-the-pilot) and [Technical target architecture](#technical-target-architecture).
 - legal interoperability has three identified gaps – legal basis for primary school data, legal equivalence of digital diplomas, which must be clarified in work package 3 (AP3).
 - organisational interoperability – a governance model for input to KREG from upper secondary education and primary and lower secondary school is lacking.

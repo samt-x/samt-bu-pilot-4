@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-## 10. Grunnskole
+## Grunnskole
 
 Grunnskolen inngår ikke i pilotens leveranse, men behovene er kartlagt gjennom arbeidsmøteserien og oppsummeres her slik at de kan tas videre [12: arbeidsmøte 8].
 

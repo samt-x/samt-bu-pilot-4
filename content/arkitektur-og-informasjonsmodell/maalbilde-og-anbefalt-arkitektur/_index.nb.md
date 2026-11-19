@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-## 6. Målbilde
+## Målbilde
 
 Alle vitnemål og enkeltresultater fra grunnopplæringen er samlet i KREG, som er tilgjengelig gjennom hele livsløpet til borgeren.
 
@@ -30,15 +30,15 @@ Utdanningsregisteret inngår i målbildet som grunndataregister for utdanningsti
 
 Migrering av historisk dokumentasjon fra kommunale arkiver inngår ikke i målbildet slik det nå er definert.
 
-Datasett, API-er, tjenester, modeller og begreper som etableres, skal registreres i Felles datakatalog på data.norge.no (se [kapittel 12](../semantisk-arkitektur-og-begrepskatalog/)).
+Datasett, API-er, tjenester, modeller og begreper som etableres, skal registreres i Felles datakatalog på data.norge.no (se [Begrepskatalog](../semantisk-arkitektur-og-begrepskatalog/#begrepskatalog)).
 
-### 6.1 Uavklart del av målbildet
+### Uavklart del av målbildet
 
 Oppnådde læringsmål og kompetansemål, samt underveisvurdering, kan inkluderes i kompetansebevis fra videregående opplæring. Disse legges med som vedlegg i dag.
 
-Hvordan modellene passer inn i ELM: hovedtrekkene er beskrevet i [kapittel 11](../semantisk-arkitektur-og-begrepskatalog/), men full innplassering – herunder valg av applikasjonsprofil og kontroll av sammensetningsrelasjonene (hasPart/isPartOf) mot profilens regler – gjenstår [8].
+Hvordan modellene passer inn i ELM: hovedtrekkene er beskrevet i [Innplassering i ELM v3](../semantisk-arkitektur-og-begrepskatalog/#innplassering-i-elm-v3), men full innplassering – herunder valg av applikasjonsprofil og kontroll av sammensetningsrelasjonene (hasPart/isPartOf) mot profilens regler – gjenstår [8].
 
-## 7. Hva skal vi løse i SAMT-BU?
+## Hva skal vi løse i SAMT-BU?
 
 Kjernen i piloten er flyten av én sluttvurdering fra kilde til KREG, illustrert i figur 2:
 
@@ -53,15 +53,15 @@ Kjernen i piloten er flyten av én sluttvurdering fra kilde til KREG, illustrert
 
 *Figur 2: Flyten av én sluttvurdering fra kilde til KREG. Stiplede linjer er valideringsstøtte.*
 
-## 8. Arkitekturskisser for piloten
+## Arkitekturskisser for piloten
 
 Felles for begge løsninger:
 
-- Validering skjer mot Sikts ODM-baserte valideringstjeneste, som allerede har erstattet kontroll.exe i dagens flyt ([kapittel 5](../dagens-nvb-import/)).
+- Validering skjer mot Sikts ODM-baserte valideringstjeneste, som allerede har erstattet kontroll.exe i dagens flyt ([Validering og kontroll i dag](../dagens-nvb-import/#validering-og-kontroll-i-dag)).
 - En flyt av typen VIGO/InSchool → FINT → KREG → FINT → VIGO/InSchool kan skape avstand fra sammenhengende tjenester og kan påvirke læreren som sluttvurderer i VIGO/InSchool [12: arbeidsmøte 7].
 - Valget må vurderes opp mot Digdirs arkitekturrammeverk for sammenhengende tjenester [4]. Beslutningen ligger hos de som har ansvar for InSchool og VIGO, i tråd med Digdirs prinsipp 2 om å ta arkitekturbeslutninger på rett nivå [1].
 
-### 8.1 Alternativ 1, levere sluttvurderinger via FINT
+### Alternativ 1, levere sluttvurderinger via FINT
 
 Nøkkelpunkt:
 
@@ -69,7 +69,7 @@ Nøkkelpunkt:
 - FINT vil kunne motta data fortløpende på sluttvurderinger. Når noe er sluttvurdert i FINT, overføres det til KREG [12: arbeidsmøte 6].
 - Dette mønsteret kan trolig gjenbrukes for grunnskolen.
 
-### 8.2 Alternativ 2, levere sluttvurderinger direkte i KREG
+### Alternativ 2, levere sluttvurderinger direkte i KREG
 
 Nøkkelpunkt:
 
@@ -77,7 +77,7 @@ Nøkkelpunkt:
 - For VIGO er det to muligheter: bygge mellomvare for å transformere filer fra VIGO til GraphQL API-kall med sluttvurderinger, eller midler til å modernisere denne delen av VIGO for å levere direkte.
 - VIGO leverer sluttvurderinger og bestått fagprøve alt-i-ett.
 
-### 8.3 Vurdering og anbefaling
+### Vurdering og anbefaling
 
 Arbeidsmøte 7 og 8 gjennomgikk FINTs informasjonsmodell [7] og vurderte de to alternativene. Arbeidsmøtets vurdering var følgende [12: arbeidsmøte 8]:
 
@@ -95,13 +95,13 @@ Autentisering og autorisering i de ulike leddene må avklares videre, jf. Digdir
 
 *Figur 3: Anbefalt arkitektur for piloten – direkte integrasjon mot KREG. Stiplede elementer er uavklart eller målbilde.*
 
-## 9. Teknisk målarkitektur
+## Teknisk målarkitektur
 
 Arkitekturen for denne piloten er ett steg mot det bredere målbildet for integrasjonsarkitekturen på tvers av skoleadministrativt system – VIGO – FINT – KREG:
 
-Utdanningsregisteret får en sentral rolle i målbildet, men er ikke en del av det som realiseres i pilotperioden. Rollen bør likevel beskrives i arkitekturen nå, slik at den anbefalte arkitekturen ikke bygger seg inn i en blindvei. I målbildet skal Utdanningsregisteret få data om videregående opplæring fra GREP, InSchool og VIGO, og det etableres et eget spor knyttet til koder som opprettes i VIGO og deretter i InSchool, og som må henge sammen med Utdanningsregisteret [12: arbeidsmøte 6 og 8]. Sikt og Udir bør se nærmere på hvilken rolle registeret skal ha. I KREG er entitetene utdanningsspesifikasjon og utdanningsmulighet forberedt for kobling til Utdanningsregisteret (se [kapittel 11 og vedlegg A](../semantisk-arkitektur-og-begrepskatalog/)).
+Utdanningsregisteret får en sentral rolle i målbildet, men er ikke en del av det som realiseres i pilotperioden. Rollen bør likevel beskrives i arkitekturen nå, slik at den anbefalte arkitekturen ikke bygger seg inn i en blindvei. I målbildet skal Utdanningsregisteret få data om videregående opplæring fra GREP, InSchool og VIGO, og det etableres et eget spor knyttet til koder som opprettes i VIGO og deretter i InSchool, og som må henge sammen med Utdanningsregisteret [12: arbeidsmøte 6 og 8]. Sikt og Udir bør se nærmere på hvilken rolle registeret skal ha. I KREG er entitetene utdanningsspesifikasjon og utdanningsmulighet forberedt for kobling til Utdanningsregisteret (se [Innplassering i ELM v3](../semantisk-arkitektur-og-begrepskatalog/#innplassering-i-elm-v3) og [Vedlegg A – Informasjonsmodell, KREG](../semantisk-arkitektur-og-begrepskatalog/#vedlegg-a--informasjonsmodell-kreg)).
 
-Grunnskole skal etter hvert inn i samme modell – forutsetningene er beskrevet i [kapittel 10](../grunnskole/).
+Grunnskole skal etter hvert inn i samme modell – forutsetningene er beskrevet under [Grunnskole](../grunnskole/).
 
 **Validering og innsending brytes opp til to separate konsepter** [12: arbeidsmøte 7 og 8]. Valideringstjenesten skilles ut som egen komponent i arkitekturen. Der kan man sjekke om fagsammensetningen er riktig underveis i opplæringsløpet, og – når alle sluttvurderinger er på plass – validere om det foreligger et gyldig vitnemål. Konsekvensene av skillet:
 
@@ -124,23 +124,23 @@ Utvikling som pågår på KREG gjelder fagskole, grunnstrukturen anses som god, 
 
 *Figuren har ikke nummer eller bildetekst i rapporten.*
 
-### 9.1 Vurdering mot Digdirs overordnede arkitekturprinsipper
+### Vurdering mot Digdirs overordnede arkitekturprinsipper
 
 Digitaliseringsdirektoratets syv overordnede arkitekturprinsipper er obligatoriske for statlige virksomheter og anbefalt for kommunal sektor [1]. Tabellen oppsummerer hvordan arkitekturen i dette dokumentet svarer på hvert prinsipp.
 
 | Prinsipp | Hvordan arkitekturen svarer |
 |---|---|
-| 1. Ta utgangspunkt i brukernes behov | Flytvalget er vurdert ut fra konsekvensen for eleven, lærlingen og læreren som sluttvurderer i InSchool/VIGO – en indirekte flyt via FINT ble blant annet forkastet fordi den skaper avstand til brukeren (kapittel 8). Målbildet gir innbyggeren all dokumentasjon samlet og delbar gjennom hele livsløpet, også for grupper som i dag faller utenfor registeret. |
+| 1. Ta utgangspunkt i brukernes behov | Flytvalget er vurdert ut fra konsekvensen for eleven, lærlingen og læreren som sluttvurderer i InSchool/VIGO – en indirekte flyt via FINT ble blant annet forkastet fordi den skaper avstand til brukeren (se [Vurdering og anbefaling](#vurdering-og-anbefaling)). Målbildet gir innbyggeren all dokumentasjon samlet og delbar gjennom hele livsløpet, også for grupper som i dag faller utenfor registeret. |
 | 2. Ta arkitekturbeslutninger på rett nivå | Beslutningen om integrasjonsmønster ligger hos dem som har ansvar for InSchool og VIGO; for grunnskolen er kommunene som skoleeiere beslutningsnivået; regelverksansvar ligger hos Udir. Samarbeidsgruppa gir anbefalinger. |
-| 3. Bidra til digitaliseringsvennlig regelverk | Piloten skal levere forslag til hva som må hjemles for innsamling av grunnskoledata, der det i dag mangler lovhjemmel (kapittel 10), og peker på behovet for leverings-/hentehjemler som følger dataflyten. Juridisk likestilling av digitale vitnemål følges opp i arbeidspakke 3. |
+| 3. Bidra til digitaliseringsvennlig regelverk | Piloten skal levere forslag til hva som må hjemles for innsamling av grunnskoledata, der det i dag mangler lovhjemmel (se [Grunnskole](../grunnskole/)), og peker på behovet for leverings-/hentehjemler som følger dataflyten. Juridisk likestilling av digitale vitnemål følges opp i arbeidspakke 3. |
 | 4. Del og gjenbruk data | KREG etableres som felles register med definert mottaksmodell, i stedet for innlåsing i soltegnfiler og PDF-arkiver (anbefaling 4.5 [2]). Datasett, API-er, modeller og begreper registreres i Felles datakatalog. |
-| 5. Del og gjenbruk løsninger | Utfasing av filinnsendingen reduserer kompleksitet og teknisk gjeld (5.9), og mottaksmønsteret utvikles nå først for fagskole, med gjenbruk for videregående opplæring og på sikt grunnskole som intensjon [3]. Gap: bindingen til ODM som regelmotor består (5.6, jf. kapittel 9), og hendelsesbasert arkitektur (5.7) er identifisert som behov, ikke besluttet. |
-| 6. Lag digitale løsninger som støtter samhandling | Informasjonsmodellen orienteres mot ELM v3 og dermed europeisk samhandling (EMREX, EU Digital Identity Wallet, Once-Only). FINT følger etter i samme retning [12: arbeidsmøte 7]. Semantisk samhandlingsevne er behandlet som eget arkitekturområde (kapittel 11), jf. Rammeverk for digital samhandling [4]. |
+| 5. Del og gjenbruk løsninger | Utfasing av filinnsendingen reduserer kompleksitet og teknisk gjeld (5.9), og mottaksmønsteret utvikles nå først for fagskole, med gjenbruk for videregående opplæring og på sikt grunnskole som intensjon [3]. Gap: bindingen til ODM som regelmotor består (5.6, jf. [Teknisk målarkitektur](#teknisk-målarkitektur)), og hendelsesbasert arkitektur (5.7) er identifisert som behov, ikke besluttet. |
+| 6. Lag digitale løsninger som støtter samhandling | Informasjonsmodellen orienteres mot ELM v3 og dermed europeisk samhandling (EMREX, EU Digital Identity Wallet, Once-Only). FINT følger etter i samme retning [12: arbeidsmøte 7]. Semantisk samhandlingsevne er behandlet som eget arkitekturområde (se [Semantisk arkitektur](../semantisk-arkitektur-og-begrepskatalog/#semantisk-arkitektur)), jf. Rammeverk for digital samhandling [4]. |
 | 7. Sørg for tillit til oppgaveløsningen | Autentisering/autorisering avklares per ledd (Maskinporten/Feide), innsendinger spores til bruker, skoleeiers utsteder- og signaturansvar er eksplisitt, og skillet validering/innsending gjør kvalitetstilstanden til hvert dokument synlig i stedet for at avvik holdes utenfor registeret. |
 
 Sett mot Rammeverk for digital samhandlings fire dimensjoner [4] er status:
 
-- semantisk samhandlingsevne dekt i [kapittel 11](../semantisk-arkitektur-og-begrepskatalog/).
-- teknisk samhandlingsevne dekkes av arkitekturvalgene i kapittel 8 og 9.
+- semantisk samhandlingsevne dekt i [Semantisk arkitektur](../semantisk-arkitektur-og-begrepskatalog/#semantisk-arkitektur).
+- teknisk samhandlingsevne dekkes av arkitekturvalgene i [Arkitekturskisser for piloten](#arkitekturskisser-for-piloten) og [Teknisk målarkitektur](#teknisk-målarkitektur).
 - juridisk samhandlingsevne har tre identifiserte gap – hjemmel for grunnskoledata, likestilling av digitale vitnemål som må avklares i AP3.
 - organisatorisk samhandlingsevne – mangler forvaltningsmodell for innspill til KREG fra videregående opplæring og grunnskole.

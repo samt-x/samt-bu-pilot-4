@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-## 10. Primary and lower secondary school (grunnskole)
+## Primary and lower secondary school (grunnskole)
 
 Primary and lower secondary school is not part of the pilot's deliverable, but the needs have been mapped through the series of working meetings and are summarised here so that they can be taken further [12: working meeting 8].
 

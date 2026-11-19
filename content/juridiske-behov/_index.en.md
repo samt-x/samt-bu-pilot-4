@@ -20,7 +20,7 @@ Diplomas from upper secondary education are registered digitally in the National
 
 This document presents the legal needs that must be addressed in order to achieve simplified and comprehensive digital sharing of results from the entire course of education. It is limited to questions of legal basis and the framework for data protection; technical and organisational matters are discussed only where they are of direct legal significance.
 
-## 1 A single database for documentation of competence
+## A single database for documentation of competence
 
 In today's knowledge society, the labour market is undergoing rapid change and working life is becoming ever more knowledge-intensive. White Paper 14 (2022/23) *Utsyn over kompetansebehovet i Norge* (Outlook on Norway's competence needs) describes how we as a society need a more productive workforce and the competence to carry out the green transition, and that a well-educated population is part of our insurance for the future.
 
@@ -28,7 +28,7 @@ The Norwegian Committee on Skill Needs (Kompetansebehovsutvalget) points out tha
 
 Once work is started to ensure better and more coherent access to results for children and young people, this work should be extended to cover a lifelong perspective. This will ensure an overall picture of competence in the population and access to one's own results; strengthen coherent services and automation (efficiency gains in, among others, Lånekassen, Samordna opptak and HMS); provide access to statistics and support for societal planning; prevent loss of documentation in bankruptcies etc.; facilitate student mobility and integration with EU initiatives such as the digital identity wallet, along with other technical benefits; and yield economic gains.
 
-## 2 Overview of current legal bases and the need for new ones
+## Overview of current legal bases and the need for new ones
 
 | Level of education | Legal basis for storing results (NVB) | The register as authoritative source of results | Legal basis for display in the diploma portal | Legal basis for storage format |
 |---|---|---|---|---|
@@ -39,11 +39,11 @@ Once work is started to ensure better and more coherent access to results for ch
 
 Opplæringslova is the Education Act, opplæringsforskrifta the regulations to the Education Act, fagskoleloven the Tertiary Vocational Education Act, and UH-loven (universitets- og høyskoleloven) the Universities and University Colleges Act.
 
-## 3 Existing basis for sharing and storing results
+## Existing basis for sharing and storing results
 
-### 3.1 The National Diploma Database (NVB)
+### The National Diploma Database (NVB)
 
-#### 3.1.1 Regulation in acts and regulations
+#### Regulation in acts and regulations
 
 Opplæringslova (the Education Act) § 25-2 provides the following legal basis for a database of diplomas and other documentation of competence achieved in upper secondary education:
 
@@ -71,7 +71,7 @@ Furthermore, opplæringsforskrifta (the regulations to the Education Act) § 20-
 
 > *Sikt – Norwegian Agency for Shared Services in Education and Research is the controller for the national database for diplomas and other documentation of competence achieved in upper secondary education. The data in the database may be used as a basis for analysis, statistics and research.*
 
-#### 3.1.2 Current use of NVB
+#### Current use of NVB
 
 The purpose of establishing the database was to make admission to higher education more efficient, by facilitating automated processing of applications for admission and automatic quality assurance of diplomas. This is done through a dedicated control program. The data are also disclosed to Statistics Norway (SSB) and used for developing the admission services.
 
@@ -81,17 +81,17 @@ Under opplæringslova § 25-2 second paragraph, certificates of competence shall
 
 The third paragraph allows "diplomas and other documentation of competence from other education and training" to be entered in NVB, as long as this fulfils one or more of the purposes listed in the first paragraph. According to the preparatory works (Prop. 57 L (2022–2023) p. 65), diplomas from tertiary vocational colleges may be entered in the database. Since the database is allowed to also contain documentation from "other education and training" if this fulfils one or more of the purposes in the first paragraph, so that trade and journeyman's certificates are also covered by the provision. There is therefore a legal basis for including both diplomas from tertiary vocational colleges and trade and journeyman's certificates as "other documentation of competence achieved" in NVB.
 
-The fourth paragraph makes it possible for NVB to connect to Vitnemålsportalen (the diploma portal) so that the data subject can share information about their competence via this portal. At present, Vitnemålsportalen is used only for sharing results from higher education, even though the legal basis for sharing results from upper secondary education is already in place, see further in 3.2.
+The fourth paragraph makes it possible for NVB to connect to Vitnemålsportalen (the diploma portal) so that the data subject can share information about their competence via this portal. At present, Vitnemålsportalen is used only for sharing results from higher education, even though the legal basis for sharing results from upper secondary education is already in place, see further under [Vitnemålsportalen](#vitnemålsportalen).
 
 NVB currently has a control engine that verifies diplomas. It checks whether they have been completed in accordance with applicable standards: the control engine compares the diploma data against the applicable curriculum rules and recording rules laid down by the Norwegian Directorate for Education and Training (Udir). The control engine will not be part of the new register, but will continue as an independent service.
 
-#### 3.1.3 The Ministry's assessment of data protection in NVB
+#### The Ministry's assessment of data protection in NVB
 
 In connection with the proposal to introduce a provision on the use of NVB,[^3] the data protection consequences of the register were assessed. It was concluded that the processing of personal data in NVB does not constitute an intrusive threat to the privacy of the individual data subject, and that the solution entails major benefits, see Prop. 145 L (2020–2021). Sikt – Norwegian Agency for Shared Services in Education and Research was designated as controller for the database in opplæringsforskrifta § 20-6. It is specified that the data may be used for analysis, statistics and research.
 
 Opplæringslova § 25-2 allows the database to share national identity numbers/D numbers and information about the documentation of competence the database contains through a portal for sharing diplomas and competence, cf. the Universities and University Colleges Act § 15-1. This is what is today called Vitnemålsportalen, but which at present is used only for sharing results from higher education.
 
-### 3.2 Vitnemålsportalen
+### Vitnemålsportalen
 
 Vitnemålsportalen is a digital sharing platform where individuals can retrieve their own results from higher education and share them with educational institutions, potential employers and other relevant third parties. When a user logs in to Vitnemålsportalen, the results are retrieved directly from the databases of the educational institutions where the person has studied.
 
@@ -111,11 +111,11 @@ The legal basis for sharing diplomas through the portal follows from universitet
 
 Sikt is responsible for operating the portal and is the controller for the data in the portal, cf. universitets- og høyskoleforskriften (the Regulations to the Universities and University Colleges Act) § 10-2.
 
-Opplæringsloven § 25-2 makes it possible to use the portal for sharing results from upper secondary education, which in practice is not done today. In our assessment there is no legal obstacle to extending its use to upper secondary education; what mainly remains are technical adaptations on the part of Sikt/NVB, and a clarification of what status the digital documentation is to have (see section 4.1).
+Opplæringsloven § 25-2 makes it possible to use the portal for sharing results from upper secondary education, which in practice is not done today. In our assessment there is no legal obstacle to extending its use to upper secondary education; what mainly remains are technical adaptations on the part of Sikt/NVB, and a clarification of what status the digital documentation is to have (see [valid documentation of competence achieved](#digital-diplomas-and-certificates-of-competence-must-be-valid-documentation-of-competence-achieved)).
 
-## 4 General prerequisites for lawful and effective storage and sharing of results
+## General prerequisites for lawful and effective storage and sharing of results
 
-### 4.1 Digital diplomas and certificates of competence must be valid documentation of competence achieved
+### Digital diplomas and certificates of competence must be valid documentation of competence achieved
 
 To achieve SAMT-BU's goal of making results from primary and lower secondary school and upper secondary education available in a better and more coherent way, digital diplomas and certificates of competence must be regarded as valid documentation of competence achieved. This is also a measure against forgery of this type of documentation, in addition to digitalisation being necessary both when organisations are to automate processes and when the results are eventually to be included in the EU digital wallet.[^4]
 
@@ -127,13 +127,13 @@ As follows from opplæringslova § 25-2, the database shall facilitate the colle
 
 Current practice and technical solutions mean that it will be difficult to have digital diplomas and other documentation of competence as the only valid document format for competence achieved.[^9] Even if the documentation is to be digital, paper diplomas must be able to be an alternative to, and on an equal footing with, paper diplomas when this is necessary.
 
-It will be possible to have a "fully digital" solution where the main rule is that all diplomas are issued digitally. However, this presupposes a person-centric education ID, see section 4.2, but it cannot be ruled out that there will be cases where a former pupil needs verified paper documentation (e.g. in connection with admission to studies abroad). We therefore currently consider that diplomas should not be issued exclusively digitally – we must allow paper documentation, at least as an exception.
+It will be possible to have a "fully digital" solution where the main rule is that all diplomas are issued digitally. However, this presupposes a person-centric education ID, see [Person-centric education ID](#person-centric-education-id), but it cannot be ruled out that there will be cases where a former pupil needs verified paper documentation (e.g. in connection with admission to studies abroad). We therefore currently consider that diplomas should not be issued exclusively digitally – we must allow paper documentation, at least as an exception.
 
 It is thus considered that no amendment of the law is required to allow the use of digital diplomas, certificates of competence and other documentation as valid documentation of results achieved. For results in NVB to be recognised as valid documentation of results achieved, this presupposes a clarification in Udir's guidelines for completing diplomas, certificates of competence and other documentation.
 
 The impression must not be given that diplomas, certificates of competence and other documentation are valid as documentation of competence achieved only if they are completed in a way that can only be done on paper. An explicit statement should be included that digital registration in NVB (or in a corresponding register for primary and lower secondary school) is valid as documentation of competence achieved on a par with documentation on paper. At the same time, it should be considered whether Chapter 9 Parts VI and VII of opplæringsforskrifta should be updated with an explicit statement that the diploma is to be issued in digital form. Other provisions that should be considered for amendment include, for example, uhl. (the Universities and University Colleges Act) § 12-1 on the return of (paper) diplomas in certain cases.
 
-### 4.2 Person-centric education ID
+### Person-centric education ID
 
 Today, a person's identifier within education is linked to the institution the person is affiliated with. To achieve a functioning digital infrastructure around education in transitions between levels of education (and possibly when moving between municipalities), it is essential to be able to identify pupils. This can be handled by establishing a national service for identification of persons within education. A person-centric education ID would be a unique identifier linked to the individual, which could follow the pupil not only through their education but throughout their entire life.
 
@@ -154,15 +154,15 @@ Such an ID must be established with a legal basis. In our assessment there is no
 
 A person-centric education ID is a prerequisite for gaining the full benefit of developing the rules for storing and sharing results from children's and young people's education; a person-centric education ID should therefore be established in the longer term.
 
-### 4.3 Processing of personal data requires a legal basis
+### Processing of personal data requires a legal basis
 
-Processing of personal data requires a legal basis, cf. GDPR Article 6. A legal basis will be required for two different processing activities: storage of results and sharing of results. For storage in the register, consent is not considered particularly suitable.[^12] In our assessment, the most relevant legal basis is that the processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller, cf. GDPR Article 6(1)(e). According to Article 6(3), this presupposes that the basis for the processing is laid down by Union law or national law. Proposals for these bases are presented in sections 5–8.
+Processing of personal data requires a legal basis, cf. GDPR Article 6. A legal basis will be required for two different processing activities: storage of results and sharing of results. For storage in the register, consent is not considered particularly suitable.[^12] In our assessment, the most relevant legal basis is that the processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller, cf. GDPR Article 6(1)(e). According to Article 6(3), this presupposes that the basis for the processing is laid down by Union law or national law. Proposals for these bases are presented in the chapters on [primary and secondary education and training](#primary-and-secondary-education-and-training), [upper secondary education](#upper-secondary-education), [controllership](#controllership-for-the-processing-of-personal-data) and [higher education etc.](#higher-education-etc)
 
 Sharing with third parties is somewhat different. Here the data subject is in a different position, actively wishing to share their results to obtain an advantage, such as admission to studies, employment etc. In such cases consent may be relevant. For sharing that is not initiated by the data subjects themselves, typically to Lånekassen, to Statistics Norway (SSB) for statistical purposes, or to other public institutions, consent is on the other hand not sufficient, and such sharing will probably need a legal basis in regulations with clear limits on the group of recipients, purpose and duration. For this type of sharing too, Article 6(1)(e) is considered the correct legal basis.
 
-## 5 Primary and secondary education and training
+## Primary and secondary education and training
 
-### 5.1 Legal basis for storing results from primary and lower secondary school in a database
+### Legal basis for storing results from primary and lower secondary school in a database
 
 A database for diplomas from primary and lower secondary school is necessary to ensure easy and better access to children's results for actors who need them.
 
@@ -172,59 +172,59 @@ Furthermore, it ensures robustness against loss of diplomas when schools are clo
 
 Below, alternatives are presented for ensuring a sufficient legal basis for establishing such a database.
 
-#### 5.1.1 Extending opplæringslova § 25-2
+#### Extending opplæringslova § 25-2
 
 Opplæringslova § 25-2 obliges providers of upper secondary education to submit diplomas to NVB. An amendment to § 25-2 third paragraph also obliging providers of primary and lower secondary education to submit diplomas to NVB would be a sufficient legal basis for storing results from primary and lower secondary school. Of the proposals that require new legal bases to be established or the law to be amended, this solution is probably the most time-saving.
 
-#### 5.1.2 Providing a legal basis for the right to store education documentation in a single act or regulation
+#### Providing a legal basis for the right to store education documentation in a single act or regulation
 
-An alternative could be to regulate the right to store (and share) results in separate regulations. We consider this particularly relevant if a more complete overview of education documentation is pursued, one that also includes higher education. This is described below in section 9.1.
+An alternative could be to regulate the right to store (and share) results in separate regulations. We consider this particularly relevant if a more complete overview of education documentation is pursued, one that also includes higher education. This is described below under [Act or regulations on a database for competence](#act-or-regulations-on-a-database-for-competence).
 
-### 5.2 Legal basis for sharing results from primary and lower secondary school
+### Legal basis for sharing results from primary and lower secondary school
 
 Extending opplæringslova § 25-2 to also cover results from primary and lower secondary school will mean that the results can also be shared in Vitnemålsportalen, cf. § 25-2 fourth paragraph. According to the provision, the database "may" "share a person's national identity number or D number and information about which documentation of the person's competence […]" in NVB with Vitnemålsportalen. This information is necessary for Vitnemålsportalen to function as a platform for sharing results.
 
 To ensure that pupils can in practice make use of the sharing portal, the statutory text must require that the information "shall" be shared with Vitnemålsportalen.
 
-The portal should also be able to share information with institutions and organisations that have a legal basis for obtaining diplomas and similar documentation from NVB. Even if some have a legal basis for obtaining documentation from NVB, NVB needs a legal basis for processing in order to lawfully disclose the results. It would then be appropriate to lay down in law the obligation to share the information. The legal basis will be as discussed in section 4.3, Such a provision should be worded in the same way as universitets- og høyskoleforskriften § 10-2 (2).
+The portal should also be able to share information with institutions and organisations that have a legal basis for obtaining diplomas and similar documentation from NVB. Even if some have a legal basis for obtaining documentation from NVB, NVB needs a legal basis for processing in order to lawfully disclose the results. It would then be appropriate to lay down in law the obligation to share the information. The legal basis will be as discussed under [Processing of personal data requires a legal basis](#processing-of-personal-data-requires-a-legal-basis). Such a provision should be worded in the same way as universitets- og høyskoleforskriften § 10-2 (2).
 
-## 6 Upper secondary education
+## Upper secondary education
 
-### 6.1 Legal basis for storing trade and journeyman's certificates
+### Legal basis for storing trade and journeyman's certificates
 
 Upper secondary education within the meaning of the Education Act also includes apprenticeship in a company,[^14] and trade and journeyman's certificates are to be issued as documentation of a passed trade or journeyman's examination, cf. opplæringsforskrifta § 9-48. As mentioned earlier, there is already a clear legal basis for storing diplomas from upper secondary education in NVB. The provision does not explicitly mention trade and journeyman's certificates.
 
-It is the county authority that issues trade or journeyman's certificates. As mentioned in 3.1.2., we consider that trade and journeyman's certificates are covered by "other documentation of competence from other education and training", which the database may contain, cf. opplæringslova § 25-2 third paragraph.
+It is the county authority that issues trade or journeyman's certificates. As mentioned under [Current use of NVB](#current-use-of-nvb), we consider that trade and journeyman's certificates are covered by "other documentation of competence from other education and training", which the database may contain, cf. opplæringslova § 25-2 third paragraph.
 
 For the database to function as a complete and authoritative source of documentation from primary and secondary education, it should become a requirement that trade and journeyman's certificates be submitted to NVB, in the same way as diplomas and certificates of competence. This can be achieved by having the second paragraph of the provision explicitly also cover trade and journeyman's certificates.
 
-### 6.2 Legal basis for sharing results from upper secondary school
+### Legal basis for sharing results from upper secondary school
 
-Graduated pupils cannot themselves share their diplomas digitally from NVB. The legal basis in opplæringsloven § 25-2, which allows documentation of competence achieved to be shared through a portal, means that there is no legal obstacle to extending today's Vitnemålsportalen to also be used for documentation from upper secondary education. This presupposes technical adaptations on the part of NVB. The pupil can then share their results whenever they wish. However, as mentioned in 5.2, a requirement to share certain information with Vitnemålsportalen should be considered so that pupils have a real possibility of sharing.
+Graduated pupils cannot themselves share their diplomas digitally from NVB. The legal basis in opplæringsloven § 25-2, which allows documentation of competence achieved to be shared through a portal, means that there is no legal obstacle to extending today's Vitnemålsportalen to also be used for documentation from upper secondary education. This presupposes technical adaptations on the part of NVB. The pupil can then share their results whenever they wish. However, as mentioned under [Legal basis for sharing results from primary and lower secondary school](#legal-basis-for-sharing-results-from-primary-and-lower-secondary-school), a requirement to share certain information with Vitnemålsportalen should be considered so that pupils have a real possibility of sharing.
 
-As for results from primary and lower secondary school, the portal should also be able to share information with institutions and organisations that have a legal basis for obtaining diplomas and similar documentation from NVB. Even if some have a legal basis for obtaining documentation from NVB, NVB needs a legal basis for processing in order to lawfully disclose the results. It would then be appropriate to lay down in law the obligation to share the information. The legal basis will be as discussed in section 4.3. Such a provision should be worded in the same way as universitets- og høyskoleforskriften § 10-2 (2).
+As for results from primary and lower secondary school, the portal should also be able to share information with institutions and organisations that have a legal basis for obtaining diplomas and similar documentation from NVB. Even if some have a legal basis for obtaining documentation from NVB, NVB needs a legal basis for processing in order to lawfully disclose the results. It would then be appropriate to lay down in law the obligation to share the information. The legal basis will be as discussed under [Processing of personal data requires a legal basis](#processing-of-personal-data-requires-a-legal-basis). Such a provision should be worded in the same way as universitets- og høyskoleforskriften § 10-2 (2).
 
-## 7 Controllership for the processing of personal data
+## Controllership for the processing of personal data
 
 In addition to the challenges concerning the legal basis for processing results through storage in databases and sharing in Vitnemålsportalen, there is the question of who is to be regarded as controller for these processing operations. We have tried to point out some issues relating to this below.
 
-### 7.1 Controllership for storing diplomas in the database
+### Controllership for storing diplomas in the database
 
 For NVB, opplæringsforskrifta § 20-6 specifies that Sikt is the controller for the database. It further specifies that the data in the database may be used as a basis for analysis, statistics and research. This can be interpreted to mean that the content of the diplomas, and controllership for it, lies with the school owners (or tertiary vocational colleges) that originally transferred the diplomas to NVB, and that Sikt is the processor. However, this has not been discussed or specified anywhere, and needs further examination. If the schools were to be controllers, it should be decided who takes over this responsibility if an institution is closed down.
 
 When diplomas are completed, they are sent through a control engine to check that they have been completed correctly.[^15] This also happens when the diplomas are transferred to NVB, We cannot see that it has been decided who is the controller for this processing or what the legal basis for processing is, but since the control engine is to be separated from NVB, we will not go into this further.
 
-### 7.2 Controllership for Vitnemålsportalen
+### Controllership for Vitnemålsportalen
 
 Under universitets- og høyskoleforskriften § 10-2 third paragraph, Sikt is the controller for the personal data in the portal. There is a limited amount of personal data in the portal itself (national identity number/D number and the organisations where the person has results), since the diplomas are not stored in the portal. We have no comments on this.
 
-## 8 Higher education etc.
+## Higher education etc.
 
-### 8.1 Universities and university colleges
+### Universities and university colleges
 
-To achieve a single database for documentation of competence, results from higher education must also be included in the database. Universities and university colleges must therefore be required by law to submit documentation of competence to the database. This can be done in the same form as in opplæringslova § 25-2, either in a separate provision in the Universities and University Colleges Act or its regulations, or possibly in a single regulation for a database of results, see section 9.1.
+To achieve a single database for documentation of competence, results from higher education must also be included in the database. Universities and university colleges must therefore be required by law to submit documentation of competence to the database. This can be done in the same form as in opplæringslova § 25-2, either in a separate provision in the Universities and University Colleges Act or its regulations, or possibly in a single regulation for a database of results, see [Act or regulations on a database for competence](#act-or-regulations-on-a-database-for-competence).
 
-### 8.2 Tertiary vocational colleges
+### Tertiary vocational colleges
 
 At present, results from tertiary vocational colleges are not in NVB.[^16] As mentioned earlier in the document, for tertiary vocational colleges we already have a legal basis for storing documentation in opplæringsforskrifta § 25-2 third paragraph, cf. fagskoleloven (the Tertiary Vocational Education Act) § 41. However, like the corresponding provision for "other documentation of competence", this legal basis is voluntary. To give a complete picture of the individual's competence, providers of tertiary vocational education should be required to submit diplomas to the database.
 
@@ -232,7 +232,7 @@ We are aware that several tertiary vocational colleges do not use computer syste
 
 A legal basis must also be established for sharing the results, corresponding to the Universities and University Colleges Act § 15-1.
 
-### 8.3 Continuing and further education outside traditional public education
+### Continuing and further education outside traditional public education
 
 Voksenopplæringsloven (the Adult Education Act) § 10 regulates the issuing of course certificates for adults who have attended courses under the study association scheme. Kompetanseforbundet, which organises the approved study associations under the Ministry of Education and Research, is currently running pilots on competence certificates. This is an official, digital proof that a person has completed and passed a competence assessment, and it documents a person's skills and knowledge in a specific area. It is verified through a unique QR code and verification number that employers can scan or confirm on a verification page. Kompetanseforbundet regards itself as processor on behalf of the study associations, which are controllers, and participants can request that certificates be deleted.
 
@@ -243,13 +243,13 @@ Such a solution requires two legal bases that are currently lacking:
 1. **Legal basis for storage:** The Adult Education Act should be supplemented with a provision obliging approved study associations to submit course certificates to NVB (corresponding to the submission obligation for upper secondary education in opplæringslova § 25-2 second paragraph). The fact that participants can currently request deletion of certificates is hardly compatible with the ambition of an authoritative and as complete as possible competence register, and should be addressed in the legislative work.
 2. **Legal basis for sharing:** A legal basis should be established for sharing course certificates from the study association scheme via Vitnemålsportalen, corresponding to the sharing provision in the Universities and University Colleges Act § 15-1. Sharing should take place on the data subject's own initiative, following the same model as for other documentation of competence in the portal.
 
-## 9 Concluding remarks
+## Concluding remarks
 
-### 9.1 Act or regulations on a database for competence
+### Act or regulations on a database for competence
 
 As mentioned earlier, one alternative for providing a legal basis for the right to store and share results is a separate act or regulation. Regulations can be issued pursuant to several acts. This would be particularly appropriate if a database is to be established with as complete an overview as possible of the individual's competence. First, the provisions on recording results, issuing and transfer to the database will be technical, and it can be argued that this is somewhat beside what is already regulated in the acts on education and competence. Second, it will provide greater flexibility if the provisions need to be changed, rather than having to amend several individual acts and regulations.
 
-### 9.2 The database must be an authoritative source of results
+### The database must be an authoritative source of results
 
 It must be a goal that the diplomas in NVB, and other documentation that may in future be included in the database, are regarded as authoritative sources of documentation of results achieved. This means that the database is to be the primary place from which various actors retrieve results or have them verified. This presupposes that the database has integrity, reflects reality, is available and contains all the competence that has been decided to be included.
 
