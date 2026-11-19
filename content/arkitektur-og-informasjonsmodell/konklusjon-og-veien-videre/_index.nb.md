@@ -1,4 +1,5 @@
 ---
+id: e4e17e3b-131f-444a-a42c-196bfeabf4cb
 title: "Konklusjon og veien videre"
 linkTitle: "Konklusjon og veien videre"
 weight: 50

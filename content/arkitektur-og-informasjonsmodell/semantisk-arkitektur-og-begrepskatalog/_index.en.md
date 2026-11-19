@@ -1,4 +1,5 @@
 ---
+id: 701c24c4-4d85-4db3-a5fa-7eaa855e44d9
 title: "Semantic architecture and concept catalogue"
 linkTitle: "Semantic architecture and concept catalogue"
 weight: 40

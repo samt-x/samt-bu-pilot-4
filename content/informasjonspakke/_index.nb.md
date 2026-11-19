@@ -1,4 +1,5 @@
 ---
+id: cd96c9f0-334f-423f-93f5-8b7b80495e9c
 title: "Informasjonspakke"
 linkTitle: "Informasjonspakke"
 weight: 20

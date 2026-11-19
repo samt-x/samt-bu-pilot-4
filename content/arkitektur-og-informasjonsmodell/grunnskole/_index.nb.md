@@ -1,4 +1,5 @@
 ---
+id: 2c819105-3049-4489-a17e-770fc0fb0ed7
 title: "Grunnskole"
 linkTitle: "Grunnskole"
 weight: 30

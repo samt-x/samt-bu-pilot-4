@@ -1,4 +1,5 @@
 ---
+id: 65c70080-6fbe-4a0e-8495-9f1eed4fde25
 title: "Target picture and recommended architecture"
 linkTitle: "Target picture and recommended architecture"
 weight: 20

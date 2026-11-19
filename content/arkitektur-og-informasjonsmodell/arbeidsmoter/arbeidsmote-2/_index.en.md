@@ -1,4 +1,5 @@
 ---
+id: 12bf8587-abe4-4d83-aef7-97f8014fbdee
 title: "Working meeting 2 – 2 June 2026"
 linkTitle: "Working meeting 2"
 weight: 20
