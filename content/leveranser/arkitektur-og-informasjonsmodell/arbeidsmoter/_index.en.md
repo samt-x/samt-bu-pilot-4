@@ -3,7 +3,7 @@ id: 7ae01989-429a-4567-93f3-cd001d306fd3
 title: "Working meetings"
 linkTitle: "Working meetings"
 weight: 60
-lastmod: 2026-11-19T21:36:39+01:00
+lastmod: 2026-11-20T00:30:48+01:00
 last_editor: Erik Hagen
 
 ---

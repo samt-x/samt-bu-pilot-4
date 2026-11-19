@@ -3,7 +3,7 @@ id: 65c70080-6fbe-4a0e-8495-9f1eed4fde25
 title: "Target picture and recommended architecture"
 linkTitle: "Target picture and recommended architecture"
 weight: 20
-lastmod: 2026-11-19T23:11:48+01:00
+lastmod: 2026-11-20T00:30:48+01:00
 last_editor: Erik Hagen
 
 ---

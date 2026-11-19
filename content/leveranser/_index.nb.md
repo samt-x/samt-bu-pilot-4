@@ -3,6 +3,9 @@ id: b8091187-b480-4541-80fa-99a993cedc0b
 title: "Leveranser"
 linkTitle: "Leveranser"
 weight: 20
+lastmod: 2026-11-20T00:30:48+01:00
+last_editor: Erik Hagen
+
 ---
 Piloten hadde fire arbeidspakker, med én leveranse hver. Tabellen viser hva som var planlagt, og hva som faktisk ble levert.
 

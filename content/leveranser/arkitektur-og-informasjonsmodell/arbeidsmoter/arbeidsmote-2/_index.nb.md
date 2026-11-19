@@ -3,7 +3,7 @@ id: 12bf8587-abe4-4d83-aef7-97f8014fbdee
 title: "Arbeidsmøte 2 – 2. juni 2026"
 linkTitle: "Arbeidsmøte 2"
 weight: 20
-lastmod: 2026-11-19T21:36:39+01:00
+lastmod: 2026-11-20T00:30:48+01:00
 last_editor: Erik Hagen
 
 ---

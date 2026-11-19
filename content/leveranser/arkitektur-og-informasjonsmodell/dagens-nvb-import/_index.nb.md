@@ -3,7 +3,7 @@ id: 70eb49eb-f182-4c2e-afe5-060d4e352084
 title: "Dagens prosess for NVB-import"
 linkTitle: "Dagens NVB-import"
 weight: 10
-lastmod: 2026-11-19T23:11:48+01:00
+lastmod: 2026-11-20T00:30:48+01:00
 last_editor: Erik Hagen
 
 ---

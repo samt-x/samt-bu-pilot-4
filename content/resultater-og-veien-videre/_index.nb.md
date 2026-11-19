@@ -3,6 +3,9 @@ id: 68bf39b1-9d53-4126-8ce3-18090b6f91cf
 title: "Resultater og veien videre"
 linkTitle: "Resultater og veien videre"
 weight: 30
+lastmod: 2026-11-20T00:30:48+01:00
+last_editor: Erik Hagen
+
 ---
 Piloten ble gjennomført mai–august 2026. Den leverte forarbeid, ikke tekniske produkter. Detaljene står i [leveransene](../leveranser/).
 

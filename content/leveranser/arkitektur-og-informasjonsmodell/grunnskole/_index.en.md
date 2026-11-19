@@ -3,7 +3,7 @@ id: 2c819105-3049-4489-a17e-770fc0fb0ed7
 title: "Primary and lower secondary school"
 linkTitle: "Primary and lower secondary school"
 weight: 30
-lastmod: 2026-11-19T23:11:48+01:00
+lastmod: 2026-11-20T00:30:48+01:00
 last_editor: Erik Hagen
 
 ---
