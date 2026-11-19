@@ -61,7 +61,7 @@ Opplæringslova § 25-2 har følgende hjemmel for database for vitnemål og anne
 >
 > *Databasen kan også innehalde vitnemål og annan dokumentasjon av kompetanse frå anna opplæring og utdanning i den mon det tener til å oppfylle eitt eller fleire av formåla i første ledd.*
 >
-> *Databasen kan dele fødselsnummeret eller D-nummeret til ein person og informasjon om kva for dokumentasjon av kompetansen til personen databasen inneheld automatisk med ein portal for deling av vitnemål og dokumentasjon av kompetanse, jf. [universitets- og høyskoleloven § 15-1](https://lovdata.no/pro/#reference/lov/2024-03-08-9/%C2%A715-1). Vitnemål og dokumentasjon av kompetanse kan berre delast når den registrerte har bestemt det.*
+> *Databasen kan dele fødselsnummeret eller D-nummeret til ein person og informasjon om kva for dokumentasjon av kompetansen til personen databasen inneheld automatisk med ein portal for deling av vitnemål og dokumentasjon av kompetanse, jf. [universitets- og høyskoleloven § 15-1](https://lovdata.no/lov/2024-03-08-9/%C2%A715-1). Vitnemål og dokumentasjon av kompetanse kan berre delast når den registrerte har bestemt det.*
 >
 > *Departementet kan gi forskrift om behandling av personopplysningar i databasen, mellom anna om formålet med behandlinga, behandlingsansvar, kva opplysningar som kan behandlast og om kven, og tilgang til, vidarebehandling og utlevering av personopplysningar.*
 
@@ -77,9 +77,9 @@ Opplæringslova § 25-2 er en videreføring av den gamle lovens § 3-14.[^1] Bes
 
 Etter opplæringslova § 25-2 annet ledd skal kompetansebevis leveres til NVB. I praksis blir ikke dette gjort. Dette er et avvik mellom regelverk og praksis som etter vår forståelse har bakgrunn i manglende teknisk tilrettelegging både i NVB og for obligatoriske leveranser fra skoleadministrative systemer. Dette bør det tilrettelegges for, og vi viser også til departementets uttalelse i forarbeidene om at «det er viktig at databasen skal innehalde alle typar dokumentasjon om oppnådd kompetanse frå norsk vidaregåande opplæring. Dette er viktig både for bruk til det samordna opptaket, for å hindre dokumentfalsk og for arkiveringsformål.»[^2]
 
-Tredje ledd åpner for at «vitnemål og annan dokumentasjon av kompetanse frå anna opplæring og utdanning» kan legges inn i NVB, så lenge det oppfyller ett eller flere av formålene opplistet i første ledd. Ifølge forarbeidene (Prop.57 L (2022-2023 s. 65) kan vitnemål fra fagskoler legges inn i databasen. Da det åpnes for at databasen også kan inneholde dokumentasjon fra «anna opplæring og utdanning» hvis det oppfyller ett eller flere av formålene i første ledd, slik at også fag- og svennebrev omfattes av bestemmelsen. Det foreligger derfor rettslig grunnlag for å inkludere både vitnemål fra fagskoler, samt fag- og svennebrev som «annan dokumentasjon av oppnådd kompetanse» i NVB.
+Tredje ledd åpner for at «vitnemål og annan dokumentasjon av kompetanse frå anna opplæring og utdanning» kan legges inn i NVB, så lenge det oppfyller ett eller flere av formålene opplistet i første ledd. Ifølge forarbeidene (Prop. 57 L (2022–2023) s. 65) kan vitnemål fra fagskoler legges inn i databasen. Da det åpnes for at databasen også kan inneholde dokumentasjon fra «anna opplæring og utdanning» hvis det oppfyller ett eller flere av formålene i første ledd, slik at også fag- og svennebrev omfattes av bestemmelsen. Det foreligger derfor rettslig grunnlag for å inkludere både vitnemål fra fagskoler, samt fag- og svennebrev som «annan dokumentasjon av oppnådd kompetanse» i NVB.
 
-Fjerde ledd muliggjør at NVB kan koble seg til Vitnemålsportalen slik at den registrerte kan dele opplysninger om kompetansen sin via denne portalen. Per i dag benyttes Vitnemålsportalen kun for deling av resultater fra høyere utdanning, til tross for at det rettslige grunnlaget for å dele resultater fra videregående opplæring allerede er på plass, se mer i 2.2.
+Fjerde ledd muliggjør at NVB kan koble seg til Vitnemålsportalen slik at den registrerte kan dele opplysninger om kompetansen sin via denne portalen. Per i dag benyttes Vitnemålsportalen kun for deling av resultater fra høyere utdanning, til tross for at det rettslige grunnlaget for å dele resultater fra videregående opplæring allerede er på plass, se mer i 3.2.
 
 NVB har i dag en kontrollmotor som verifiserer vitnemål. Det kontrolleres om de er ført i henhold til gjeldende standarder: kontrollmotoren sammenligner vitnemålsopplysningene opp mot gjeldende læreplanregelverk og føringsregler fastsatt av Utdanningsdirektoratet (Udir). Kontrollmotoren vil ikke være en del av det nye registeret, men fortsette som en selvstendig tjeneste.
 
@@ -87,7 +87,7 @@ NVB har i dag en kontrollmotor som verifiserer vitnemål. Det kontrolleres om de
 
 I forbindelse med forslaget om å innføre en bestemmelse om bruk av NVB[^3] ble det gjort vurderinger av personvernkonsekvenser av registeret. Det ble konkludert med at behandling av personopplysninger i NVB ikke utgjør en inngripende trussel mot personvernet til den enkelte registrerte, og at løsningen innebærer store fordeler, se Prop. 145 L (2020–2021). Sikt – Kunnskapssektorens tjenesteleverandør ble angitt som behandlingsansvarlig for databasen i opplæringsforskrifta § 20-6. Det presiseres at opplysningene kan brukes til analyse, statistikk og forskning.
 
-Det er åpning i opplæringslova § 25-2 for at databasen kan dele fødselsnummer/D-nummer og informasjon om dokumentasjon av kompetanse som databasen inneholder gjennom en portal for deling av vitnemål og kompetanse, jf. universitets- og høyskoleloven § 15-1. Dette er det det som i dag kalles Vitnemålsportalen, men som per nå kun benyttes for deling av resultater fra høyere utdanning.
+Det er åpning i opplæringslova § 25-2 for at databasen kan dele fødselsnummer/D-nummer og informasjon om dokumentasjon av kompetanse som databasen inneholder gjennom en portal for deling av vitnemål og kompetanse, jf. universitets- og høyskoleloven § 15-1. Dette er det som i dag kalles Vitnemålsportalen, men som per nå kun benyttes for deling av resultater fra høyere utdanning.
 
 ### 3.2 Vitnemålsportalen
 
@@ -109,7 +109,7 @@ Hjemmelen for deling av vitnemål gjennom portalen fremgår av universitets- og 
 
 Sikt er ansvarlig for driften av portalen og er behandlingsansvarlig for opplysningene i portalen, jf. universitets- og høyskoleforskriften § 10-2.
 
-Opplæringsloven § 25-2 legger til rette for at man kan benytte portalen til deling av resultater fra videregående opplæring, noe som i praksis ikke gjøres i dag. Det er etter vår vurdering ingen rettslig hindring for å utvide bruken til videregående opplæring, det gjenstår i hovedsak tekniske tilpasninger fra Sikt/NVB sin side, samt en avklaring av hvilken status den digitale dokumentasjonen skal ha (se punkt 3.1.2).
+Opplæringsloven § 25-2 legger til rette for at man kan benytte portalen til deling av resultater fra videregående opplæring, noe som i praksis ikke gjøres i dag. Det er etter vår vurdering ingen rettslig hindring for å utvide bruken til videregående opplæring, det gjenstår i hovedsak tekniske tilpasninger fra Sikt/NVB sin side, samt en avklaring av hvilken status den digitale dokumentasjonen skal ha (se punkt 4.1).
 
 ## 4 Overordnede forutsetninger for lovlig og effektiv lagring og deling av resultater
 
@@ -125,7 +125,7 @@ Som det fremgår av opplæringslova § 25-2 skal databasen legge til rette for s
 
 Dagens praksis og tekniske løsninger innebærer at det vil være vanskelig å utelukkende ha digitale vitnemål og annen dokumentasjon på kompetanse som eneste gyldige dokumentformat for oppnådd kompetanse.[^9] Selv om dokumentasjonen skal være digital, må papirvitnemål kunne være et alternativ til og likestilt med papirvitnemål når dette er nødvendig.
 
-Det vil være mulig å ha en «heldigital» løsning der hovedregelen er at alle vitnemål utstedes digitalt. Det forutsetter imidlertid en personsentrisk utdannings-ID, se punkt 3.2, men det kan ikke utelukkes at det vil være tilfeller der en tidligere elev må ha verifisert papirdokumentasjon (f.eks. i forbindelse med opptak til studier i utlandet). Vi vurderer derfor per nå at vitnemål ikke utelukkende utstedes digitalt – vi må åpne for papirdokumentasjon i alle fall unntaksvis.
+Det vil være mulig å ha en «heldigital» løsning der hovedregelen er at alle vitnemål utstedes digitalt. Det forutsetter imidlertid en personsentrisk utdannings-ID, se punkt 4.2, men det kan ikke utelukkes at det vil være tilfeller der en tidligere elev må ha verifisert papirdokumentasjon (f.eks. i forbindelse med opptak til studier i utlandet). Vi vurderer derfor per nå at vitnemål ikke utelukkende utstedes digitalt – vi må åpne for papirdokumentasjon i alle fall unntaksvis.
 
 Dermed vurderes det at det ikke kreves lovendring for å åpne for bruk av digitale vitnemål, kompetansebevis og annen dokumentasjon som gyldig dokumentasjon på oppnådde resultater. For at resultater i NVB skal anerkjennes som gyldig dokumentasjon på oppnådde resultater, forutsetter dette en presisering i Udir sine retningslinjer for føring av vitnemål, kompetansebevis og annen dokumentasjon.
 
@@ -138,7 +138,7 @@ I dag knyttes en persons identifikator innen utdanning til den aktuelle institus
 Dette ville håndtert en rekke praktiske problemer med dagens identifikasjonsordninger, som at:
 
 - Flyktninger/asylsøkere og elever uten fødselsnummer eller D-nummer får ikke utstedt ID-løsninger som knyttes til personnummer, som BankID og MinID. Sentrale ID-ordninger blir dermed utilgjengelig for disse.[^10]
-- En del elever har ikke tilgang til disse ID-løsningene selv om de har fødselsnummer/D-nummer. Det er rundt 12-14 års aldersgrense for å opprette f.eks. BankID og MinID. I tillegg er foreldres samtykke påkrevet for at personer under 18 år skal få BankID. MinID kan barn imidlertid bestille på egenhånd året de fyller 13 år.[^11] Praksis viser imidlertid at dette ikke er alle elever som greier å få dette på plass på egenhånd før f.eks. skoleopptak mv. Digitaliseringsdirektoratet jobber med å få på plass en ny ordning, [MinID for ungdom | DigiUng](https://www.digiung.no/minid-ungdom). Dette har som mål å få utstedelsen gjennomført i skolen, med mål om gjennomføring i 2026. Etter det vi er kjent med er arbeidet noe forsinket.
+- En del elever har ikke tilgang til disse ID-løsningene selv om de har fødselsnummer/D-nummer. Det er en aldersgrense på rundt 12–14 år for å opprette f.eks. BankID og MinID. I tillegg er foreldres samtykke påkrevet for at personer under 18 år skal få BankID. MinID kan barn imidlertid bestille på egenhånd året de fyller 13 år.[^11] Praksis viser imidlertid at ikke alle elever greier å få dette på plass på egenhånd før f.eks. skoleopptak mv. Digitaliseringsdirektoratet jobber med å få på plass en ny ordning, [MinID for ungdom | DigiUng](https://www.digiung.no/minid-ungdom). Dette har som mål å få utstedelsen gjennomført i skolen, med mål om gjennomføring i 2026. Etter det vi er kjent med er arbeidet noe forsinket.
 
 Mangel på en personsentrisk utdannings-ID har konsekvenser ved eksempelvis søknad til videregående opplæring via Vigo, hvor inntak forutsetter pålogging med MinID eller BankID. Elever uten fullverdig digital identitet kan dermed oppleve praktiske hindringer for å utøve sin rett etter opplæringslova § 5-1 til videregående opplæring. Det samme problemet vil oppstå når de skal skaffe seg tilgang til dokumentasjon på oppnådde resultater i ettertid.
 
@@ -150,11 +150,11 @@ En personsentrisk utdannings-ID kan gi eleven en unik identifikator knyttet til 
 
 En slik ID må etableres med rettslig grunnlag. Etter vår vurdering er det ikke tilstrekkelig grunnlag i dagens regelverk, verken opplæringslova § 25-1 (om behandling av personopplysninger generelt) eller § 25-3 (om innhenting av opplysninger fra Folkeregisteret) gir hjemmel for å opprette og forvalte en egen, utdanningsspesifikk personidentifikator. En ny bestemmelse må etableres dersom dette skal innføres.
 
-En personsentrisk utdannings-ID er en forutsetning for å få full nytte av en utvikling av regelverket for lagring og deling av resultater fra barn- og unges utdanningsløp, bør det derfor på sikt etableres en personsentrisk utdannings-ID.
+Siden en personsentrisk utdannings-ID er en forutsetning for å få full nytte av en utvikling av regelverket for lagring og deling av resultater fra barn og unges utdanningsløp, bør det på sikt etableres en personsentrisk utdannings-ID.
 
 ### 4.3 Behandling av personopplysninger krever rettslig grunnlag
 
-Behandling av personopplysninger krever et rettslig grunnlag, jf. GDPR art. 6. Det vil kreves behandlingsgrunnlag for to ulike behandlingsaktiviteter: Lagring av resultater og deling av resultater. For lagring i registeret vurderes ikke samtykke for å være særlig egnet.[^12] Etter vår vurdering er den mest aktuelle hjemmelen at behandlingen er nødvendig for å utføre en oppgave i allmenhetens interesse eller utøve offentlig myndighet som den behandlingsansvarlige er pålagt, jf. GDPR art. 6 bokstav e. Dette forutsetter ifølge art. 6 nr. 3 et grunnlag for behandlingen i unionsretten eller nasjonal rett. Forslag til disse grunnlagene presenteres i punkt 4-6.
+Behandling av personopplysninger krever et rettslig grunnlag, jf. GDPR art. 6. Det vil kreves behandlingsgrunnlag for to ulike behandlingsaktiviteter: Lagring av resultater og deling av resultater. For lagring i registeret vurderes ikke samtykke for å være særlig egnet.[^12] Etter vår vurdering er den mest aktuelle hjemmelen at behandlingen er nødvendig for å utføre en oppgave i allmenhetens interesse eller utøve offentlig myndighet som den behandlingsansvarlige er pålagt, jf. GDPR art. 6 bokstav e. Dette forutsetter ifølge art. 6 nr. 3 et grunnlag for behandlingen i unionsretten eller nasjonal rett. Forslag til disse grunnlagene presenteres i punkt 5–8.
 
 Deling til tredjepart stiller seg noe annerledes. Her er den registrerte i en annen posisjon der de aktivt ønsker å dele sine resultater for å oppnå en fordel, som studieopptak, ansettelse mv. I slike tilfeller kan samtykke være aktuelt. For deling som ikke er initiert av den registrerte selv, typisk til Lånekassen, SSB for statistikkformål, eller til andre offentlige institusjoner, er samtykke derimot ikke tilstrekkelig, og slik deling må sannsynligvis ha hjemmel i forskrift med klare rammer for mottakerkrets, formål og varighet. Også for denne typen deling vurderes artikkel 6 bokstav e som korrekt behandlingsgrunnlag.
 
@@ -176,7 +176,7 @@ Opplæringslova § 25-2 pålegger tilbydere av videregående opplæring å lever
 
 #### 5.1.2 Hjemle retten til å lagre utdanningsdokumentasjon i en samlet lov eller forskrift
 
-Et alternativ kan være å regulere retten til å lagre (og dele) resultater i en egen forskrift. Dette vurdere vi som særlig aktuelt dersom man går inn for en mer fullverdig oversikt over dokumentasjon på utdanning, som også inneholder høyere utdanning. Dette beskrives nedenfor i punkt 7.
+Et alternativ kan være å regulere retten til å lagre (og dele) resultater i en egen forskrift. Dette vurderer vi som særlig aktuelt dersom man går inn for en mer fullverdig oversikt over dokumentasjon på utdanning, som også inneholder høyere utdanning. Dette beskrives nedenfor i punkt 9.1.
 
 ### 5.2 Hjemmel for deling av resultater fra grunnskolen
 
@@ -184,7 +184,7 @@ Ved utvidelse av opplæringslova § 25-2 til å også omfatte resultater fra gru
 
 For å sikre at elevene i praksis kan benytte seg av delingsportalen må lovteksten kreve at opplysningene «skal» deles med Vitnemålsportalen.
 
-Portalen bør også kunne dele informasjon med institusjoner og virksomheter som har hjemmel til å innhente vitnemål og lignende dokumentasjon fra NVB. Selv om noen har hjemmel til å innhente dokumentasjon fra NVB, trenger NVB et behandlingsgrunnlag for å lovlig kunne gi ut resultatene. Da vil det være hensiktsmessig å lovfeste plikten til å dele informasjonen. Behandlingsgrunnlaget vil være som omtalt i punkt 4.3, En slik bestemmelsen bør formuleres likt som i universitets- og høyskoleforskriften § 10-2 (2).
+Portalen bør også kunne dele informasjon med institusjoner og virksomheter som har hjemmel til å innhente vitnemål og lignende dokumentasjon fra NVB. Selv om noen har hjemmel til å innhente dokumentasjon fra NVB, trenger NVB et behandlingsgrunnlag for å lovlig kunne gi ut resultatene. Da vil det være hensiktsmessig å lovfeste plikten til å dele informasjonen. Behandlingsgrunnlaget vil være som omtalt i punkt 4.3. En slik bestemmelse bør formuleres likt som i universitets- og høyskoleforskriften § 10-2 (2).
 
 ## 6 Videregående opplæring
 
@@ -210,7 +210,7 @@ I tillegg til hjemmelsutfordringene ved behandlingen av resultater gjennom lagri
 
 For NVB er det presisert i opplæringsforskrifta § 20-6 at Sikt er behandlingsansvarlig for databasen. Videre presiseres det at opplysningene i databasen kan benyttes som grunnlag for analyse, statistikk og forskning. Dette kan tolkes slik at innholdet i vitnemålene og behandlingsansvaret for dette ligger hos skoleeierne (ev. fagskoler) som opprinnelig har overført vitnemål til NVB, og at Sikt er databehandler. Dette er imidlertid ikke diskutert eller presisert noe sted, og er noe som må utredes nærmere. Dersom skolene skulle vært behandlingsansvarlige, bør det tas stilling til hvem som overtar dette ansvaret hvis en institusjon legges ned.
 
-Ved føring av vitnemål, sendes vitnemålene gjennom en kontrollmotor for å kontrollere at vitnemålene er korrekt ført.[^15] Dette skjer også ved overføring av vitnemålene til NVB, Vi kan ikke se at det er tatt stilling til hvem som er behandlingsansvarlig for denne behandlingen eller hva behandlingsgrunnlaget er, men da kontrollmotoren skal skilles ut fra NVB går vi ikke nærmere inn på dette.
+Ved føring av vitnemål, sendes vitnemålene gjennom en kontrollmotor for å kontrollere at vitnemålene er korrekt ført.[^15] Dette skjer også ved overføring av vitnemålene til NVB. Vi kan ikke se at det er tatt stilling til hvem som er behandlingsansvarlig for denne behandlingen eller hva behandlingsgrunnlaget er, men da kontrollmotoren skal skilles ut fra NVB går vi ikke nærmere inn på dette.
 
 ### 7.2 Behandlingsansvar for Vitnemålsportalen
 
@@ -220,7 +220,7 @@ I henhold til universitets- og høyskoleforskriften § 10-2 tredje ledd er Sikt 
 
 ### 8.1 Universitet og høyskole
 
-For å oppnå en samlet database for dokumentasjon av kompetanse må også resultater fra høyere utdanning inn i databasen. Dermed må det hjemles i lov at universiteter og høyskoler skal levere dokumentasjon om kompetanse til databasen. Dette kan gjøres i samme format som i opplæringslova § 25-2 enten i egen bestemmelse i universitets- og høyskoleloven eller -forskriften, eventuelt samlet forskrift for database med resultater, se punkt 9.2.
+For å oppnå en samlet database for dokumentasjon av kompetanse må også resultater fra høyere utdanning inn i databasen. Dermed må det hjemles i lov at universiteter og høyskoler skal levere dokumentasjon om kompetanse til databasen. Dette kan gjøres i samme format som i opplæringslova § 25-2 enten i egen bestemmelse i universitets- og høyskoleloven eller -forskriften, eventuelt samlet forskrift for database med resultater, se punkt 9.1.
 
 ### 8.2 Fagskole
 
@@ -245,7 +245,7 @@ En slik løsning krever to hjemler som i dag mangler:
 
 ### 9.1 Lov eller forskrift om database for kompetanse
 
-Som nevnt tidligere, kan et alternativ for å hjemle rett til lagring og deling av resultater gjøres i egen lov eller forskrift. Forskrifter kan gis med hjemmel i flere lover. Dette vil være særlig hensiktsmessig dersom man skal etablere en database med en mest mulig fullverdig oversikt over den enkeltes kompetanse. For det første vil bestemmelsene om føring av resultater, utstedelse og overføring til databasen være teknisk og det kan argumenteres for at det er noe på siden av det som allerede reguleres i lover om utdanning og kompetanse. For det andre vil det medfører en større grad av fleksibilitet dersom det må skje endringer i bestemmelsene, fremfor at det må gjøres endringer i flere enkeltlover og -forskrifter.
+Som nevnt tidligere, kan et alternativ for å hjemle rett til lagring og deling av resultater gjøres i egen lov eller forskrift. Forskrifter kan gis med hjemmel i flere lover. Dette vil være særlig hensiktsmessig dersom man skal etablere en database med en mest mulig fullverdig oversikt over den enkeltes kompetanse. For det første vil bestemmelsene om føring av resultater, utstedelse og overføring til databasen være teknisk og det kan argumenteres for at det er noe på siden av det som allerede reguleres i lover om utdanning og kompetanse. For det andre vil det medføre en større grad av fleksibilitet dersom det må skje endringer i bestemmelsene, fremfor at det må gjøres endringer i flere enkeltlover og -forskrifter.
 
 ### 9.2 Databasen må være autoritativ kilde til resultater
 
@@ -268,7 +268,7 @@ Det må etableres tilstrekkelige tekniske løsninger for å sikre integriteten t
 [^9]: For eksempel kan utenlandske elever ha behov for en papirutskrift, og noen utdanningsinstitusjoner i utlandet kan kreve papirvitnemål som del av opptaksprosessen.
 [^10]: Som NOAS dokumenterer i Rikets tilstand 2024, kapittel «Usikker oppholdsstatus»: «Ungdommer får ikke fullført videregående skole fordi de som lærlinger er avhengig av førerkort og bankkonto, og foreldre kan ikke ha vanlig kommunikasjon med barnehage/skole som krever BankID eller annen eID på høyt sikkerhetsnivå for innlogging på nettbaserte informasjonsløsninger.»
 [^11]: [Bruk MinID for å logge deg inn | Norge.no](https://www.norge.no/nb/bruk-minid-logge-deg-inn/51)
-[^12]: GDPR art. 8 og personopplysningsloven § 5 setter en nedre aldersgrense på 13 år for barns samtykke til informasjonssamfunnstjenester. De fleste som har vitnemål vil være rundt 15 år. Likevel er de for det første er det upraktisk å innhente gyldig samtykke fra samtlige elever, særlig hvis man ønsker at alle barn skal ha tilgang til vitnemålene sine i lang tid fremover. Lagringen bør da være obligatorisk. I tillegg foreligger det en maktubalanse mellom elever og skolene som gjør samtykke lite egnet.
+[^12]: GDPR art. 8 og personopplysningsloven § 5 setter en nedre aldersgrense på 13 år for barns samtykke til informasjonssamfunnstjenester. De fleste som har vitnemål vil være rundt 15 år. Likevel er det for det første upraktisk å innhente gyldig samtykke fra samtlige elever, særlig hvis man ønsker at alle barn skal ha tilgang til vitnemålene sine i lang tid fremover. Lagringen bør da være obligatorisk. I tillegg foreligger det en maktubalanse mellom elever og skolene som gjør samtykke lite egnet.
 [^13]: [Prop. 145 L (2020–2021) - regjeringen.no](https://www.regjeringen.no/no/dokumenter/prop.-145-l-20202021/id2842962/?ch=2) kap. 2.4.7.5.
 [^14]: Prop. 57 L (2022-2023) kap. 69 merknad til § 1-2 (1)
 [^15]: [Prop. 145 L (2020–2021) - regjeringen.no](https://www.regjeringen.no/no/dokumenter/prop.-145-l-20202021/id2842962/?ch=2) kap. 2.4.7.1.
