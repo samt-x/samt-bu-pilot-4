@@ -3,6 +3,9 @@ id: cae22a93-8228-4a7c-a992-78a10058f2c5
 title: "Dream journey"
 linkTitle: "Dream journey"
 weight: 10
+lastmod: 2026-11-20T01:09:36+01:00
+last_editor: Erik Hagen
+
 ---
 The dream journey describes how things should work for the citizen when everything is in place. It guides the work in the pilot.
 
