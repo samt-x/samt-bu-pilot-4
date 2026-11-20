@@ -46,7 +46,7 @@ Martin presented a technical architecture centred on the FS GraphQL API. The ske
 
 - The school systems, with the data Sikt needs: individual results, qualifications, the national identity number of the result owner and the national identity number of the user delivering the data (for audit).
 - Authentication against the FS GraphQL API through Maskinporten and Feide, possibly ID-porten via Feide.
-- The registers for information about, storage of and sharing of education and certificates of competence: the Education Register, the Competence Register and the Diploma Portal respectively.
+- The registers for information about, storage of and sharing of education and certificates of competence: the Education Register, the Competence Register and Vitnemålsportalen (the Norwegian Diploma Registry) respectively.
 - Links to international integrations such as EMREX, OOTS/SDG and the EUDI Wallet.
 
 The discussion revealed that some of the data we want to store originates from the Grep and Vigo code lists, not from the school systems themselves. This must be followed up when we look more closely at the data model. There was also discussion of how the school systems deliver diplomas in municipalities and county authorities today (Vigo and FINT), and that this intermediary may affect how the architecture is finally designed. How these delivery chains are to be handled in the new architecture is an open question the project must address.

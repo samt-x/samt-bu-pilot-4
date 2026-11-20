@@ -147,7 +147,7 @@ Digital results have equal legal standing with paper documentation.
 
 Public agencies and private organisations can retrieve education results easily – with a legal basis or the citizen's consent.
 
-Citizens have all their results and diplomas from education collected in one place, from which they can be shared through Vitnemålsportalen (the Norwegian Diploma Registry portal).
+Citizens have all their results and diplomas from education collected in one place, from which they can be shared through Vitnemålsportalen (the Norwegian Diploma Registry).
 
 Citizens in Norway are able to use their education across borders through EMREX, the EU Digital Identity Wallet and the Once-Only Technical System.
 
@@ -433,7 +433,7 @@ The recommended terms are kept in Norwegian, as they will be registered, with an
 | KREG (Kompetanseregisteret, the competence register) | Future national register for results and qualifications from education and training, managed by Sikt. Name not finally decided. | – | [13][14]. |
 | NVB (Nasjonal vitnemålsdatabase, the National Diploma Database) | Today's register at Sikt for diplomas and certificates of competence from upper secondary education; used by Samordna opptak. | – | [5][6][15]. |
 | Utdanningsregisteret (the education register) | Future master data register for education (specifications and offerings); currently onboarding tertiary vocational and higher education. | – | [16][12: working meeting 8]. |
-| Vitnemålsportalen (the Diploma Registry portal) | Sikt's service where citizens retrieve and share their own results. | – | [12: working meeting 1]. |
+| Vitnemålsportalen (the Norwegian Diploma Registry) | Sikt's service where citizens retrieve and share their own results. | – | [12: working meeting 1]. |
 | FINT | Novari's common component and information model for data from the county authorities' school administration systems. | – | [7]. |
 | InSchool | School administration system for public upper secondary schools (Visma). | – | [17]. |
 | VIGO | The county authorities' system for admission and vocational training; produces diplomas for vocational training. | – | [17]. |

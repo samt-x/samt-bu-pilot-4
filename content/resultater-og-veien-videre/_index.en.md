@@ -14,7 +14,7 @@ The pilot was carried out May–August 2026. It delivered groundwork, not techni
 - **Direct integration with KREG.** The pilot recommends that results from upper secondary education are delivered directly to the Competence Register (KREG), not via FINT. The collaboration group adopted the recommendation on 28 August 2026; the formal decision rests with the system owners. See [Architecture and information model](../leveranser/arkitektur-og-informasjonsmodell/).
 - **Validation and submission are separated.** KREG shall receive all documentation, including what does not validate, with an explicit quality state. The validation service is offered as a separate component.
 - **Today's file submission to NVB is phased out**, together with the position-based «soltegn» format.
-- **The information model is oriented towards the European Learning Model (ELM v3).** Sikt is also adapting the Diploma Portal to ELM and the requirements of the Single Digital Gateway.
+- **The information model is oriented towards the European Learning Model (ELM v3).** Sikt is also adapting Vitnemålsportalen (the Norwegian Diploma Registry) to ELM and the requirements of the Single Digital Gateway.
 - **New legal bases are needed** to gather diplomas and results in a register that is an authoritative source, and to make digital diplomas equivalent to paper. See [Legal needs](../leveranser/juridiske-behov/).
 - **The system vendors have been mapped**, see [System vendors](../leveranser/systemleverandorer/).
 
