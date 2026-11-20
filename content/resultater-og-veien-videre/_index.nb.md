@@ -36,7 +36,7 @@ Til sammenligning er 85 % av vitnemålene i universitets- og høyskolesektoren n
 
 ## Veien videre
 
-- Rapporten anbefaler å starte den tekniske realiseringen sammen med Novari. Se [Konklusjon og veien videre](../leveranser/arkitektur-og-informasjonsmodell/konklusjon-og-veien-videre/) i arkitekturrapporten.
+- Rapporten anbefaler å starte den tekniske realiseringen sammen med Novari. Se [Konklusjon og veien videre](../leveranser/arkitektur-og-informasjonsmodell/#konklusjon-og-veien-videre) i arkitekturrapporten.
 - Kommuner, fylkeskommuner og leverandører er nøkkelpartnere. Sikt trenger innsikt i hvilke data som finnes og hvordan de er strukturert.
 - De juridiske avklaringene pågår parallelt. Lovendringer avgjør når dette kan settes i produksjon.
 - Vil du bidra i kartleggingen, ta kontakt med Sikt (kontakt@sikt.no).

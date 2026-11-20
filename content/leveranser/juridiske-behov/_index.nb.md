@@ -20,7 +20,11 @@ Vitnemål fra videregående opplæring registreres digitalt i Nasjonal vitnemål
 
 Dette dokumentet presenterer de juridiske behovene som må adresseres for å oppnå forenklet og helhetlig digital deling av resultater hele utdanningsløpet. Det er begrenset til hjemmelsspørsmål og rammene for personvern; tekniske og organisatoriske forhold drøftes kun der de har direkte rettslig betydning.
 
-## Samlet database for dokumentasjon av kompetanse
+## Dagens hjemler
+
+Kapitlet beskriver behovet for en samlet database, dagens hjemler og det eksisterende grunnlaget for deling og lagring av resultater.
+
+### Behovet for en samlet database
 
 I dagens kompetansesamfunn går arbeidsmarkedet gjennom raske endringer og vi får et stadig mer kunnskapsintensivt arbeidsliv. Stortingsmelding 14 (2022/23) *Utsyn over kompetansebehovet i Norge* beskriver hvordan vi som samfunn har behov for en mer produktiv arbeidsstyrke, kompetanse til å gjennomføre det grønne skiftet og at en godt utdannet befolkning er en del av forsikringen vår for framtiden.
 
@@ -28,7 +32,7 @@ Kompetansebehovsutvalget omtaler at omstilling i arbeidslivet medfører at arbei
 
 Når det først settes i gang et arbeid med å sikre tilgang til resultater på en bedre og mer sammenhengende måte for barn- og unge, bør dette arbeidet utvides til å dekke et livsløpsperspektiv. Dette vil sikre en samlet oversikt over kompetanse i befolkningen, tilgjengelighet til ens egne resultater, styrke sammenhengende tjenester og automatisering (effektivisering i bl.a. Lånekassen, Samordna opptak, HMS), tilgang til statistikk og samfunnsplanlegging, forhindre tap av dokumentasjon ved konkurser m.m., tilrettelegging for studentmobilitet, integrasjon med EU-initiativer som digital ID-lommebok og andre tekniske fordeler, samt gi økonomiske gevinster.
 
-## Oversikt over dagens hjemler og behov for nye hjemler
+### Oversikt over dagens hjemler og behov for nye hjemler
 
 | Utdanningsnivå | Hjemmel for lagring av resultater (NVB) | Registeret som autoritativ kilde for resultater | Hjemmel for framvisning i vitnemålsportalen | Hjemmel for lagringsformat |
 |---|---|---|---|---|
@@ -37,11 +41,11 @@ Når det først settes i gang et arbeid med å sikre tilgang til resultater på 
 | **Fagskoler** | Fagskoleloven § 41 | (trenger hjemmel) | Fagskoleloven § 41 | |
 | **Universiteter og høyskoler** | (trenger hjemmel) | (trenger hjemmel) | UH-loven § 15-1 | |
 
-## Eksisterende grunnlag for deling og lagring av resultater
+### Eksisterende grunnlag for deling og lagring av resultater
 
-### Nasjonal vitnemålsdatabase (NVB)
+#### Nasjonal vitnemålsdatabase (NVB)
 
-#### Regulering i lov og forskrift
+##### Regulering i lov og forskrift
 
 Opplæringslova § 25-2 har følgende hjemmel for database for vitnemål og annen dokumentasjon på oppnådd kompetanse fra videregående opplæring:
 
@@ -69,7 +73,7 @@ Videre presiserer opplæringsforskrifta § 20-6 følgende:
 
 > *Sikt – Kunnskapssektorens tenesteleverandør er behandlingsansvarleg for den nasjonale databasen for vitnemål og annan dokumentasjon av oppnådd kompetanse frå vidaregåande opplæring. Opplysningane i databasen kan brukast som grunnlag for analyse, statistikk og forsking.*
 
-#### Dagens bruk av NVB
+##### Dagens bruk av NVB
 
 Formålet bak opprettelsen av databasen var å effektivisere opptak til høyere utdanning, ved å tilrettelegge for automatisert saksbehandling av søknadene til opptak og automatisk kvalitetssikring av vitnemålene. Det gjøres gjennom et utviklet kontrollprogram. Dataene blir også utlevert til SSB og benyttes til utvikling av opptakstjenestene.
 
@@ -83,13 +87,13 @@ Fjerde ledd muliggjør at NVB kan koble seg til Vitnemålsportalen slik at den r
 
 NVB har i dag en kontrollmotor som verifiserer vitnemål. Det kontrolleres om de er ført i henhold til gjeldende standarder: kontrollmotoren sammenligner vitnemålsopplysningene opp mot gjeldende læreplanregelverk og føringsregler fastsatt av Utdanningsdirektoratet (Udir). Kontrollmotoren vil ikke være en del av det nye registeret, men fortsette som en selvstendig tjeneste.
 
-#### Departementets vurdering av personvern i NVB
+##### Departementets vurdering av personvern i NVB
 
 I forbindelse med forslaget om å innføre en bestemmelse om bruk av NVB[^3] ble det gjort vurderinger av personvernkonsekvenser av registeret. Det ble konkludert med at behandling av personopplysninger i NVB ikke utgjør en inngripende trussel mot personvernet til den enkelte registrerte, og at løsningen innebærer store fordeler, se Prop. 145 L (2020–2021). Sikt – Kunnskapssektorens tjenesteleverandør ble angitt som behandlingsansvarlig for databasen i opplæringsforskrifta § 20-6. Det presiseres at opplysningene kan brukes til analyse, statistikk og forskning.
 
 Det er åpning i opplæringslova § 25-2 for at databasen kan dele fødselsnummer/D-nummer og informasjon om dokumentasjon av kompetanse som databasen inneholder gjennom en portal for deling av vitnemål og kompetanse, jf. universitets- og høyskoleloven § 15-1. Dette er det som i dag kalles Vitnemålsportalen, men som per nå kun benyttes for deling av resultater fra høyere utdanning.
 
-### Vitnemålsportalen
+#### Vitnemålsportalen
 
 Vitnemålsportalen er en digital delingsplattform der man kan hente ut egne resultater fra høyere utdanning og dele dem med studiesteder, potensielle arbeidsgivere og andre relevante tredjeparter. Når man logger inn i Vitnemålsportalen hentes resultatene direkte fra databasene til utdanningsinstitusjonene som man har studert ved.
 
@@ -111,7 +115,7 @@ Sikt er ansvarlig for driften av portalen og er behandlingsansvarlig for opplysn
 
 Opplæringsloven § 25-2 legger til rette for at man kan benytte portalen til deling av resultater fra videregående opplæring, noe som i praksis ikke gjøres i dag. Det er etter vår vurdering ingen rettslig hindring for å utvide bruken til videregående opplæring, det gjenstår i hovedsak tekniske tilpasninger fra Sikt/NVB sin side, samt en avklaring av hvilken status den digitale dokumentasjonen skal ha (se [gyldig dokumentasjon på oppnådd kompetanse](#digitale-vitnemål-og-kompetansebevis-må-være-gyldig-dokumentasjon-på-oppnådd-kompetanse)).
 
-## Overordnede forutsetninger for lovlig og effektiv lagring og deling av resultater
+## Forutsetninger for lovlig og effektiv lagring og deling
 
 ### Digitale vitnemål og kompetansebevis må være gyldig dokumentasjon på oppnådd kompetanse
 
@@ -154,13 +158,17 @@ Siden en personsentrisk utdannings-ID er en forutsetning for å få full nytte a
 
 ### Behandling av personopplysninger krever rettslig grunnlag
 
-Behandling av personopplysninger krever et rettslig grunnlag, jf. GDPR art. 6. Det vil kreves behandlingsgrunnlag for to ulike behandlingsaktiviteter: Lagring av resultater og deling av resultater. For lagring i registeret vurderes ikke samtykke for å være særlig egnet.[^12] Etter vår vurdering er den mest aktuelle hjemmelen at behandlingen er nødvendig for å utføre en oppgave i allmenhetens interesse eller utøve offentlig myndighet som den behandlingsansvarlige er pålagt, jf. GDPR art. 6 bokstav e. Dette forutsetter ifølge art. 6 nr. 3 et grunnlag for behandlingen i unionsretten eller nasjonal rett. Forslag til disse grunnlagene presenteres i kapitlene om [grunnopplæring](#grunnopplæring), [videregående opplæring](#videregående-opplæring), [behandlingsansvaret](#behandlingsansvaret-for-behandling-av-personopplysninger) og [høyere utdanning m.m.](#høyere-utdanning-mm)
+Behandling av personopplysninger krever et rettslig grunnlag, jf. GDPR art. 6. Det vil kreves behandlingsgrunnlag for to ulike behandlingsaktiviteter: Lagring av resultater og deling av resultater. For lagring i registeret vurderes ikke samtykke for å være særlig egnet.[^12] Etter vår vurdering er den mest aktuelle hjemmelen at behandlingen er nødvendig for å utføre en oppgave i allmenhetens interesse eller utøve offentlig myndighet som den behandlingsansvarlige er pålagt, jf. GDPR art. 6 bokstav e. Dette forutsetter ifølge art. 6 nr. 3 et grunnlag for behandlingen i unionsretten eller nasjonal rett. Forslag til disse grunnlagene presenteres i kapitlene om [grunnopplæring](#grunnopplæring), [videregående opplæring](#videregående-opplæring), [behandlingsansvaret](#behandlingsansvar) og [høyere utdanning m.m.](#høyere-utdanning-mm)
 
 Deling til tredjepart stiller seg noe annerledes. Her er den registrerte i en annen posisjon der de aktivt ønsker å dele sine resultater for å oppnå en fordel, som studieopptak, ansettelse mv. I slike tilfeller kan samtykke være aktuelt. For deling som ikke er initiert av den registrerte selv, typisk til Lånekassen, SSB for statistikkformål, eller til andre offentlige institusjoner, er samtykke derimot ikke tilstrekkelig, og slik deling må sannsynligvis ha hjemmel i forskrift med klare rammer for mottakerkrets, formål og varighet. Også for denne typen deling vurderes artikkel 6 bokstav e som korrekt behandlingsgrunnlag.
 
-## Grunnopplæring
+## Behov per utdanningsnivå
 
-### Hjemmel for lagring av resultater fra grunnskolen i en database
+Kapitlet beskriver behovet for hjemler for lagring og deling av resultater for hvert utdanningsnivå: grunnopplæring, videregående opplæring og høyere utdanning m.m.
+
+### Grunnopplæring
+
+#### Hjemmel for lagring av resultater fra grunnskolen i en database
 
 Å ha en database for vitnemål fra grunnskole er nødvendig for å sikre enkel og bedre tilgang til barns resultater for aktører som har behov for dette.
 
@@ -170,15 +178,15 @@ Videre sikrer det robusthet mot tap av vitnemål ved nedleggelse av skoler, komm
 
 Nedenfor presenteres alternativer for å sikre at det foreligger tilstrekkelig hjemmel for å etablere en slik database.
 
-#### Utvidelse av opplæringslova § 25-2
+##### Utvidelse av opplæringslova § 25-2
 
 Opplæringslova § 25-2 pålegger tilbydere av videregående opplæring å levere vitnemål til NVB. En lovendring i § 25-2 tredje ledd til å også å pålegge tilbydere av grunnskoleopplæring å levere vitnemål til NVB, vil være en tilstrekkelig hjemmel for at man kan lagre resultater fra grunnskolen. Av forslagene som innebærer at det må etableres nye hjemler eller gjøres lovendringer, er sannsynligvis denne løsningen den mest tidsbesparende.
 
-#### Hjemle retten til å lagre utdanningsdokumentasjon i en samlet lov eller forskrift
+##### Hjemle retten til å lagre utdanningsdokumentasjon i en samlet lov eller forskrift
 
 Et alternativ kan være å regulere retten til å lagre (og dele) resultater i en egen forskrift. Dette vurderer vi som særlig aktuelt dersom man går inn for en mer fullverdig oversikt over dokumentasjon på utdanning, som også inneholder høyere utdanning. Dette beskrives nedenfor under [Lov eller forskrift om database for kompetanse](#lov-eller-forskrift-om-database-for-kompetanse).
 
-### Hjemmel for deling av resultater fra grunnskolen
+#### Hjemmel for deling av resultater fra grunnskolen
 
 Ved utvidelse av opplæringslova § 25-2 til å også omfatte resultater fra grunnskole, vil det innebære at man også kan dele resultatene i vitnemålsportalen, jf. § 25-2 fjerde ledd. Ifølge bestemmelsen «kan» databasen «dele fødselsnummeret eller D-nummeret til ein person og informasjon om kva for dokumentasjon av kompetansen til personen […]» i NVB med Vitnemålsportalen. Disse opplysningene er nødvendige for at Vitnemålsportalen skal fungere som en plattform for deling av resultater.
 
@@ -186,9 +194,9 @@ For å sikre at elevene i praksis kan benytte seg av delingsportalen må lovteks
 
 Portalen bør også kunne dele informasjon med institusjoner og virksomheter som har hjemmel til å innhente vitnemål og lignende dokumentasjon fra NVB. Selv om noen har hjemmel til å innhente dokumentasjon fra NVB, trenger NVB et behandlingsgrunnlag for å lovlig kunne gi ut resultatene. Da vil det være hensiktsmessig å lovfeste plikten til å dele informasjonen. Behandlingsgrunnlaget vil være som omtalt under [Behandling av personopplysninger krever rettslig grunnlag](#behandling-av-personopplysninger-krever-rettslig-grunnlag). En slik bestemmelse bør formuleres likt som i universitets- og høyskoleforskriften § 10-2 (2).
 
-## Videregående opplæring
+### Videregående opplæring
 
-### Hjemmel for lagring av fag- og svennebrev
+#### Hjemmel for lagring av fag- og svennebrev
 
 Videregående opplæring i opplæringslovas forstand innebærer også læretid i bedrift[^14] og det skal utstedes fag- og svennebrev som dokumentasjon på bestått fag- og svenneprøve, jf. opplæringsforskrifta § 9-48. Som tidligere nevnt foreligger allerede klar hjemmel for lagring av vitnemål fra videregående i NVB. Hjemmelen omtaler ikke eksplisitt fag- og svennebrev.
 
@@ -196,13 +204,38 @@ Det er Fylkeskommunen som utsteder fag- eller svennebrev. Som nevnt under [Dagen
 
 For at databasen skal fungere som en fullstendig og autoritativ kilde for dokumentasjon fra grunn- og videregående opplæring, bør det bli et krav om at fag- og svennebrev skal leveres til NVB, i likhet med vitnemål og kompetansebevis. Dette kan gjennomføres ved at bestemmelsens andre ledd eksplisitt også omfatter fag- og svennebrev.
 
-### Hjemmel for deling av resultater fra videregående skole
+#### Hjemmel for deling av resultater fra videregående skole
 
 Uteksaminerte elever kan ikke selv dele sine vitnemål digitalt fra NVB. Hjemmelen i opplæringsloven § 25-2 som åpner for deling av dokumentasjon på oppnådd kompetanse gjennom en portal, medfører at det ikke er noen rettslig hindring i å utvide dagens Vitnemålsportal til også benyttes for dokumentasjon fra videregående opplæring. Dette forutsetter tekniske tilpasninger fra NVB sin side. Da kan eleven selv dele sine resultater når vedkommende selv ønsker det. Det bør imidlertid vurderes, som nevnt under [Hjemmel for deling av resultater fra grunnskolen](#hjemmel-for-deling-av-resultater-fra-grunnskolen), å ha et krav om deling av visse opplysninger til Vitnemålsportalen slik at elevene har en reell delingsmulighet.
 
 Portalen bør, som for resultater fra grunnskole, også kunne dele informasjon med institusjoner og virksomhet som har hjemmel til å innhente vitnemål og lignende dokumentasjon fra NVB. Selv om noen har hjemmel til å innhente dokumentasjon fra NVB, trenger NVB et behandlingsgrunnlag for å lovlig kunne gi ut resultatene. Da vil det være hensiktsmessig å lovfeste plikten til å dele informasjonen. Behandlingsgrunnlaget vil være som omtalt under [Behandling av personopplysninger krever rettslig grunnlag](#behandling-av-personopplysninger-krever-rettslig-grunnlag). En slik bestemmelse bør formuleres likt som i universitets- og høyskoleforskriften § 10-2 (2).
 
-## Behandlingsansvaret for behandling av personopplysninger
+### Høyere utdanning m.m.
+
+#### Universitet og høyskole
+
+For å oppnå en samlet database for dokumentasjon av kompetanse må også resultater fra høyere utdanning inn i databasen. Dermed må det hjemles i lov at universiteter og høyskoler skal levere dokumentasjon om kompetanse til databasen. Dette kan gjøres i samme format som i opplæringslova § 25-2 enten i egen bestemmelse i universitets- og høyskoleloven eller -forskriften, eventuelt samlet forskrift for database med resultater, se [Lov eller forskrift om database for kompetanse](#lov-eller-forskrift-om-database-for-kompetanse).
+
+#### Fagskole
+
+Per i dag ligger ikke resultater fra fagskole i NVB.[^16] Som tidligere nevnt i dokumentet, så har vi for fagskolene allerede hjemmel for lagring av dokumentasjon i opplæringsforskrifta § 25-2 tredje ledd, jf. fagskoleloven § 41. Hjemmelen er imidlertid, som tilsvarende for «annan dokumentasjon av kompetanse», basert på frivillighet. For å gi et fullverdig bilde av den enkeltes kompetanse bør det være et krav til tilbydere av fagskoleutdanning om å levere vitnemål til databasen.
+
+Vi er kjent med at flere av fagskolene ikke bruker datasystemer for å registrere karakterer og vitnemål, men Excel-ark. Et krav om å levere vitnemål til NVB forutsetter dermed at fagskolene får et system som tilrettelegger for dette. Strukturen i NVB er under oppdatering slik at det skal være mulig for fagskoler å sende resultater gjennom integrasjon med vårt API.
+
+Det må også etableres hjemmel for deling av resultatene, tilsvarende universitets- og høyskoleloven § 15-1.
+
+#### Etter- og videreutdanning utenfor tradisjonell offentlig utdanning
+
+Voksenopplæringsloven § 10 regulerer utstedelse av kursbevis for voksne som har deltatt på kurs under studieforbundsordningen. Kompetanseforbundet, som organiserer de godkjente studieforbundene som ligger under Kunnskapsdepartementet, gjennomfører per i dag piloter på kompetanseattester. Dette er et offisielt, digitalt bevis på at man har fullført og bestått en kompetansevurdering, og det dokumenterer en persons ferdigheter og kunnskaper innen et spesifikt område. Denne verifiseres gjennom en unik QR-kode og verifikasjonsnummer som arbeidsgivere kan skanne eller bekrefte på en verifiseringsside. Kompetanseforbundet anser seg som databehandler på vegne av studieforbundene som er behandlingsansvarlig, og deltakerne kan be om at bevis slettes.
+
+Etter vår vurdering er det gode grunner til å inkludere dokumentasjon fra studieforbundsordningen i et nasjonalt kompetanseregister.[^17] Vi foreslår imidlertid at registeret avgrenses til kursbevis som er utstedt av studieforbund godkjent etter voksenopplæringsloven. Dette unngår at registeret blir for omfattende, og sikrer at dokumentasjonen er utstedt av aktører med et rettslig regulert ansvar. Kurs og sertifiseringer som faller utenfor studieforbundsordningen holdes utenfor i første omgang.
+
+En slik løsning krever to hjemler som i dag mangler:
+
+1. **Hjemmel for lagring:** Voksenopplæringsloven bør suppleres med en bestemmelse som pålegger godkjente studieforbund å levere kursbevis til NVB (tilsvarende innleveringsplikten for videregående opplæring i opplæringslova § 25-2 annet ledd). Det at deltakerne i dag kan be om sletting av bevis er lite forenlig med ambisjonene om et autoritativt og mest mulig komplett kompetanseregister, og bør adresseres i lovarbeidet.
+2. **Hjemmel for deling:** Det bør etableres hjemmel for deling av kursbevis fra studieforbundsordningen via Vitnemålsportalen, tilsvarende delehjemmelen i universitets- og høyskoleloven § 15-1. Deling bør skje på den registrertes eget initiativ, etter samme modell som for øvrig kompetansedokumentasjon i portalen.
+
+## Behandlingsansvar
 
 I tillegg til hjemmelsutfordringene ved behandlingen av resultater gjennom lagring i databaser og deling i Vitnemålsportalen, er det et spørsmål om hvem som regnes som behandlingsansvarlig for disse behandlingene. Vi har forsøkt å peke på noen problemstillinger rundt dette i det følgende.
 
@@ -215,31 +248,6 @@ Ved føring av vitnemål, sendes vitnemålene gjennom en kontrollmotor for å ko
 ### Behandlingsansvar for Vitnemålsportalen
 
 I henhold til universitets- og høyskoleforskriften § 10-2 tredje ledd er Sikt behandlingsansvarlig for personopplysningene i portalen. Det er et begrenset omfang personopplysninger i selve portalen (fødselsnummer/d-nummer og virksomheter personen har resultater ved) da vitnemålene ikke ligger i portalen. Vi har ingen merknader til dette.
-
-## Høyere utdanning m.m.
-
-### Universitet og høyskole
-
-For å oppnå en samlet database for dokumentasjon av kompetanse må også resultater fra høyere utdanning inn i databasen. Dermed må det hjemles i lov at universiteter og høyskoler skal levere dokumentasjon om kompetanse til databasen. Dette kan gjøres i samme format som i opplæringslova § 25-2 enten i egen bestemmelse i universitets- og høyskoleloven eller -forskriften, eventuelt samlet forskrift for database med resultater, se [Lov eller forskrift om database for kompetanse](#lov-eller-forskrift-om-database-for-kompetanse).
-
-### Fagskole
-
-Per i dag ligger ikke resultater fra fagskole i NVB.[^16] Som tidligere nevnt i dokumentet, så har vi for fagskolene allerede hjemmel for lagring av dokumentasjon i opplæringsforskrifta § 25-2 tredje ledd, jf. fagskoleloven § 41. Hjemmelen er imidlertid, som tilsvarende for «annan dokumentasjon av kompetanse», basert på frivillighet. For å gi et fullverdig bilde av den enkeltes kompetanse bør det være et krav til tilbydere av fagskoleutdanning om å levere vitnemål til databasen.
-
-Vi er kjent med at flere av fagskolene ikke bruker datasystemer for å registrere karakterer og vitnemål, men Excel-ark. Et krav om å levere vitnemål til NVB forutsetter dermed at fagskolene får et system som tilrettelegger for dette. Strukturen i NVB er under oppdatering slik at det skal være mulig for fagskoler å sende resultater gjennom integrasjon med vårt API.
-
-Det må også etableres hjemmel for deling av resultatene, tilsvarende universitets- og høyskoleloven § 15-1.
-
-### Etter- og videreutdanning utenfor tradisjonell offentlig utdanning
-
-Voksenopplæringsloven § 10 regulerer utstedelse av kursbevis for voksne som har deltatt på kurs under studieforbundsordningen. Kompetanseforbundet, som organiserer de godkjente studieforbundene som ligger under Kunnskapsdepartementet, gjennomfører per i dag piloter på kompetanseattester. Dette er et offisielt, digitalt bevis på at man har fullført og bestått en kompetansevurdering, og det dokumenterer en persons ferdigheter og kunnskaper innen et spesifikt område. Denne verifiseres gjennom en unik QR-kode og verifikasjonsnummer som arbeidsgivere kan skanne eller bekrefte på en verifiseringsside. Kompetanseforbundet anser seg som databehandler på vegne av studieforbundene som er behandlingsansvarlig, og deltakerne kan be om at bevis slettes.
-
-Etter vår vurdering er det gode grunner til å inkludere dokumentasjon fra studieforbundsordningen i et nasjonalt kompetanseregister.[^17] Vi foreslår imidlertid at registeret avgrenses til kursbevis som er utstedt av studieforbund godkjent etter voksenopplæringsloven. Dette unngår at registeret blir for omfattende, og sikrer at dokumentasjonen er utstedt av aktører med et rettslig regulert ansvar. Kurs og sertifiseringer som faller utenfor studieforbundsordningen holdes utenfor i første omgang.
-
-En slik løsning krever to hjemler som i dag mangler:
-
-1. **Hjemmel for lagring:** Voksenopplæringsloven bør suppleres med en bestemmelse som pålegger godkjente studieforbund å levere kursbevis til NVB (tilsvarende innleveringsplikten for videregående opplæring i opplæringslova § 25-2 annet ledd). Det at deltakerne i dag kan be om sletting av bevis er lite forenlig med ambisjonene om et autoritativt og mest mulig komplett kompetanseregister, og bør adresseres i lovarbeidet.
-2. **Hjemmel for deling:** Det bør etableres hjemmel for deling av kursbevis fra studieforbundsordningen via Vitnemålsportalen, tilsvarende delehjemmelen i universitets- og høyskoleloven § 15-1. Deling bør skje på den registrertes eget initiativ, etter samme modell som for øvrig kompetansedokumentasjon i portalen.
 
 ## Avsluttende bemerkninger
 

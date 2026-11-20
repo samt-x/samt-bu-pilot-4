@@ -36,7 +36,7 @@ For comparison, 85 % of diplomas in higher education are now digital only.
 
 ## The way forward
 
-- The report recommends starting the technical implementation together with Novari. See [Conclusion and the way forward](../leveranser/arkitektur-og-informasjonsmodell/konklusjon-og-veien-videre/) in the architecture report.
+- The report recommends starting the technical implementation together with Novari. See [Conclusion and the way forward](../leveranser/arkitektur-og-informasjonsmodell/#conclusion-and-the-way-forward) in the architecture report.
 - Municipalities, county authorities and vendors are key partners. Sikt needs insight into what data exists and how it is structured.
 - The legal clarifications are under way in parallel. Legislative amendments will determine when this can go into production.
 - If you want to contribute to the survey work, contact Sikt (kontakt@sikt.no).
