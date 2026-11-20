@@ -3,6 +3,9 @@ id: 3945b641-0fb4-4ddd-bdb9-61b7a81acece
 title: "Meetings"
 linkTitle: "Meetings"
 weight: 18
+lastmod: 2026-11-20T01:51:05+01:00
+last_editor: Erik Hagen
+
 ---
 The architecture work in pilot 4 was done in a series of working meetings from 22 May to 28 August 2026 (working meetings 1–8). The [architecture report](../leveranser/arkitektur-og-informasjonsmodell/) is based on them. Here are the minutes of the first two meetings. The other minutes are for now only in the project's area in Teams.
 

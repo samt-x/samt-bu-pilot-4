@@ -3,6 +3,9 @@ id: 3945b641-0fb4-4ddd-bdb9-61b7a81acece
 title: "Møter"
 linkTitle: "Møter"
 weight: 18
+lastmod: 2026-11-20T01:51:05+01:00
+last_editor: Erik Hagen
+
 ---
 Arkitekturarbeidet i pilot 4 ble gjort i en serie arbeidsmøter fra 22. mai til 28. august 2026 (arbeidsmøte 1–8). [Arkitekturrapporten](../leveranser/arkitektur-og-informasjonsmodell/) bygger på dem. Her er referatene fra de to første møtene. De øvrige referatene ligger foreløpig bare i prosjektets område i Teams.
 
