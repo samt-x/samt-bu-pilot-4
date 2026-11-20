@@ -3,7 +3,7 @@ id: 4dc9e99d-9c6b-4913-9f9c-0ea66512f34e
 title: "Architecture and information model"
 linkTitle: "Architecture and information model"
 weight: 30
-lastmod: 2026-11-20T01:51:05+01:00
+lastmod: 2026-11-20T02:42:17+01:00
 last_editor: Erik Hagen
 
 ---

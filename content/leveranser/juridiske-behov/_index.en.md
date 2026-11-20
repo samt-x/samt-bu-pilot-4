@@ -3,7 +3,7 @@ id: 0b82b987-237b-4fd7-bbac-5d3c7f2f056d
 title: "Legal needs"
 linkTitle: "Legal needs"
 weight: 40
-lastmod: 2026-11-20T01:28:39+01:00
+lastmod: 2026-11-20T02:42:17+01:00
 last_editor: Erik Hagen
 
 ---
