@@ -15,17 +15,7 @@ Piloten tar utgangspunkt i [case 1 – Tilgjengeliggjøring av resultater fra op
 
 I dag finnes ingen sammenhengende nasjonal oversikt over resultater fra hele utdanningsløpet. Vitnemål fra videregående opplæring ligger i Nasjonal vitnemålsdatabase (NVB), men ikke enkeltresultater, og dataene i NVB er ikke gyldige i digital form. Resten er dels spredt hos den enkelte skole og institusjon. Arbeidsliv, høyere utdanning og offentlige etater bruker lang tid på å innhente og verifisere dokumentasjon.
 
-### Drømmereisen
-
-Slik bør det fungere når alt er på plass:
-
-- Alle vitnemål og enkeltresultater fra opplæring er samlet i Kompetanseregisteret (KREG) og tilgjengelige gjennom hele livsløpet.
-- Data fra kommuners og fylkeskommuners systemer leveres til KREG, slik at alle resultater kan deles og ivaretas på en sikker måte.
-- Digitale resultater er juridisk likestilt med papirdokumentasjon.
-- Offentlige etater og private virksomheter kan hente utdanningsresultater enkelt – med hjemmel eller samtykke fra innbyggeren.
-- Innbyggeren har alle resultater og vitnemål samlet på ett sted og kan dele dem i Vitnemålsportalen.
-
-Navnet på Kompetanseregisteret er ikke bestemt. Tidlige dokumenter i piloten bruker også «utvidet NVB».
+Hvordan det bør fungere når alt er på plass, er beskrevet i [Drømmereise](../leveranser/drommereise/).
 
 ## Mål
 

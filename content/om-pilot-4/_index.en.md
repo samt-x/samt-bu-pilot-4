@@ -15,17 +15,7 @@ The pilot starts from [case 1 – Making results from education available](/en/b
 
 Today there is no coherent national overview of results from the whole course of education. Diplomas from upper secondary education are in the National Diploma Database (NVB), but individual results are not, and the data in NVB is not valid in digital form. The rest is partly scattered across individual schools and institutions. Employers, higher education and public agencies spend a long time collecting and verifying documentation.
 
-### The dream journey
-
-This is how it should work when everything is in place:
-
-- All diplomas and individual results from education are gathered in the Competence Register (KREG) and available throughout life.
-- Data from the systems of municipalities and county authorities is delivered to KREG, so that all results can be shared and kept securely.
-- Digital results are legally equivalent to paper documentation.
-- Public agencies and private businesses can retrieve education results easily – with a legal basis or the citizen's consent.
-- Citizens have all their results and diplomas in one place and can share them in the Diploma Portal (Vitnemålsportalen).
-
-The name of the Competence Register has not been decided. Early documents in the pilot also use «extended NVB».
+How things should work when everything is in place is described in [Dream journey](../leveranser/drommereise/).
 
 ## Goals
 

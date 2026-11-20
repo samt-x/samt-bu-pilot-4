@@ -10,6 +10,7 @@ last_editor: Erik Hagen
 *This page reproduces the pilot's «Oversikt over skoleadministrative systemer» (overview of school administration systems) as of September 2026, the deliverable from work package 4. The overview is to provide contact points for all parties that will deliver data to the Competence Register.*
 
 School administration systems are the primary source of results and diplomas from primary, lower secondary and upper secondary education.
+
 ## Overview of school administration systems
 
 | System | Vendor | Website | School level | Who uses the system? |
