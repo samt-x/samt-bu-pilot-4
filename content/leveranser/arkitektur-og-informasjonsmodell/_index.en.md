@@ -56,7 +56,7 @@ The following is taken as given for the architecture work and is not treated as 
 4. **Module codes are not to go into KREG – only final assessments.** Module codes may appear on certificates of competence that are issued, but not on diplomas, cf. Udir's guidelines [10][12: working meeting 8].
 5. **Learning outcomes and achieved competence aims are not to be part of the pilot itself.** They may be included as an unresolved part of the target picture [12: working meetings 6 and 8].
 
-The minutes of the series of working meetings on architecture, which the report builds on, are on the subpage [Working meetings](arbeidsmoter/).
+The minutes of the series of working meetings on architecture, which the report builds on, are under [Meetings](../../moter/).
 
 ## Today's process for NVB import
 

@@ -44,6 +44,6 @@ The pilot is to do the groundwork ahead of a technical implementation: architect
 | Katarina Parteka Aarsnes | Lawyer | Sikt |
 | Øystein Nilsen | | Udir |
 
-Digdir, Novari, KS Digital, Udir and Stavanger municipality also took part in the working meetings on architecture, see [Working meetings](../leveranser/arkitektur-og-informasjonsmodell/arbeidsmoter/).
+Digdir, Novari, KS Digital, Udir and Stavanger municipality also took part in the working meetings on architecture, see [Meetings](../moter/).
 
 What the pilot has delivered is described under [Deliverables](../leveranser/). Tasks and timeline are under [Tasks and progress](../oppgaver-og-framdrift/).

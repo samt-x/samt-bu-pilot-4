@@ -56,7 +56,7 @@ Følgende legges til grunn for arkitekturarbeidet og behandles ikke som åpne sp
 4. **Modulkoder skal ikke inn i KREG – kun sluttvurderinger.** Modulkoder kan stå på kompetansebevis som blir utstedt, men ikke på vitnemål, jf. Udirs føringsskriv [10][12: arbeidsmøte 8].
 5. **Læringsmål og oppnådde kompetansemål skal ikke inngå i selve piloten.** De kan tas med som uavklart del av målbildet [12: arbeidsmøte 6 og 8].
 
-Referatene fra arbeidsmøteserien om arkitektur, som rapporten bygger på, står på undersiden [Arbeidsmøter](arbeidsmoter/).
+Referatene fra arbeidsmøteserien om arkitektur, som rapporten bygger på, står under [Møter](../../moter/).
 
 ## Dagens prosess for NVB-import
 

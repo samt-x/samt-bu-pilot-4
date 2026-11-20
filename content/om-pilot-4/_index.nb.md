@@ -44,6 +44,6 @@ Piloten skal gjøre forarbeidet før en teknisk implementering: arkitektur og in
 | Katarina Parteka Aarsnes | Jurist | Sikt |
 | Øystein Nilsen | | Udir |
 
-I arbeidsmøtene om arkitektur deltok også Digdir, Novari, KS Digital, Udir og Stavanger kommune, se [Arbeidsmøter](../leveranser/arkitektur-og-informasjonsmodell/arbeidsmoter/).
+I arbeidsmøtene om arkitektur deltok også Digdir, Novari, KS Digital, Udir og Stavanger kommune, se [Møter](../moter/).
 
 Hva piloten har levert, står under [Leveranser](../leveranser/). Oppgaver og tidslinje står under [Oppgaver og framdrift](../oppgaver-og-framdrift/).
