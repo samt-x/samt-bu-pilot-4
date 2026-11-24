@@ -3,7 +3,7 @@ id: 68bf39b1-9d53-4126-8ce3-18090b6f91cf
 title: Resultater og veien videre
 linkTitle: Resultater og veien videre
 weight: 30
-lastmod: 2026-11-20T01:28:39+01:00
+lastmod: 2026-11-24T09:46:42+01:00
 last_editor: Erik Hagen
 
 ---
