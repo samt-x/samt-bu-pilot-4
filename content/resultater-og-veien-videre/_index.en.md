@@ -16,13 +16,14 @@ The pilot was carried out May–August 2026. It delivered groundwork, not techni
 - **Today's file submission to NVB is phased out**, together with the position-based «soltegn» format.
 - **The information model is oriented towards the European Learning Model (ELM v3).** Sikt is also adapting Vitnemålsportalen (the Norwegian Diploma Registry) to ELM and the requirements of the Single Digital Gateway.
 - **New legal bases are needed** to gather diplomas and results in a register that is an authoritative source, and to make digital diplomas equivalent to paper. See [Legal needs](../leveranser/juridiske-behov/).
+- For diplomas and individual results to be transferable to the **EU digital wallet**, they must be legally valid.
 - **The system vendors have been mapped**, see [System vendors](../leveranser/systemleverandorer/).
 
 ## Benefits
 
 | For | Benefit |
 |---|---|
-| Pupils and students | All results and diplomas gathered digitally in one place. Easier to apply for a study place, grants and jobs. Data is retrieved automatically by those with a legal basis, for example Lånekassen and Samordna opptak. Certificates of competence can be shared digitally, also in the EU digital wallet when it is introduced in Norway. |
+| Pupils and students | All results and diplomas gathered digitally in one place. Easier to apply for a study place, grants and jobs. Data is retrieved automatically by those with a legal basis, for example Lånekassen and Samordna opptak. No manual submission to them. Certificates of competence can be shared digitally, also in the EU digital wallet when it is introduced in Norway. |
 | Schools | No more manual routines for issuing, sending and copying paper diplomas and transcripts. Estimated benefit: NOK 11 million per year (just over 12,400 working hours). Better data quality across systems and levels of government. |
 | Business | Simple and reliable digital verification of candidates' education. Faster recruitment. Access to structured data on competence, for example digital HSE cards with up-to-date course and certification information. |
 
@@ -37,6 +38,7 @@ For comparison, 85 % of diplomas in higher education are now digital only.
 ## The way forward
 
 - The report recommends starting the technical implementation together with Novari. See [Conclusion and the way forward](../leveranser/arkitektur-og-informasjonsmodell/#conclusion-and-the-way-forward) in the architecture report.
+- Technical development is planned to start in autumn 2027.
 - Municipalities, county authorities and vendors are key partners. Sikt needs insight into what data exists and how it is structured.
 - The legal clarifications are under way in parallel. Legislative amendments will determine when this can go into production.
 - If you want to contribute to the survey work, contact Sikt (kontakt@sikt.no).

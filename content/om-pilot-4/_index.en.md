@@ -7,11 +7,11 @@ lastmod: 2026-11-20T01:51:05+01:00
 last_editor: Erik Hagen
 
 ---
-Pilot 4 is to do the groundwork so that diplomas and results from education can be gathered digitally and shared with those who need them. How pilots are carried out in general is described in [Carrying out pilots](/en/styring/arbeidsmodell/#carrying-out-pilots).
+Pilot 4 is to do the groundwork so that diplomas and results from the whole course of education can be gathered digitally and shared with those who need them. How pilots are carried out in general is described in [Carrying out pilots](/en/styring/arbeidsmodell/#carrying-out-pilots).
 
 ## Need
 
-The pilot starts from [case 1 – Making results from education available](/en/behov/use-cases/01-resultater-vgo/). The case addresses how results from primary, lower secondary and upper secondary education can be made available in a better and more coherent way for actors who need the information in their further follow-up of young people. Results may for example be the status of completed education, completion, competence, assessments or documentation of the level attained.
+The pilot starts from [case 1 – Making results from education available](/en/behov/use-cases/01-resultater-vgo/). The case addresses how results from primary and lower secondary school, upper secondary education, tertiary vocational colleges, and universities and university colleges can be made available in a better and more coherent way for actors who need the information in their further follow-up of young people. Results may for example be the status of completed education, completion, competence, assessments or documentation of the level attained.
 
 Today there is no coherent national overview of results from the whole course of education. Diplomas from upper secondary education are in the National Diploma Database (NVB), but individual results are not, and the data in NVB is not valid in digital form. The rest is partly scattered across individual schools and institutions. Employers, higher education and public agencies spend a long time collecting and verifying documentation.
 
